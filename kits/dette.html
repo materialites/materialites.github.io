@@ -1,0 +1,310 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style><title>Kit Dette 2027</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;800;900&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+/* Mise en page : une colonne pour le téléphone. Quatre temps de couleur : comprendre (bleu), se préparer (ocre), créer (rouge), streamer (prune). Les formes du bandeau du site reviennent dans l'en-tête. */
+:root {
+  --fond: #f6f1ea;
+  --carte: #ffffff;
+  --encre: #252122;
+  --doux: #675f5c;
+  --trait: #e6ddd2;
+  --rouge: #d52349;  --rouge-doux: #fde4e9;
+  --bleu: #2c5f93;   --bleu-doux: #e1ecf8;
+  --ocre: #a8650b;   --ocre-doux: #fbedd6;
+  --prune: #6d3f8f;  --prune-doux: #efe4f6;
+  --rond-rose: #f6c6b8; --rond-bleu: #bcd3ee;
+  --f-titre: "Archivo", "Arial Narrow", system-ui, sans-serif;
+  --f-texte: "Source Sans 3", "Source Sans Pro", system-ui, sans-serif;
+  --f-chiffre: "IBM Plex Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --fond: #1a1617; --carte: #252021; --encre: #f3ede7; --doux: #b8aeaa; --trait: #3a3233;
+    --rouge: #ff5d7c; --rouge-doux: #43202a; --bleu: #8fbbeb; --bleu-doux: #1d2a39;
+    --ocre: #f0b25a; --ocre-doux: #3a2a14; --prune: #c9a2ea; --prune-doux: #2f2338;
+    --rond-rose: #5a2c33; --rond-bleu: #233a55; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --fond: #1a1617; --carte: #252021; --encre: #f3ede7; --doux: #b8aeaa; --trait: #3a3233;
+  --rouge: #ff5d7c; --rouge-doux: #43202a; --bleu: #8fbbeb; --bleu-doux: #1d2a39;
+  --ocre: #f0b25a; --ocre-doux: #3a2a14; --prune: #c9a2ea; --prune-doux: #2f2338;
+  --rond-rose: #5a2c33; --rond-bleu: #233a55; color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 4.2rem; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
+body {
+  background: var(--fond); color: var(--encre);
+  font: 400 1.0625rem/1.55 var(--f-texte);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 0 3rem;
+}
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--fond); }
+.page { max-width: 46rem; margin: 0 auto; display: grid; gap: 3.2rem; }
+a { color: var(--rouge); }
+h1, h2, h3 { font-family: var(--f-titre); text-wrap: balance; margin: 0; line-height: 1.08; }
+h2 { font-size: clamp(1.7rem, 6vw, 2.3rem); font-weight: 900; letter-spacing: -.01em; }
+h3 { font-size: 1.12rem; font-weight: 800; }
+p { margin: 0; }
+.chiffre { font-family: var(--f-chiffre); font-variant-numeric: tabular-nums; }
+.etiquette { display: inline-block; font: 700 .74rem/1 var(--f-texte); text-transform: uppercase; letter-spacing: .13em; padding: .38rem .6rem; border-radius: 999px; background: var(--c-doux); color: var(--c); justify-self: start; }
+.src-tag { font: 600 .72rem var(--f-chiffre); color: var(--doux); border: 1px solid var(--trait); border-radius: 5px; padding: 0 .3rem; white-space: nowrap; text-decoration: none; }
+a.src-tag:hover { color: var(--rouge); border-color: var(--rouge); }
+
+/* ---------- en-tête ---------- */
+.hero { position: relative; overflow: hidden; margin-inline: calc(-1 * max(16px, env(safe-area-inset-left, 0px))); padding: 2rem max(16px, env(safe-area-inset-left, 0px)) 2.2rem; }
+.hero::before, .hero::after { content: ""; position: absolute; border-radius: 50%; z-index: 0; }
+.hero::before { width: 22rem; height: 22rem; left: -8rem; top: -11rem; background: var(--rond-rose); opacity: .7; }
+.hero::after { width: 18rem; height: 18rem; right: -6rem; bottom: -9rem; background: var(--rond-bleu); opacity: .7; }
+.hero > * { position: relative; z-index: 1; }
+.hero-in { max-width: 46rem; margin: 0 auto; display: grid; gap: 1.1rem; }
+.marque { display: flex; justify-content: space-between; gap: .8rem; flex-wrap: wrap; font: 800 .82rem var(--f-titre); letter-spacing: .08em; text-transform: uppercase; }
+.marque span { color: var(--doux); font-weight: 600; letter-spacing: .04em; }
+.gros-chiffre { font: 900 clamp(4.6rem, 24vw, 8.5rem)/.85 var(--f-titre); color: var(--rouge); letter-spacing: -.04em; }
+.gros-chiffre small { font-size: .32em; letter-spacing: 0; color: var(--encre); margin-left: .15em; }
+.hero h1 { font-size: clamp(1.6rem, 6.4vw, 2.5rem); font-weight: 900; }
+.hero .accroche { font-size: 1.15rem; max-width: 36rem; }
+.pastilles { display: flex; flex-wrap: wrap; gap: .5rem; }
+.pastilles span { background: var(--carte); border: 1px solid var(--trait); border-radius: 999px; padding: .35rem .8rem; font-weight: 600; font-size: .92rem; }
+.actu { background: var(--carte); border-left: 4px solid var(--bleu); border-radius: 0 10px 10px 0; padding: .7rem .9rem; font-size: .95rem; }
+.actu b { color: var(--bleu); }
+
+/* ---------- navigation ---------- */
+nav.onglets { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--fond); margin-inline: calc(-1 * max(16px, env(safe-area-inset-left, 0px))); padding: .55rem max(16px, env(safe-area-inset-left, 0px)); border-bottom: 1px solid var(--trait); overflow-x: auto; margin-top: -2.4rem; }
+nav.onglets ul { list-style: none; margin: 0 auto; padding: 0; display: flex; gap: .4rem; max-width: 46rem; }
+nav.onglets a { display: flex; align-items: center; gap: .4rem; white-space: nowrap; text-decoration: none; color: var(--encre); font: 700 .93rem var(--f-texte); padding: .38rem .85rem; border-radius: 999px; background: var(--carte); border: 1px solid var(--trait); }
+nav.onglets a::before { content: ""; width: .55rem; height: .55rem; border-radius: 50%; background: var(--c); }
+nav.onglets a:hover, nav.onglets a:focus-visible { border-color: var(--c); outline: none; }
+
+/* ---------- sections ---------- */
+section { display: grid; gap: 1.1rem; }
+.c-bleu { --c: var(--bleu); --c-doux: var(--bleu-doux); }
+.c-ocre { --c: var(--ocre); --c-doux: var(--ocre-doux); }
+.c-rouge { --c: var(--rouge); --c-doux: var(--rouge-doux); }
+.c-prune { --c: var(--prune); --c-doux: var(--prune-doux); }
+.c-gris { --c: var(--doux); --c-doux: var(--trait); }
+.tete { display: grid; gap: .55rem; }
+.tete p { color: var(--doux); font-size: 1.05rem; max-width: 38rem; }
+.carte { background: var(--carte); border: 1px solid var(--trait); border-radius: 16px; padding: 1.15rem 1.2rem; display: grid; gap: .9rem; min-width: 0; }
+
+/* comprendre */
+.schema { background: var(--bleu-doux); border-radius: 16px; padding: .8rem; overflow-x: auto; }
+.schema svg { display: block; width: 100%; min-width: 34rem; height: auto; }
+.schema .boite { fill: var(--carte); stroke: var(--bleu); stroke-width: 2; }
+.schema .boite-r { fill: var(--rouge-doux); stroke: var(--rouge); stroke-width: 2; }
+.schema .t1 { font: 800 15px "Archivo", sans-serif; fill: var(--encre); }
+.schema .t2 { font: 400 12.5px "Source Sans 3", sans-serif; fill: var(--doux); }
+.schema .tf { font: 700 12.5px "IBM Plex Mono", monospace; fill: var(--bleu); }
+.schema .tf-r { font: 700 12.5px "IBM Plex Mono", monospace; fill: var(--rouge); }
+.schema .fleche { stroke: var(--bleu); stroke-width: 2.5; fill: none; }
+.schema .fleche-r { stroke: var(--rouge); stroke-width: 2.5; fill: none; stroke-dasharray: 6 5; }
+.schema .pointe { fill: var(--bleu); }
+.schema .pointe-r { fill: var(--rouge); }
+.flux { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1.2fr); align-items: stretch; gap: .5rem; }
+.flux .etape { background: var(--bleu-doux); border-radius: 14px; padding: .9rem 1rem; display: grid; gap: .25rem; align-content: start; font-size: .97rem; }
+.flux .etape.fort { background: var(--rouge-doux); }
+.flux .qui-f { font: 900 1.35rem/1.05 var(--f-titre); }
+.flux .etape.fort .qui-f { color: var(--rouge); }
+.flux .vers { align-self: center; font: 900 1.6rem var(--f-titre); color: var(--bleu); }
+@media (max-width: 36rem) { .flux { grid-template-columns: minmax(0, 1fr); } .flux .vers { transform: rotate(90deg); justify-self: center; line-height: 1; } }
+.cinq { list-style: none; margin: 0; padding: 0; display: grid; gap: .7rem; counter-reset: q; }
+.cinq li { background: var(--carte); border: 1px solid var(--trait); border-radius: 14px; padding: 1rem 1.1rem; display: grid; gap: .35rem; counter-increment: q; }
+.cinq h3::before { content: counter(q) ". "; color: var(--bleu); }
+
+/* se préparer */
+.parcours { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; }
+.parcours li { display: grid; grid-template-columns: 4.2rem minmax(0, 1fr); gap: .9rem; position: relative; padding-bottom: 1.1rem; }
+.parcours li::before { content: ""; position: absolute; left: 2.05rem; top: 2.4rem; bottom: 0; width: 2px; background: var(--ocre-doux); }
+.parcours li:last-child::before { display: none; }
+.duree-rond { width: 4.2rem; height: 4.2rem; border-radius: 50%; background: var(--ocre-doux); color: var(--ocre); display: grid; place-items: center; text-align: center; font: 700 .85rem/1.05 var(--f-chiffre); }
+.parcours .carte { gap: .45rem; }
+.parcours .type { font: 700 .74rem var(--f-texte); text-transform: uppercase; letter-spacing: .12em; color: var(--ocre); }
+.parcours a.titre { font: 800 1.08rem/1.25 var(--f-titre); color: var(--encre); text-decoration: none; }
+.parcours a.titre:hover { color: var(--ocre); text-decoration: underline; }
+.parcours .retiens { font-size: .95rem; background: var(--fond); border-radius: 10px; padding: .55rem .75rem; }
+.quiz { display: grid; gap: .6rem; }
+.quiz details { background: var(--carte); border: 1px solid var(--trait); border-radius: 12px; padding: .8rem 1rem; }
+.quiz summary { cursor: pointer; font-weight: 700; list-style: none; display: flex; justify-content: space-between; gap: 1rem; }
+.quiz summary::-webkit-details-marker { display: none; }
+.quiz summary::after { content: "Voir la réponse"; font: 600 .78rem var(--f-texte); color: var(--ocre); white-space: nowrap; }
+.quiz details[open] summary::after { content: "Masquer"; }
+.quiz details p { margin-top: .6rem; color: var(--doux); }
+summary:focus-visible { outline: 2px solid var(--c, var(--rouge)); outline-offset: 3px; border-radius: 4px; }
+
+/* créer */
+.angles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .8rem; }
+@media (max-width: 34rem) { .angles { grid-template-columns: minmax(0, 1fr); } }
+.angle { background: var(--carte); border: 1px solid var(--trait); border-top: 6px solid var(--rouge); border-radius: 14px; padding: 1rem 1.05rem; display: grid; gap: .55rem; align-content: start; }
+.angle .hook { font: 900 1.3rem/1.15 var(--f-titre); }
+.angle .ton { font-size: .85rem; color: var(--rouge); font-weight: 700; }
+.angle p { font-size: .97rem; }
+.pieges { display: grid; gap: .6rem; }
+.piege { display: grid; grid-template-columns: 1.8rem minmax(0, 1fr); gap: .6rem; align-items: start; }
+.piege .x { width: 1.8rem; height: 1.8rem; border-radius: 50%; background: var(--rouge-doux); color: var(--rouge); display: grid; place-items: center; font: 900 1rem var(--f-titre); }
+.piege b { display: block; }
+.exemple summary { cursor: pointer; font: 800 1.05rem var(--f-titre); color: var(--rouge); }
+.exemple[open] summary { margin-bottom: .8rem; }
+.script { border-left: 3px solid var(--rouge-doux); padding-left: .9rem; display: grid; gap: .6rem; }
+.barre { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; justify-content: space-between; }
+.duree { font: 600 .85rem var(--f-chiffre); color: var(--doux); }
+button.copier { font: 700 .92rem var(--f-texte); border: 0; border-radius: 999px; padding: .5rem 1rem; background: var(--c, var(--rouge)); color: var(--carte); cursor: pointer; }
+button.copier:focus-visible { outline: 3px solid var(--encre); outline-offset: 2px; }
+button.copier.fait { background: var(--encre); }
+
+/* visuels */
+.visuels { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .8rem; }
+@media (max-width: 40rem) { .visuels { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.visuel { aspect-ratio: 9 / 16; max-width: 100%; border-radius: 14px; padding: 9% 8%; display: flex; flex-direction: column; justify-content: space-between; overflow: hidden; container-type: inline-size; position: relative; }
+.visuel.rouge { background: #d52349; color: #fff; }
+.visuel.encre { background: #252122; color: #f6f1ea; }
+.visuel.creme { background: #f6f1ea; color: #252122; border: 1px solid #e6ddd2; }
+.visuel.rouge::after { content: ""; position: absolute; width: 80cqi; height: 80cqi; right: -30cqi; top: -30cqi; border-radius: 50%; background: #f6c6b8; opacity: .35; }
+.visuel.creme::after { content: ""; position: absolute; width: 70cqi; height: 70cqi; left: -25cqi; bottom: -25cqi; border-radius: 50%; background: #bcd3ee; opacity: .7; }
+.visuel > * { position: relative; z-index: 1; }
+.visuel .haut { font: 800 6.4cqi/1.15 "Archivo", sans-serif; text-transform: uppercase; letter-spacing: .06em; }
+.visuel .gros { font: 900 30cqi/.9 "Archivo", sans-serif; letter-spacing: -.03em; }
+.visuel .moyen { font: 900 14cqi/1 "Archivo", sans-serif; }
+.visuel .phrase { font: 800 8.5cqi/1.15 "Archivo", sans-serif; }
+.visuel .src { font: 500 4.6cqi/1.3 "IBM Plex Mono", monospace; opacity: .85; }
+.visuel .vs { display: grid; gap: 6cqi; }
+.visuel .barre-v { height: 4cqi; background: currentColor; border-radius: 2cqi; margin-block: 2cqi; }
+.visuel .accent { color: #d52349; }
+
+/* stream */
+.video { display: grid; gap: .25rem; padding-bottom: .8rem; border-bottom: 1px solid var(--trait); }
+.video:last-child { border-bottom: 0; padding-bottom: 0; }
+.video a { font-weight: 800; font-family: var(--f-titre); text-decoration: none; color: var(--encre); }
+.video a:hover { color: var(--prune); text-decoration: underline; }
+.meta { font-size: .88rem; color: var(--doux); }
+.minutes { display: flex; flex-wrap: wrap; gap: .35rem; margin-top: .2rem; }
+.minutes span { font: 500 .8rem var(--f-chiffre); background: var(--prune-doux); color: var(--prune); border-radius: 6px; padding: .12rem .45rem; }
+ol.fil { margin: 0; padding-left: 1.3rem; display: grid; gap: .45rem; }
+ol.fil li::marker { color: var(--prune); font-weight: 800; }
+.objection { display: grid; gap: .25rem; padding-bottom: .8rem; border-bottom: 1px solid var(--trait); }
+.objection:last-child { border-bottom: 0; padding-bottom: 0; }
+.objection q { font-weight: 800; quotes: "« " " »"; }
+.commande { font: 500 .9rem/1.45 var(--f-chiffre); background: var(--prune-doux); border-radius: 10px; padding: .7rem .85rem; white-space: pre-wrap; word-break: break-word; margin: 0; }
+
+/* sources */
+.source { display: grid; grid-template-columns: 2.4rem minmax(0, 1fr); gap: .6rem; padding-block: .6rem; border-bottom: 1px solid var(--trait); }
+.source:last-of-type { border-bottom: 0; }
+.source .num { font: 600 .82rem/1.7 var(--f-chiffre); color: var(--rouge); }
+.source p { font-size: .97rem; }
+
+footer { display: grid; gap: .6rem; background: var(--carte); border: 1px solid var(--trait); border-radius: 16px; padding: 1.2rem; }
+footer h3 { font-size: 1.2rem; }
+footer p { color: var(--doux); }
+.proto { font: 600 .8rem var(--f-chiffre); color: var(--bleu); }
+
+.carrousel { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(13rem, 1fr); gap: .8rem; overflow-x: auto; padding-bottom: .4rem; scroll-snap-type: x mandatory; }
+.slide { aspect-ratio: 4 / 5; border-radius: 14px; padding: 9% 8%; display: flex; flex-direction: column; justify-content: space-between; container-type: inline-size; scroll-snap-align: start; position: relative; overflow: hidden; }
+.slide:nth-child(3n+1) { background: #d52349; color: #fff; }
+.slide:nth-child(3n+2) { background: #f6f1ea; color: #252122; border: 1px solid #e6ddd2; }
+.slide:nth-child(3n) { background: #252122; color: #f6f1ea; }
+.slide .num { font: 600 5cqi "IBM Plex Mono", monospace; opacity: .7; }
+.slide .titre { font: 900 11cqi/1.02 "Archivo", sans-serif; letter-spacing: -.01em; }
+.slide .texte { font: 600 6.2cqi/1.3 "Source Sans 3", sans-serif; }
+.slide .src { font: 500 4.2cqi/1.3 "IBM Plex Mono", monospace; opacity: .8; }
+.variante { font: 700 .74rem var(--f-texte); text-transform: uppercase; letter-spacing: .1em; color: var(--rouge); }
+.variantes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .8rem; }
+@media (max-width: 44rem) { .variantes { grid-template-columns: minmax(0, 1fr); } }
+.var-carte { background: var(--carte); border: 1px solid var(--trait); border-top: 6px solid var(--rouge); border-radius: 14px; padding: 1rem 1.05rem; display: grid; gap: .55rem; align-content: start; }
+.var-carte .contraste { font: 900 1.9rem/1 var(--f-titre); color: var(--rouge); letter-spacing: -.02em; }
+.var-carte .lire { font-weight: 700; color: var(--rouge); text-decoration: none; }
+.var-carte .lire:hover { text-decoration: underline; }
+.objection p + p { margin-top: .35rem; }
+</style>
+</head><body><div class="page">
+<header class="hero"><div class="hero-in">
+<div class="marque">Matérialités <span>Kit créateur·ices · mis à jour le 14 nov. 2026</span></div>
+<div class="gros-chiffre chiffre">91<small>Md€</small></div>
+<h1>C&#x27;est ce que la France va payer en intérêts de la dette en 2027. Mais à qui ?</h1>
+<p class="accroche">On t&#x27;explique la dette sans jargon, on te donne de quoi te faire ton avis, et des idées pour en parler à ta façon. Tous les chiffres sont vérifiés et sourcés.</p>
+<div class="pastilles"><span>15 min pour comprendre</span><span>4 angles au choix</span><span>Prêt pour un live</span></div>
+<p class="actu"><b>Pourquoi maintenant.</b> Le 4 novembre, l&#x27;Assemblée a rejeté le budget 2027 à 458 voix contre 0. Le texte est au Sénat, un 49.3 reste possible en décembre. Et partout, on entend : « on vit au-dessus de nos moyens ».</p>
+</div></header>
+<nav class="onglets" aria-label="Sections du kit"><ul>
+<li class="c-bleu"><a href="#comprendre">Comprendre</a></li><li class="c-ocre"><a href="#preparer">Te préparer</a></li>
+<li class="c-rouge"><a href="#creer">Créer</a></li><li class="c-prune"><a href="#stream">En live</a></li>
+<li class="c-rouge"><a href="#visuels">Visuels</a></li><li class="c-gris"><a href="#sources">Sources</a></li></ul></nav>
+<section id="comprendre" class="c-bleu"><div class="tete"><span class="etiquette">Comprendre · 5 min</span>
+<h2>La dette, en trois cases et cinq idées</h2><p>Ce qu&#x27;on te dit : un pays endetté, c&#x27;est un ménage qui dépense trop. Ce qui se passe vraiment : de l&#x27;argent circule, de nos impôts vers ceux qui détiennent la dette.</p></div>
+<div class="flux" role="img" aria-label="Tes impôts vont à l&#x27;État, qui verse 91 milliards d&#x27;euros d&#x27;intérêts à ceux qui détiennent la dette."><div class="etape"><span class="qui-f">Toi</span><span>tu paies des impôts, ne serait-ce que la TVA</span></div><span class="vers" aria-hidden="true">→</span><div class="etape"><span class="qui-f">L&#x27;État</span><span>il emprunte pour boucler son budget</span></div><span class="vers" aria-hidden="true">→</span><div class="etape fort"><span class="qui-f">91 Md€</span><span>d&#x27;intérêts en 2027, versés à des banques, des assureurs et des fonds</span></div></div>
+<ol class="cinq"><li><h3>La dette, c&#x27;est quoi ?</h3><p>L&#x27;État emprunte en vendant des titres à des banques, des assureurs et des fonds. Fin juin 2026, la dette atteint 3 595 milliards d&#x27;euros, soit 119 % de ce que le pays produit en un an. <a class="src-tag" href="#src-D6">D6</a></p></li><li><h3>On ne la rembourse pas comme un crédit</h3><p>Quand un titre arrive à échéance, l&#x27;État en émet un nouveau. Ce qu&#x27;il paie vraiment, chaque année, ce sont les intérêts : 79 milliards en 2026, 91 milliards prévus en 2027. <a class="src-tag" href="#src-D5">D5</a></p></li><li><h3>Qui touche les intérêts ?</h3><p>Ceux qui détiennent les titres. Plus de la moitié sont des investisseurs étrangers ; le reste, surtout des banques et des assureurs, via l&#x27;assurance-vie. La dette des uns, c&#x27;est l&#x27;épargne des autres. <a class="src-tag" href="#src-D8">D8</a></p></li><li><h3>Pourquoi elle a grossi ?</h3><p>Les crises ont pesé. Mais aussi un choix : les baisses d&#x27;impôts décidées depuis 2018 font perdre 62 milliards par an, sans économies en face, selon la Cour des comptes. <a class="src-tag" href="#src-D7">D7</a></p></li><li><h3>Pourquoi on te parle d&#x27;économies ?</h3><p>Parce que la dette sert d&#x27;argument pour choisir qui fait l&#x27;effort. Le budget 2027 demande 43 milliards d&#x27;efforts, gèle les pensions au-dessus de 1 260 € par mois, et la taxe sur les patrimoines de plus de 100 millions a été rejetée. <a class="src-tag" href="#src-D3">D3</a> <a class="src-tag" href="#src-S3">S3</a> <a class="src-tag" href="#src-D9">D9</a></p></li></ol></section>
+<section id="preparer" class="c-ocre"><div class="tete"><span class="etiquette">Te préparer · 1 h environ</span>
+<h2>Ton parcours pour maîtriser le sujet</h2><p>Pas besoin d&#x27;être économiste. Une vidéo, un podcast pendant que tu cuisines, une lecture de deux minutes : tu pourras parler de la dette avec tes mots et tenir face aux objections.</p></div>
+<ol class="parcours"><li><span class="duree-rond">12<br>min</span><div class="carte"><span class="type">Vidéo · pour démarrer</span>
+<a class="titre" href="https://youtu.be/bijhSqvRYSU" target="_blank" rel="noopener">Dette publique : austérité avec intérêts</a><span class="meta">Data Gueule · janvier 2025</span>
+<p class="retiens"><b>Ce que tu en retiens :</b> ce sont moins les dépenses que les cadeaux fiscaux qui creusent la dette, et la question qui compte est « à qui profite-t-elle ? ».</p></div></li><li><span class="duree-rond">37<br>min</span><div class="carte"><span class="type">Vidéo · faite par des vidéastes</span>
+<a class="titre" href="https://youtu.be/-N3KDE5yEJ8" target="_blank" rel="noopener">Qui va rembourser la dette ? (Spoiler : pas vos enfants)</a><span class="meta">Blast, avec Stupid Economics et Heu?reka · février 2025</span>
+<p class="retiens"><b>Ce que tu en retiens :</b> ce que « rembourser » veut dire pour un État, et ce qu&#x27;il faut penser du risque de faillite qu&#x27;on agite.</p></div></li><li><span class="duree-rond">30<br>min</span><div class="carte"><span class="type">Podcast · à écouter en marchant</span>
+<a class="titre" href="https://shows.acast.com/le-sens-de-lactu/episodes/marino-cyp-farah" target="_blank" rel="noopener">La vérité sur la dette publique : comment l&#x27;État s&#x27;est soumis aux marchés</a><span class="meta">Le sens de l&#x27;actu, avec Frédéric Farah · octobre 2026</span>
+<p class="retiens"><b>Ce que tu en retiens :</b> comment l&#x27;État en est venu à se financer sur les marchés, et ce que ça change dans les débats d&#x27;aujourd&#x27;hui.</p></div></li><li><span class="duree-rond">2<br>min</span><div class="carte"><span class="type">Lecture facile</span>
+<span class="titre" style="font:800 1.08rem/1.25 var(--f-titre)">La fiche « Austérité et dette publique »</span><span class="meta">Sur le site Matérialités · une page sans jargon, avec 8 références</span>
+<p class="retiens"><b>Ce que tu en retiens :</b> pourquoi couper dans les dépenses peut faire monter le poids de la dette, et où creuser.</p></div></li></ol><div class="tete"><h3>Tu es prêt·e si tu sais répondre à ça</h3></div><div class="quiz"><details><summary>« Nos enfants vont payer la dette. » Vrai ?</summary><p>Ils hériteront aussi des titres de la dette, mais pas tous. Ceux qui hériteront d&#x27;un patrimoine placé toucheront les intérêts ; les autres paieront les impôts qui les financent.</p></details><details><summary>Qui touche les 91 milliards d&#x27;intérêts ?</summary><p>Les détenteurs des titres : banques, assureurs (via l&#x27;assurance-vie), fonds. Fin 2025, 56 % de la dette négociable de l&#x27;État était détenue par des non-résidents.</p></details><details><summary>Si on « vit au-dessus de nos moyens », d&#x27;où vient le déficit ?</summary><p>En partie des recettes qu&#x27;on a choisi de ne plus percevoir : 62 milliards par an de baisses d&#x27;impôts décidées depuis 2018, selon la Cour des comptes, sans économies en face.</p></details></div></section>
+<section id="creer" class="c-rouge"><div class="tete"><span class="etiquette">Créer · formats courts</span>
+<h2>Trouve ton angle</h2><p>Quatre façons d&#x27;entrer dans le sujet. Prends celle qui ressemble à ta chaîne, mélange-les, ou invente la tienne. Les chiffres, eux, ne bougent pas.</p></div><div class="angles"><div class="angle"><span class="ton">Le chiffre choc · pédago ou indigné</span><p class="hook">« 91 milliards. Et devine qui les touche. »</p><p>+12 milliards d&#x27;intérêts en un an, quand on demande 9 milliards d&#x27;économies aux ministères. <a class="src-tag" href="#src-D5">D5</a> <a class="src-tag" href="#src-D4">D4</a></p></div><div class="angle"><span class="ton">L&#x27;actu · pour les comptes politiques</span><p class="hook">« 458 contre, 0 pour. »</p><p>Le budget rejeté à l&#x27;unanimité. Et pourtant tout le monde garde le même discours sur la dette. <a class="src-tag" href="#src-D1">D1</a></p></div><div class="angle"><span class="ton">Le retournement · perso ou humour</span><p class="hook">« Tes enfants ne paieront pas la dette. Enfin, pas tous. »</p><p>Les uns héritent des titres et des intérêts, les autres des impôts qui les paient. <a class="src-tag" href="#src-D8">D8</a></p></div><div class="angle"><span class="ton">Le contraste · colère froide</span><p class="hook">« 1 300 € de pension : effort. 100 millions de patrimoine : non. »</p><p>Pensions gelées au-dessus de 1 260 €, taxe sur les plus grandes fortunes rejetée le 16 octobre. <a class="src-tag" href="#src-S3">S3</a> <a class="src-tag" href="#src-D9">D9</a></p></div></div>
+<div class="carte"><h3>Les pièges à éviter</h3><div class="pieges"><div class="piege"><span class="x">✕</span><p><b>« La dette n&#x27;est pas un problème. »</b>Les intérêts montent vraiment, de 79 à 91 milliards. Dis plutôt : le problème, c&#x27;est qui paie et qui touche.</p></div><div class="piege"><span class="x">✕</span><p><b>« Les étrangers nous tiennent. »</b>Les non-résidents sont des fonds et des banques, pas un pays. L&#x27;enjeu, c&#x27;est la dépendance aux marchés financiers.</p></div><div class="piege"><span class="x">✕</span><p><b>Confondre dette et déficit.</b>Le déficit, c&#x27;est ce qui manque sur une année (5,4 % du PIB en 2026). La dette, c&#x27;est le total accumulé.</p></div><div class="piege"><span class="x">✕</span><p><b>Viser des personnes.</b>On critique des choix budgétaires et des arguments. C&#x27;est plus fort, et ça te protège.</p></div></div></div><details class="carte exemple" id="d-ex0"><summary>Exemple de script flash, 40 secondes (angle « chiffre choc »)</summary>
+<div class="barre"><span class="duree">À adapter à ta voix</span><button class="copier" type="button" data-copie="ex0">Copier</button></div>
+<div class="script" id="ex0"><p>91 milliards d&#x27;euros. C&#x27;est ce que l&#x27;État prévoit de verser en intérêts de la dette en 2027.</p><p>C&#x27;est 12 milliards de plus qu&#x27;en 2026. Et dans le même budget, combien d&#x27;économies on demande aux ministères ? 9 milliards.</p><p>Vous avez bien entendu. On serre la vis dans presque tous les ministères, et ça ne couvre même pas la hausse des intérêts. Cet argent ne disparaît pas : il part chez ceux qui détiennent la dette.</p><p>La question n&#x27;est pas « est-ce qu&#x27;on vit au-dessus de nos moyens ». C&#x27;est : qui touche les intérêts, et qui paie les économies ?</p></div></details><details class="carte exemple" id="d-ex1"><summary>Exemple de script, 3 minutes (une histoire, un mécanisme)</summary>
+<div class="barre"><span class="duree">À adapter à ta voix</span><button class="copier" type="button" data-copie="ex1">Copier</button></div>
+<div class="script" id="ex1"><p>Le 4 novembre, il s&#x27;est passé un truc rare à l&#x27;Assemblée : 458 députés ont voté contre le budget. Pas un seul pour. Et pourtant, tout le monde répète la même phrase : « on vit au-dessus de nos moyens ». On va regarder qui vit au-dessus des moyens de qui.</p><p>Remontons en 2018. Cette année-là, et les suivantes, l&#x27;État baisse les impôts : fin de la taxe d&#x27;habitation, fin de l&#x27;impôt sur la fortune remplacé par un impôt sur l&#x27;immobilier seul, baisse de l&#x27;impôt sur les sociétés, taux unique sur les revenus du capital. La Cour des comptes fait le compte : en 2023, ces baisses font perdre 62 milliards d&#x27;euros par an, sans économies en face. Donc pour boucler le budget, l&#x27;État emprunte.</p><p>Un État ne rembourse pas sa dette comme un ménage rembourse son crédit. Quand un titre arrive à échéance, il en émet un nouveau. Ce qu&#x27;il paie vraiment, ce sont les intérêts. Ces titres, qui les achète ? Des banques, des assureurs, des fonds. Fin 2025, plus de la moitié de la dette de l&#x27;État était détenue par des investisseurs étrangers.</p><p>Résultat : la dette atteint 3 595 milliards mi-2026, et les intérêts explosent : 79 milliards en 2026, 91 milliards prévus en 2027. Et ceux qui ont le plus profité des baisses d&#x27;impôts sont aussi ceux qui ont le plus d&#x27;épargne à placer. Ils peuvent gagner deux fois : moins d&#x27;impôts, puis des intérêts.</p><p>Le budget 2027 demande 43 milliards d&#x27;efforts, avec le gel des pensions au-dessus de 1 260 euros. Le 16 octobre, les députés ont rejeté la taxe Zucman sur les patrimoines de plus de 100 millions. La dette, ce n&#x27;est pas la météo. C&#x27;est un rapport entre ceux qui prêtent et ceux qui paient. Et ça se change par des choix politiques.</p></div></details></section>
+<section id="stream" class="c-prune"><div class="tete"><span class="etiquette">En live · Twitch</span>
+<h2>Ta fiche de régie</h2><p>À garder ouverte à côté d'OBS : quoi lancer, dans quel ordre, et quoi répondre au chat.</p></div>
+<div class="carte"><h3>Les vidéos à réagir</h3><div class="video"><a href="https://youtu.be/bijhSqvRYSU" target="_blank" rel="noopener">1. Dette publique : austérité avec intérêts</a><span class="meta">Data Gueule · 12 min · la porte d&#x27;entrée</span></div><div class="video"><a href="https://youtu.be/R7oaD5Hy_zw" target="_blank" rel="noopener">2. Chantage à la dette publique</a><span class="meta">Blast · 15 min · baisser les impôts des plus aisés, puis déplorer la dette</span></div><div class="video"><a href="https://youtu.be/UUnD024yY5A" target="_blank" rel="noopener">3. Ces intérêts qui nous gouvernent</a><span class="meta">Élucid · 19 min · sortie le 7 novembre 2026</span></div><div class="video"><a href="https://youtu.be/Q829CUKLBj8" target="_blank" rel="noopener">4. On vous raconte n&#x27;importe quoi sur la dette ! (contrepoint)</a><span class="meta">Élucid · 51 min · prend la dette au sérieux comme danger</span><div class="minutes"><span>08:11 pourquoi autant de dette ?</span><span>23:10 pourquoi c&#x27;est dangereux</span><span>38:31 la corde au cou</span></div></div></div>
+<div class="carte"><h3>Le fil du live</h3><ol class="fil"><li>L&#x27;actu : le budget rejeté à 458 contre 0. Sondage du chat : « au-dessus des moyens de qui ? »</li><li>Vidéo 1, pause sur « cadeaux fiscaux » : sors les 62 milliards par an de la Cour des comptes.</li><li>Le circuit : impôts, État, intérêts, détenteurs de la dette.</li><li>Vidéo 2 ou 3 : qui touche ces intérêts.</li><li>Retour au budget : 43 milliards d&#x27;efforts, pensions gelées, taxe Zucman rejetée.</li><li>Vidéo 4 si le chat insiste sur le danger de la dette : prends l&#x27;objection au sérieux.</li><li>Fin : qui paie l&#x27;impôt, qui détient la dette, qui décide de ce qu&#x27;on sacrifie.</li></ol></div>
+<div class="carte"><h3>Les objections du chat</h3><div class="objection"><q>Si un ménage faisait ça, il serait en faillite.</q><p>Un ménage a une durée de vie et doit rembourser avant de mourir. Un État, non : il refinance sa dette en continu, en émettant de nouveaux titres quand les anciens arrivent à échéance.</p><p>Ce qui compte, c&#x27;est donc ce qu&#x27;il paie chaque année en intérêts, 91 milliards prévus en 2027, et qui les reçoit.</p></div><div class="objection"><q>Nos enfants vont payer.</q><p>Nos enfants hériteront aussi des titres de la dette : la dette des uns, c&#x27;est l&#x27;épargne des autres. Mais pas tous en hériteront.</p><p>Ceux qui héritent d&#x27;un patrimoine placé, par exemple en assurance-vie, toucheront les intérêts. Les autres paieront les impôts qui les financent. La dette ne se transmet pas « aux enfants » en général, elle se transmet inégalement.</p></div><div class="objection"><q>Les dépenses publiques sont trop élevées, c&#x27;est tout.</q><p>La Cour des comptes chiffre les baisses d&#x27;impôts et de cotisations décidées entre 2018 et 2023 à 62 milliards par an en 2023, sans économies en face.</p><p>Le déficit vient donc aussi des recettes qu&#x27;on a choisi de ne plus percevoir. Réduire la dette en ne regardant que les dépenses, c&#x27;est oublier la moitié du problème.</p></div><div class="objection"><q>Si on taxe les riches, ils partent.</q><p>La taxe rejetée le 16 octobre visait les patrimoines de plus de 100 millions d&#x27;euros : un tout petit nombre de foyers, pas les classes moyennes.</p><p>Le risque d&#x27;exil se discute. Mais il ne justifie pas de demander l&#x27;effort aux retraités à 1 300 € par mois, dont les pensions seraient gelées.</p></div><div class="objection"><q>Les marchés vont nous sanctionner.</q><p>La charge d&#x27;intérêts monte déjà : de 79 à 91 milliards en un an. C&#x27;est justement un argument pour se demander pourquoi on dépend autant des marchés : plus de la moitié de la dette de l&#x27;État est détenue par des non-résidents.</p><p>D&#x27;autres façons de financer l&#x27;État ont existé en France, et sont défendues aujourd&#x27;hui.</p></div></div>
+<div class="carte"><div class="barre"><h3>Commande chat à coller (!sources)</h3><button class="copier" type="button" data-copie="commande">Copier</button></div>
+<pre class="commande" id="commande">Chiffres du live : dette 3 595 Md€ (INSEE, 29/09/2026) · intérêts 79 Md€ en 2026, 91 Md€ en 2027 (PLF 2027, vie-publique.fr) · baisses d&#x27;impôts depuis 2018 : 62 Md€/an (Cour des comptes, juillet 2024) · 56 % de la dette détenue à l&#x27;étranger (Agence France Trésor) · budget rejeté 458-0 (Assemblée nationale, 4/11/2026)</pre></div></section>
+<section id="visuels" class="c-rouge"><div class="tete"><span class="etiquette">Visuels · 9:16 et carrousel 4:5</span>
+<h2>Prêts à mettre à l'écran</h2><p>Pour l'instant, fais une capture d'écran. La version finale les proposera en PNG.</p></div>
+<div class="visuels"><div class="visuel rouge" role="img" aria-label="91 milliards d&#x27;intérêts de la dette en 2027"><span class="haut">Intérêts de la dette en 2027</span><span class="gros chiffre">91<br>Md€</span><span class="src">Source : PLF 2027, vie-publique.fr</span></div><div class="visuel encre" role="img" aria-label="12 milliards d&#x27;intérêts en plus contre 9 milliards d&#x27;économies"><span class="haut">Budget 2027</span><div class="vs"><div><span class="moyen chiffre">+12 Md€</span><div class="barre-v" style="width:100%"></div><span class="haut">d&#x27;intérêts en plus</span></div><div><span class="moyen chiffre">9 Md€</span><div class="barre-v" style="width:75%"></div><span class="haut">d&#x27;économies demandées à l&#x27;État</span></div></div><span class="src">Sources : vie-publique.fr ; Public Sénat, 1/10/2026</span></div><div class="visuel creme" role="img" aria-label="62 milliards par an de baisses d&#x27;impôts depuis 2018"><span class="haut">Baisses d&#x27;impôts depuis 2018</span><div><span class="gros chiffre accent">62</span><p class="phrase">milliards par an, jamais compensés</p></div><span class="src">Source : Cour des comptes, juillet 2024</span></div></div>
+<div class="tete"><h3>Carrousel Instagram, prêt à poster</h3><p>Fais défiler. Mets les sources en légende (bouton « Copier pour la description » plus bas).</p></div>
+<div class="carrousel"><div class="slide"><span class="num">1/6</span><div><p class="titre">On vit au-dessus de nos moyens ?</p></div><p class="texte">Regarde où va l&#x27;argent.</p></div><div class="slide"><span class="num">2/6</span><div><p class="titre">91 milliards</p></div><p class="texte">d&#x27;intérêts de la dette prévus en 2027.</p></div><div class="slide"><span class="num">3/6</span><div><p class="titre">+12 milliards</p></div><p class="texte">en un an. Les économies demandées aux ministères : 9 milliards.</p></div><div class="slide"><span class="num">4/6</span><div><p class="titre">Qui les touche ?</p></div><p class="texte">Banques, assureurs, fonds. Plus de la moitié à l&#x27;étranger.</p></div><div class="slide"><span class="num">5/6</span><div><p class="titre">62 milliards par an</p></div><p class="texte">de baisses d&#x27;impôts depuis 2018, jamais compensées (Cour des comptes).</p></div><div class="slide"><span class="num">6/6</span><div><p class="titre">Qui paie, qui touche ?</p></div><p class="texte">C&#x27;est ça, la vraie question. Sources en légende.</p></div></div></section>
+<section id="sources" class="c-gris"><div class="tete"><span class="etiquette">Ta garantie</span><h2>Sources</h2>
+<p>Chaque chiffre du kit renvoie ici. Si quelqu'un conteste, tu as la réponse.</p></div>
+<div class="carte"><div class="barre"><span class="duree">Vérifiées le 13 nov. 2026</span><button class="copier" type="button" data-copie="texte-sources" style="--c: var(--encre)">Copier pour la description</button></div>
+<div class="source" id="src-D1"><span class="num">D1</span><div><p>Budget 2027 rejeté à l&#x27;Assemblée : 458 contre, 0 pour.</p><span class="meta">Assemblée nationale, scrutin n° 9759, 4 nov. 2026 · <a href="https://www.assemblee-nationale.fr/dyn/17/scrutins/9759" target="_blank" rel="noopener">voir</a></span></div></div><div class="source" id="src-D2"><span class="num">D2</span><div><p>Déficit public : 5,4 % du PIB en 2026, objectif 5 % en 2027.</p><span class="meta">Public Sénat, 1er oct. 2026 · <a href="https://www.publicsenat.fr/actualites/economie/impots-retraites-mesures-deconomies-le-gouvernement-leve-le-voile-sur-le-budget-2027-qui-prevoit-un-effort-de-43-milliards-deuros" target="_blank" rel="noopener">voir</a></span></div></div><div class="source" id="src-D3"><span class="num">D3</span><div><p>43 Md€ de mesures nouvelles dans les budgets 2027.</p><span class="meta">Public Sénat, 1er oct. 2026</span></div></div><div class="source" id="src-D4"><span class="num">D4</span><div><p>Nouvelles économies : 9 Md€ pour l&#x27;État, 12 Md€ sphère sociale, 5,5 Md€ collectivités.</p><span class="meta">Public Sénat, 1er oct. 2026</span></div></div><div class="source" id="src-D5"><span class="num">D5</span><div><p>Charge de la dette : 79,2 Md€ en 2026, 91,2 Md€ en 2027.</p><span class="meta">vie-publique.fr, PLF 2027 · <a href="https://www.vie-publique.fr/loi/305240-budget-2027-projet-de-loi-de-finances-plf" target="_blank" rel="noopener">voir</a></span></div></div><div class="source" id="src-D6"><span class="num">D6</span><div><p>Dette publique : 3 595,5 Md€ fin juin 2026, 119,0 % du PIB.</p><span class="meta">INSEE, Informations rapides n° 239, 29 sept. 2026 · <a href="https://www.insee.fr/fr/statistiques/9053525" target="_blank" rel="noopener">voir</a></span></div></div><div class="source" id="src-D7"><span class="num">D7</span><div><p>Baisses d&#x27;impôts et de cotisations 2018-2023 : 62 Md€ en 2023, non compensées.</p><span class="meta">Cour des comptes, juillet 2024 · <a href="https://www.ccomptes.fr/sites/default/files/2024-07/20240715-RSPFP-2024_0.pdf" target="_blank" rel="noopener">voir</a></span></div></div><div class="source" id="src-D8"><span class="num">D8</span><div><p>56 % de la dette négociable de l&#x27;État détenue par des non-résidents (fin 2025).</p><span class="meta">Agence France Trésor · <a href="https://www.aft.gouv.fr/files/medias-aft/7_Publications/7.2_BM/435_Bulletin%20mensuel%20aout%202026.pdf" target="_blank" rel="noopener">voir</a></span></div></div><div class="source" id="src-D9"><span class="num">D9</span><div><p>Taxe Zucman (2 % sur les patrimoines de plus de 100 M€) rejetée par l&#x27;Assemblée.</p><span class="meta">Europe 1, 16 oct. 2026 · <a href="https://www.europe1.fr/politique/budget-2027-lassemblee-nationale-rejette-la-taxe-zucman-sur-les-ultrariches-1155329" target="_blank" rel="noopener">voir</a></span></div></div><div class="source" id="src-S3"><span class="num">S3</span><div><p>Gel total ou partiel des pensions au-delà de 1 260 € par mois.</p><span class="meta">Public Sénat, 1er oct. 2026</span></div></div><pre id="texte-sources" hidden>Sources (vérifiées le 13/11/2026) :
+- Vote du budget, 458 contre 0 : Assemblée nationale, scrutin 9759 (4/11/2026)
+- Intérêts de la dette 79,2 Md€ (2026) et 91,2 Md€ (2027) : vie-publique.fr, PLF 2027
+- 43 Md€ d&#x27;efforts, 9 Md€ d&#x27;économies pour l&#x27;État, gel des pensions au-delà de 1 260 € : Public Sénat (1/10/2026)
+- Dette 3 595,5 Md€, 119 % du PIB : INSEE (29/09/2026)
+- Baisses d&#x27;impôts 2018-2023, 62 Md€ par an : Cour des comptes (juillet 2024)
+- 56 % de la dette détenue par des non-résidents : Agence France Trésor (fin 2025)
+- Taxe Zucman rejetée : Europe 1 (16/10/2026)</pre></div></section>
+<footer><h3>Ce qu'on attend de toi</h3>
+<p>Rien, à part d'être exact·e. Tu n'as pas à reprendre nos mots ni à nous citer. Si tu donnes un chiffre, garde sa source.</p>
+<p>Si le sujet t&#x27;a plu, il y a d&#x27;autres kits : la dette, la Sécu, les lycées, la Palestine, la préférence nationale.</p>
+<p>Une question, un chiffre contesté en commentaire ? Réponds au message qui t'a envoyé ce kit, on te répond vite.</p>
+<p class="proto">Prototype · version 0.2</p></footer></div>
+<script>
+document.querySelectorAll('button.copier').forEach(function (btn) {
+  btn.addEventListener('click', function (ev) {
+    ev.preventDefault();
+    var cible = document.getElementById(btn.dataset.copie);
+    if (!cible) return;
+    var paras = cible.querySelectorAll('p');
+    var texte = paras.length ? Array.from(paras).map(function (p) { return p.textContent; }).join('\n\n') : cible.textContent;
+    var libelle = btn.textContent;
+    function fini(msg) { btn.textContent = msg; btn.classList.add('fait'); setTimeout(function () { btn.textContent = libelle; btn.classList.remove('fait'); }, 2000); }
+    function repli() {
+      var zone = document.createElement('textarea');
+      zone.value = texte; zone.setAttribute('readonly', ''); zone.style.position = 'fixed'; zone.style.opacity = '0';
+      document.body.appendChild(zone); zone.select();
+      var ok = false; try { ok = document.execCommand('copy'); } catch (e) {}
+      document.body.removeChild(zone);
+      fini(ok ? 'Copié' : 'Sélectionne le texte à la main');
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(texte).then(function () { fini('Copié'); }, repli);
+    } else { repli(); }
+  });
+});
+</script>
+<script>document.querySelectorAll('a[data-ouvre]').forEach(function(a){a.addEventListener('click',function(){var d=document.getElementById(a.dataset.ouvre);if(d)d.open=true;});});</script></body></html>

@@ -1,0 +1,305 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style><title>Kit Salaires et profits</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;800;900&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+/* Mise en page : une colonne pour le téléphone. Quatre temps de couleur : comprendre (bleu), se préparer (ocre), créer (rouge), streamer (prune). Les formes du bandeau du site reviennent dans l'en-tête. */
+:root {
+  --fond: #f6f1ea;
+  --carte: #ffffff;
+  --encre: #252122;
+  --doux: #675f5c;
+  --trait: #e6ddd2;
+  --rouge: #d52349;  --rouge-doux: #fde4e9;
+  --bleu: #2c5f93;   --bleu-doux: #e1ecf8;
+  --ocre: #a8650b;   --ocre-doux: #fbedd6;
+  --prune: #6d3f8f;  --prune-doux: #efe4f6;
+  --rond-rose: #f6c6b8; --rond-bleu: #bcd3ee;
+  --f-titre: "Archivo", "Arial Narrow", system-ui, sans-serif;
+  --f-texte: "Source Sans 3", "Source Sans Pro", system-ui, sans-serif;
+  --f-chiffre: "IBM Plex Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --fond: #1a1617; --carte: #252021; --encre: #f3ede7; --doux: #b8aeaa; --trait: #3a3233;
+    --rouge: #ff5d7c; --rouge-doux: #43202a; --bleu: #8fbbeb; --bleu-doux: #1d2a39;
+    --ocre: #f0b25a; --ocre-doux: #3a2a14; --prune: #c9a2ea; --prune-doux: #2f2338;
+    --rond-rose: #5a2c33; --rond-bleu: #233a55; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --fond: #1a1617; --carte: #252021; --encre: #f3ede7; --doux: #b8aeaa; --trait: #3a3233;
+  --rouge: #ff5d7c; --rouge-doux: #43202a; --bleu: #8fbbeb; --bleu-doux: #1d2a39;
+  --ocre: #f0b25a; --ocre-doux: #3a2a14; --prune: #c9a2ea; --prune-doux: #2f2338;
+  --rond-rose: #5a2c33; --rond-bleu: #233a55; color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 4.2rem; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
+body {
+  background: var(--fond); color: var(--encre);
+  font: 400 1.0625rem/1.55 var(--f-texte);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 0 3rem;
+}
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--fond); }
+.page { max-width: 46rem; margin: 0 auto; display: grid; gap: 3.2rem; }
+a { color: var(--rouge); }
+h1, h2, h3 { font-family: var(--f-titre); text-wrap: balance; margin: 0; line-height: 1.08; }
+h2 { font-size: clamp(1.7rem, 6vw, 2.3rem); font-weight: 900; letter-spacing: -.01em; }
+h3 { font-size: 1.12rem; font-weight: 800; }
+p { margin: 0; }
+.chiffre { font-family: var(--f-chiffre); font-variant-numeric: tabular-nums; }
+.etiquette { display: inline-block; font: 700 .74rem/1 var(--f-texte); text-transform: uppercase; letter-spacing: .13em; padding: .38rem .6rem; border-radius: 999px; background: var(--c-doux); color: var(--c); justify-self: start; }
+.src-tag { font: 600 .72rem var(--f-chiffre); color: var(--doux); border: 1px solid var(--trait); border-radius: 5px; padding: 0 .3rem; white-space: nowrap; text-decoration: none; }
+a.src-tag:hover { color: var(--rouge); border-color: var(--rouge); }
+
+/* ---------- en-tête ---------- */
+.hero { position: relative; overflow: hidden; margin-inline: calc(-1 * max(16px, env(safe-area-inset-left, 0px))); padding: 2rem max(16px, env(safe-area-inset-left, 0px)) 2.2rem; }
+.hero::before, .hero::after { content: ""; position: absolute; border-radius: 50%; z-index: 0; }
+.hero::before { width: 22rem; height: 22rem; left: -8rem; top: -11rem; background: var(--rond-rose); opacity: .7; }
+.hero::after { width: 18rem; height: 18rem; right: -6rem; bottom: -9rem; background: var(--rond-bleu); opacity: .7; }
+.hero > * { position: relative; z-index: 1; }
+.hero-in { max-width: 46rem; margin: 0 auto; display: grid; gap: 1.1rem; }
+.marque { display: flex; justify-content: space-between; gap: .8rem; flex-wrap: wrap; font: 800 .82rem var(--f-titre); letter-spacing: .08em; text-transform: uppercase; }
+.marque span { color: var(--doux); font-weight: 600; letter-spacing: .04em; }
+.gros-chiffre { font: 900 clamp(4.6rem, 24vw, 8.5rem)/.85 var(--f-titre); color: var(--rouge); letter-spacing: -.04em; }
+.gros-chiffre small { font-size: .32em; letter-spacing: 0; color: var(--encre); margin-left: .15em; }
+.hero h1 { font-size: clamp(1.6rem, 6.4vw, 2.5rem); font-weight: 900; }
+.hero .accroche { font-size: 1.15rem; max-width: 36rem; }
+.pastilles { display: flex; flex-wrap: wrap; gap: .5rem; }
+.pastilles span { background: var(--carte); border: 1px solid var(--trait); border-radius: 999px; padding: .35rem .8rem; font-weight: 600; font-size: .92rem; }
+.actu { background: var(--carte); border-left: 4px solid var(--bleu); border-radius: 0 10px 10px 0; padding: .7rem .9rem; font-size: .95rem; }
+.actu b { color: var(--bleu); }
+
+/* ---------- navigation ---------- */
+nav.onglets { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--fond); margin-inline: calc(-1 * max(16px, env(safe-area-inset-left, 0px))); padding: .55rem max(16px, env(safe-area-inset-left, 0px)); border-bottom: 1px solid var(--trait); overflow-x: auto; margin-top: -2.4rem; }
+nav.onglets ul { list-style: none; margin: 0 auto; padding: 0; display: flex; gap: .4rem; max-width: 46rem; }
+nav.onglets a { display: flex; align-items: center; gap: .4rem; white-space: nowrap; text-decoration: none; color: var(--encre); font: 700 .93rem var(--f-texte); padding: .38rem .85rem; border-radius: 999px; background: var(--carte); border: 1px solid var(--trait); }
+nav.onglets a::before { content: ""; width: .55rem; height: .55rem; border-radius: 50%; background: var(--c); }
+nav.onglets a:hover, nav.onglets a:focus-visible { border-color: var(--c); outline: none; }
+
+/* ---------- sections ---------- */
+section { display: grid; gap: 1.1rem; }
+.c-bleu { --c: var(--bleu); --c-doux: var(--bleu-doux); }
+.c-ocre { --c: var(--ocre); --c-doux: var(--ocre-doux); }
+.c-rouge { --c: var(--rouge); --c-doux: var(--rouge-doux); }
+.c-prune { --c: var(--prune); --c-doux: var(--prune-doux); }
+.c-gris { --c: var(--doux); --c-doux: var(--trait); }
+.tete { display: grid; gap: .55rem; }
+.tete p { color: var(--doux); font-size: 1.05rem; max-width: 38rem; }
+.carte { background: var(--carte); border: 1px solid var(--trait); border-radius: 16px; padding: 1.15rem 1.2rem; display: grid; gap: .9rem; min-width: 0; }
+
+/* comprendre */
+.schema { background: var(--bleu-doux); border-radius: 16px; padding: .8rem; overflow-x: auto; }
+.schema svg { display: block; width: 100%; min-width: 34rem; height: auto; }
+.schema .boite { fill: var(--carte); stroke: var(--bleu); stroke-width: 2; }
+.schema .boite-r { fill: var(--rouge-doux); stroke: var(--rouge); stroke-width: 2; }
+.schema .t1 { font: 800 15px "Archivo", sans-serif; fill: var(--encre); }
+.schema .t2 { font: 400 12.5px "Source Sans 3", sans-serif; fill: var(--doux); }
+.schema .tf { font: 700 12.5px "IBM Plex Mono", monospace; fill: var(--bleu); }
+.schema .tf-r { font: 700 12.5px "IBM Plex Mono", monospace; fill: var(--rouge); }
+.schema .fleche { stroke: var(--bleu); stroke-width: 2.5; fill: none; }
+.schema .fleche-r { stroke: var(--rouge); stroke-width: 2.5; fill: none; stroke-dasharray: 6 5; }
+.schema .pointe { fill: var(--bleu); }
+.schema .pointe-r { fill: var(--rouge); }
+.flux { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1.2fr); align-items: stretch; gap: .5rem; }
+.flux .etape { background: var(--bleu-doux); border-radius: 14px; padding: .9rem 1rem; display: grid; gap: .25rem; align-content: start; font-size: .97rem; }
+.flux .etape.fort { background: var(--rouge-doux); }
+.flux .qui-f { font: 900 1.35rem/1.05 var(--f-titre); }
+.flux .etape.fort .qui-f { color: var(--rouge); }
+.flux .vers { align-self: center; font: 900 1.6rem var(--f-titre); color: var(--bleu); }
+@media (max-width: 36rem) { .flux { grid-template-columns: minmax(0, 1fr); } .flux .vers { transform: rotate(90deg); justify-self: center; line-height: 1; } }
+.cinq { list-style: none; margin: 0; padding: 0; display: grid; gap: .7rem; counter-reset: q; }
+.cinq li { background: var(--carte); border: 1px solid var(--trait); border-radius: 14px; padding: 1rem 1.1rem; display: grid; gap: .35rem; counter-increment: q; }
+.cinq h3::before { content: counter(q) ". "; color: var(--bleu); }
+
+/* se préparer */
+.parcours { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; }
+.parcours li { display: grid; grid-template-columns: 4.2rem minmax(0, 1fr); gap: .9rem; position: relative; padding-bottom: 1.1rem; }
+.parcours li::before { content: ""; position: absolute; left: 2.05rem; top: 2.4rem; bottom: 0; width: 2px; background: var(--ocre-doux); }
+.parcours li:last-child::before { display: none; }
+.duree-rond { width: 4.2rem; height: 4.2rem; border-radius: 50%; background: var(--ocre-doux); color: var(--ocre); display: grid; place-items: center; text-align: center; font: 700 .85rem/1.05 var(--f-chiffre); }
+.parcours .carte { gap: .45rem; }
+.parcours .type { font: 700 .74rem var(--f-texte); text-transform: uppercase; letter-spacing: .12em; color: var(--ocre); }
+.parcours a.titre { font: 800 1.08rem/1.25 var(--f-titre); color: var(--encre); text-decoration: none; }
+.parcours a.titre:hover { color: var(--ocre); text-decoration: underline; }
+.parcours .retiens { font-size: .95rem; background: var(--fond); border-radius: 10px; padding: .55rem .75rem; }
+.quiz { display: grid; gap: .6rem; }
+.quiz details { background: var(--carte); border: 1px solid var(--trait); border-radius: 12px; padding: .8rem 1rem; }
+.quiz summary { cursor: pointer; font-weight: 700; list-style: none; display: flex; justify-content: space-between; gap: 1rem; }
+.quiz summary::-webkit-details-marker { display: none; }
+.quiz summary::after { content: "Voir la réponse"; font: 600 .78rem var(--f-texte); color: var(--ocre); white-space: nowrap; }
+.quiz details[open] summary::after { content: "Masquer"; }
+.quiz details p { margin-top: .6rem; color: var(--doux); }
+summary:focus-visible { outline: 2px solid var(--c, var(--rouge)); outline-offset: 3px; border-radius: 4px; }
+
+/* créer */
+.angles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .8rem; }
+@media (max-width: 34rem) { .angles { grid-template-columns: minmax(0, 1fr); } }
+.angle { background: var(--carte); border: 1px solid var(--trait); border-top: 6px solid var(--rouge); border-radius: 14px; padding: 1rem 1.05rem; display: grid; gap: .55rem; align-content: start; }
+.angle .hook { font: 900 1.3rem/1.15 var(--f-titre); }
+.angle .ton { font-size: .85rem; color: var(--rouge); font-weight: 700; }
+.angle p { font-size: .97rem; }
+.pieges { display: grid; gap: .6rem; }
+.piege { display: grid; grid-template-columns: 1.8rem minmax(0, 1fr); gap: .6rem; align-items: start; }
+.piege .x { width: 1.8rem; height: 1.8rem; border-radius: 50%; background: var(--rouge-doux); color: var(--rouge); display: grid; place-items: center; font: 900 1rem var(--f-titre); }
+.piege b { display: block; }
+.exemple summary { cursor: pointer; font: 800 1.05rem var(--f-titre); color: var(--rouge); }
+.exemple[open] summary { margin-bottom: .8rem; }
+.script { border-left: 3px solid var(--rouge-doux); padding-left: .9rem; display: grid; gap: .6rem; }
+.barre { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; justify-content: space-between; }
+.duree { font: 600 .85rem var(--f-chiffre); color: var(--doux); }
+button.copier { font: 700 .92rem var(--f-texte); border: 0; border-radius: 999px; padding: .5rem 1rem; background: var(--c, var(--rouge)); color: var(--carte); cursor: pointer; }
+button.copier:focus-visible { outline: 3px solid var(--encre); outline-offset: 2px; }
+button.copier.fait { background: var(--encre); }
+
+/* visuels */
+.visuels { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .8rem; }
+@media (max-width: 40rem) { .visuels { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.visuel { aspect-ratio: 9 / 16; max-width: 100%; border-radius: 14px; padding: 9% 8%; display: flex; flex-direction: column; justify-content: space-between; overflow: hidden; container-type: inline-size; position: relative; }
+.visuel.rouge { background: #d52349; color: #fff; }
+.visuel.encre { background: #252122; color: #f6f1ea; }
+.visuel.creme { background: #f6f1ea; color: #252122; border: 1px solid #e6ddd2; }
+.visuel.rouge::after { content: ""; position: absolute; width: 80cqi; height: 80cqi; right: -30cqi; top: -30cqi; border-radius: 50%; background: #f6c6b8; opacity: .35; }
+.visuel.creme::after { content: ""; position: absolute; width: 70cqi; height: 70cqi; left: -25cqi; bottom: -25cqi; border-radius: 50%; background: #bcd3ee; opacity: .7; }
+.visuel > * { position: relative; z-index: 1; }
+.visuel .haut { font: 800 6.4cqi/1.15 "Archivo", sans-serif; text-transform: uppercase; letter-spacing: .06em; }
+.visuel .gros { font: 900 30cqi/.9 "Archivo", sans-serif; letter-spacing: -.03em; }
+.visuel .moyen { font: 900 14cqi/1 "Archivo", sans-serif; }
+.visuel .phrase { font: 800 8.5cqi/1.15 "Archivo", sans-serif; }
+.visuel .src { font: 500 4.6cqi/1.3 "IBM Plex Mono", monospace; opacity: .85; }
+.visuel .vs { display: grid; gap: 6cqi; }
+.visuel .barre-v { height: 4cqi; background: currentColor; border-radius: 2cqi; margin-block: 2cqi; }
+.visuel .accent { color: #d52349; }
+
+/* stream */
+.video { display: grid; gap: .25rem; padding-bottom: .8rem; border-bottom: 1px solid var(--trait); }
+.video:last-child { border-bottom: 0; padding-bottom: 0; }
+.video a { font-weight: 800; font-family: var(--f-titre); text-decoration: none; color: var(--encre); }
+.video a:hover { color: var(--prune); text-decoration: underline; }
+.meta { font-size: .88rem; color: var(--doux); }
+.minutes { display: flex; flex-wrap: wrap; gap: .35rem; margin-top: .2rem; }
+.minutes span { font: 500 .8rem var(--f-chiffre); background: var(--prune-doux); color: var(--prune); border-radius: 6px; padding: .12rem .45rem; }
+ol.fil { margin: 0; padding-left: 1.3rem; display: grid; gap: .45rem; }
+ol.fil li::marker { color: var(--prune); font-weight: 800; }
+.objection { display: grid; gap: .25rem; padding-bottom: .8rem; border-bottom: 1px solid var(--trait); }
+.objection:last-child { border-bottom: 0; padding-bottom: 0; }
+.objection q { font-weight: 800; quotes: "« " " »"; }
+.commande { font: 500 .9rem/1.45 var(--f-chiffre); background: var(--prune-doux); border-radius: 10px; padding: .7rem .85rem; white-space: pre-wrap; word-break: break-word; margin: 0; }
+
+/* sources */
+.source { display: grid; grid-template-columns: 2.4rem minmax(0, 1fr); gap: .6rem; padding-block: .6rem; border-bottom: 1px solid var(--trait); }
+.source:last-of-type { border-bottom: 0; }
+.source .num { font: 600 .82rem/1.7 var(--f-chiffre); color: var(--rouge); }
+.source p { font-size: .97rem; }
+
+footer { display: grid; gap: .6rem; background: var(--carte); border: 1px solid var(--trait); border-radius: 16px; padding: 1.2rem; }
+footer h3 { font-size: 1.2rem; }
+footer p { color: var(--doux); }
+.proto { font: 600 .8rem var(--f-chiffre); color: var(--bleu); }
+
+.carrousel { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(13rem, 1fr); gap: .8rem; overflow-x: auto; padding-bottom: .4rem; scroll-snap-type: x mandatory; }
+.slide { aspect-ratio: 4 / 5; border-radius: 14px; padding: 9% 8%; display: flex; flex-direction: column; justify-content: space-between; container-type: inline-size; scroll-snap-align: start; position: relative; overflow: hidden; }
+.slide:nth-child(3n+1) { background: #d52349; color: #fff; }
+.slide:nth-child(3n+2) { background: #f6f1ea; color: #252122; border: 1px solid #e6ddd2; }
+.slide:nth-child(3n) { background: #252122; color: #f6f1ea; }
+.slide .num { font: 600 5cqi "IBM Plex Mono", monospace; opacity: .7; }
+.slide .titre { font: 900 11cqi/1.02 "Archivo", sans-serif; letter-spacing: -.01em; }
+.slide .texte { font: 600 6.2cqi/1.3 "Source Sans 3", sans-serif; }
+.slide .src { font: 500 4.2cqi/1.3 "IBM Plex Mono", monospace; opacity: .8; }
+.variante { font: 700 .74rem var(--f-texte); text-transform: uppercase; letter-spacing: .1em; color: var(--rouge); }
+.variantes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .8rem; }
+@media (max-width: 44rem) { .variantes { grid-template-columns: minmax(0, 1fr); } }
+.var-carte { background: var(--carte); border: 1px solid var(--trait); border-top: 6px solid var(--rouge); border-radius: 14px; padding: 1rem 1.05rem; display: grid; gap: .55rem; align-content: start; }
+.var-carte .contraste { font: 900 1.9rem/1 var(--f-titre); color: var(--rouge); letter-spacing: -.02em; }
+.var-carte .lire { font-weight: 700; color: var(--rouge); text-decoration: none; }
+.var-carte .lire:hover { text-decoration: underline; }
+.objection p + p { margin-top: .35rem; }
+</style>
+</head><body><div class="page">
+<header class="hero"><div class="hero-in">
+<div class="marque">Matérialités <span>Kit créateur·ices · mis à jour le 14 nov. 2026</span></div>
+<div class="gros-chiffre chiffre">2<small>Md€</small></div>
+<h1>de bénéfice pour Michelin en 2023. Un an plus tard, 1 254 postes supprimés.</h1>
+<p class="accroche">On t&#x27;explique où part l&#x27;argent des entreprises, pourquoi l&#x27;État paie une partie des salaires, et comment en parler à ta façon. Tous les chiffres sont vérifiés et sourcés.</p>
+<div class="pastilles"><span>15 min pour comprendre</span><span>4 angles au choix</span><span>Prêt pour un live</span></div>
+<p class="actu"><b>Pourquoi maintenant.</b> Le pouvoir d&#x27;achat est le deuxième thème qui comptera pour le vote de 2027. Et partout on entend : « augmenter les salaires tuerait l&#x27;emploi, il faut baisser les charges ».</p>
+</div></header>
+<nav class="onglets" aria-label="Sections du kit"><ul>
+<li class="c-bleu"><a href="#comprendre">Comprendre</a></li><li class="c-ocre"><a href="#preparer">Te préparer</a></li>
+<li class="c-rouge"><a href="#creer">Créer</a></li><li class="c-prune"><a href="#stream">En live</a></li>
+<li class="c-rouge"><a href="#visuels">Visuels</a></li><li class="c-gris"><a href="#sources">Sources</a></li></ul></nav>
+<section id="comprendre" class="c-bleu"><div class="tete"><span class="etiquette">Comprendre · 5 min</span>
+<h2>Le partage, en trois cases et cinq idées</h2><p>Ce qu&#x27;on te dit : il n&#x27;y a pas d&#x27;argent pour les salaires. Ce qui se passe vraiment : l&#x27;argent existe, et ce sont les propriétaires qui décident où il va.</p></div>
+<div class="flux" role="img" aria-label="Les salariés produisent, les actionnaires décident, 107 milliards rendus aux actionnaires du CAC 40 en 2025."><div class="etape"><span class="qui-f">Les salarié·es</span><span>produisent la richesse de l&#x27;entreprise</span></div><span class="vers" aria-hidden="true">→</span><div class="etape"><span class="qui-f">Les actionnaires</span><span>décident du partage : salaires ou dividendes</span></div><span class="vers" aria-hidden="true">→</span><div class="etape fort"><span class="qui-f">107 Md€</span><span>rendus aux actionnaires du CAC 40 en 2025</span></div></div>
+<ol class="cinq"><li><h3>Une histoire : Michelin</h3><p>En 2023, 2 milliards de bénéfice net, près de la moitié reversée en dividendes, jusqu&#x27;à 1 milliard de rachats d&#x27;actions annoncés. En 2024, fermeture de Cholet et Vannes : 1 254 postes. <a class="src-tag" href="#src-W3">W3</a> <a class="src-tag" href="#src-W4">W4</a> <a class="src-tag" href="#src-W1">W1</a></p></li><li><h3>L&#x27;argent public dedans</h3><p>La même année, Michelin touche en France plus de 80 millions : crédit d&#x27;impôt recherche, allègements de cotisations, aides à l&#x27;emploi. <a class="src-tag" href="#src-W2">W2</a></p></li><li><h3>Ce n&#x27;est pas une exception</h3><p>En 2025, les entreprises du CAC 40 ont rendu 107,5 milliards à leurs actionnaires, un record. <a class="src-tag" href="#src-W5">W5</a></p></li><li><h3>L&#x27;État paie une partie de la facture</h3><p>Une commission du Sénat chiffre les aides publiques aux entreprises à 211 milliards en 2023, au sens large (108 au sens strict). <a class="src-tag" href="#src-W6">W6</a></p></li><li><h3>Les exonérations freinent les augmentations</h3><p>75 milliards d&#x27;exonérations de cotisations patronales en 2023, les plus fortes au niveau du SMIC : augmenter un salarié fait perdre l&#x27;exonération. <a class="src-tag" href="#src-W7">W7</a></p></li></ol></section>
+<section id="preparer" class="c-ocre"><div class="tete"><span class="etiquette">Te préparer · 1 h 30 environ</span>
+<h2>Ton parcours pour maîtriser le sujet</h2><p>Une vidéo sur les aides, une sur l&#x27;inflation et les marges, un podcast sur le « coût du travail », le parcours du site : tu pourras parler du partage de la valeur sans jargon.</p></div>
+<ol class="parcours"><li><span class="duree-rond">11<br>min</span><div class="carte"><span class="type">Vidéo · pour démarrer</span>
+<a class="titre" href="https://youtu.be/OZn2seUjjMI" target="_blank" rel="noopener">Les riches sont les premiers assistés de France</a><span class="meta">Blast · juillet 2025</span>
+<p class="retiens"><b>Ce que tu en retiens :</b> les centaines de milliards d&#x27;aides aux grandes entreprises, versées sans contrôle sérieux.</p></div></li><li><span class="duree-rond">14<br>min</span><div class="carte"><span class="type">Vidéo · regarde 1:43 à 6:31</span>
+<a class="titre" href="https://youtu.be/TsInR4h2r0A" target="_blank" rel="noopener">Inflation : comprendre ce fléau qui assomme les Français</a><span class="meta">Blast, Gilles Raveaud · 2023</span>
+<p class="retiens"><b>Ce que tu en retiens :</b> qui peut augmenter ses prix, et pourquoi les salarié·es ne peuvent pas augmenter leur salaire.</p></div></li><li><span class="duree-rond">67<br>min</span><div class="carte"><span class="type">Podcast · à écouter en marchant</span>
+<a class="titre" href="https://podcast.ausha.co/les-podcasts-de-la-librairie-mollat-1/clement-carbonnier-toujours-moins" target="_blank" rel="noopener">Clément Carbonnier, Toujours moins !</a><span class="meta">Librairie Mollat · 2025</span>
+<p class="retiens"><b>Ce que tu en retiens :</b> la stratégie française de baisse du coût du travail et ses impasses.</p></div></li><li><span class="duree-rond">5<br>min</span><div class="carte"><span class="type">Lecture facile</span>
+<span class="titre" style="font:800 1.08rem/1.25 var(--f-titre)">Le parcours « Salaire, profit : qui produit la richesse ? »</span><span class="meta">Sur le site Matérialités</span>
+<p class="retiens"><b>Ce que tu en retiens :</b> le raisonnement complet, de la fiche de paie à l&#x27;indexation des salaires.</p></div></li></ol><div class="tete"><h3>Tu es prêt·e si tu sais répondre à ça</h3></div><div class="quiz"><details><summary>« Michelin a fermé à cause de la concurrence chinoise. » Que réponds-tu ?</summary><p>La concurrence existe. Mais l&#x27;année d&#x27;avant, 2 milliards de bénéfice, près de la moitié en dividendes, jusqu&#x27;à 1 milliard de rachats d&#x27;actions. Garder les usines était un choix possible.</p></details><details><summary>211 milliards d&#x27;aides, c&#x27;est gonflé ?</summary><p>C&#x27;est le sens large du Sénat. Au sens strict, 108 milliards ; le Haut-commissariat au Plan dit 112. Même le plus bas reste énorme.</p></details><details><summary>Pourquoi les exonérations freinent-elles les augmentations ?</summary><p>Elles sont maximales au SMIC et baissent quand le salaire monte : augmenter un salarié coûte plus cher à l&#x27;employeur.</p></details></div></section>
+<section id="creer" class="c-rouge"><div class="tete"><span class="etiquette">Créer · formats courts</span>
+<h2>Trouve ton angle</h2><p>Quatre façons d&#x27;entrer dans le sujet. Prends celle qui ressemble à ta chaîne. Les chiffres, eux, ne bougent pas.</p></div><div class="angles"><div class="angle"><span class="ton">Le récit · enquête</span><p class="hook">« Michelin a fermé deux usines. Regarde ses comptes. »</p><p>2 milliards de bénéfice, 83 millions d&#x27;aides publiques en France, 1 254 postes supprimés. <a class="src-tag" href="#src-W1">W1</a> <a class="src-tag" href="#src-W2">W2</a> <a class="src-tag" href="#src-W3">W3</a></p></div><div class="angle"><span class="ton">Le chiffre choc</span><p class="hook">« 107 milliards pour les actionnaires du CAC 40. »</p><p>Un record en 2025. <a class="src-tag" href="#src-W5">W5</a></p></div><div class="angle"><span class="ton">Le retournement</span><p class="hook">« Les vrais assistés ? »</p><p>211 milliards d&#x27;aides aux entreprises au sens large, selon le Sénat. <a class="src-tag" href="#src-W6">W6</a></p></div><div class="angle"><span class="ton">Le mécanisme · pédago</span><p class="hook">« Pourquoi ton patron ne t&#x27;augmente pas au-dessus du SMIC. »</p><p>Les exonérations baissent quand le salaire monte. <a class="src-tag" href="#src-W7">W7</a></p></div></div>
+<div class="carte"><h3>Les pièges à éviter</h3><div class="pieges"><div class="piege"><span class="x">✕</span><p><b>« Les patrons sont cupides. »</b>On ne juge pas les personnes : on montre où va l&#x27;argent et qui le décide.</p></div><div class="piege"><span class="x">✕</span><p><b>Citer le CICE de Michelin.</b>Les montants ne sont pas confirmés. Tiens-toi aux aides de 2023 déclarées sous serment.</p></div><div class="piege"><span class="x">✕</span><p><b>Oublier les PME.</b>Le débat porte d&#x27;abord sur les grands groupes, qui touchent l&#x27;essentiel des aides et versent les dividendes.</p></div><div class="piege"><span class="x">✕</span><p><b>Dire « 211 milliards » sans préciser.</b>Dis « au sens large » : le sens strict est de 108 milliards.</p></div></div></div><details class="carte exemple" id="d-ex0"><summary>Exemple de script flash, 40 secondes</summary>
+<div class="barre"><span class="duree">À adapter à ta voix</span><button class="copier" type="button" data-copie="ex0">Copier</button></div>
+<div class="script" id="ex0"><p>Michelin a fermé deux usines en France. Maintenant, regardez ses comptes.</p><p>En 2023, Michelin fait 2 milliards d&#x27;euros de bénéfice net. Cette année-là, il touche en France plus de 80 millions d&#x27;euros d&#x27;argent public : crédit d&#x27;impôt, allègements de cotisations, aides à l&#x27;emploi. Il reverse près de la moitié de son bénéfice en dividendes, et annonce jusqu&#x27;à un milliard de rachats d&#x27;actions sur trois ans.</p><p>Un an plus tard, il ferme Cholet et Vannes. 1 254 postes supprimés.</p><p>Alors la prochaine fois qu&#x27;on vous dit qu&#x27;il n&#x27;y a pas d&#x27;argent pour les salaires, demandez juste : pas d&#x27;argent pour qui ?</p></div></details></section>
+<section id="stream" class="c-prune"><div class="tete"><span class="etiquette">En live · Twitch</span>
+<h2>Ta fiche de régie</h2><p>À garder ouverte à côté d'OBS : quoi lancer, dans quel ordre, et quoi répondre au chat.</p></div>
+<div class="carte"><h3>Les vidéos à réagir</h3><div class="video"><a href="https://youtu.be/OZn2seUjjMI" target="_blank" rel="noopener">1. Les riches sont les premiers assistés de France</a><span class="meta">Blast · 11 min · les aides aux grandes entreprises</span></div><div class="video"><a href="https://youtu.be/TsInR4h2r0A" target="_blank" rel="noopener">2. Inflation : comprendre ce fléau qui assomme les Français</a><span class="meta">Blast · 14 min · le mécanisme</span><div class="minutes"><span>1:43 qui peut augmenter son prix ?</span><span>4:20 trop de marges</span><span>10:12 nationalisations</span><span>11:30 redistribuer le pouvoir</span></div></div><div class="video"><a href="https://youtu.be/RltmnbOhSJQ" target="_blank" rel="noopener">3. Un rapport explosif : « On a mis des salariés au chômage pour rendre des PDG très très riches »</a><span class="meta">Le Média · 24 min · le partage au sommet</span></div></div>
+<div class="carte"><h3>Le fil du live</h3><ol class="fil"><li>L&#x27;actu : le pouvoir d&#x27;achat, deuxième sujet de la présidentielle.</li><li>Raconte Michelin avec les chiffres : c&#x27;est le cœur du live.</li><li>Vidéo 1 : élargir à toutes les grandes entreprises. 211 milliards au sens large, 108 au sens strict.</li><li>Vidéo 2 de 1:43 à 6:31 : qui fixe les prix, qui les subit.</li><li>Les exonérations : pourquoi elles freinent les augmentations.</li><li>Vidéo 3 : dividendes et rémunérations des PDG, face aux 107 milliards du CAC 40.</li></ol></div>
+<div class="carte"><h3>Les objections du chat</h3><div class="objection"><q>Si on augmente les salaires, les PME vont couler.</q><p>Le débat porte d&#x27;abord sur les grands groupes, qui touchent l&#x27;essentiel des aides et versent les dividendes : 107,5 milliards rendus aux actionnaires du seul CAC 40 en 2025, un record.</p><p>Pour les petites entreprises, la question est plutôt qui capte la valeur : leurs donneurs d&#x27;ordre, leurs fournisseurs, leurs banques.</p></div><div class="objection"><q>Michelin a fermé à cause de la concurrence chinoise.</q><p>La concurrence existe, et le PDG l&#x27;a dit devant le Sénat. Mais l&#x27;année d&#x27;avant, le groupe fait 2 milliards de bénéfice, en reverse près de la moitié en dividendes et annonce jusqu&#x27;à 1 milliard de rachats d&#x27;actions sur trois ans.</p><p>Garder les usines était donc possible financièrement. C&#x27;est un choix de priorités, pas une fatalité.</p></div><div class="objection"><q>Les dividendes, c&#x27;est la récompense du risque.</q><p>À Cholet et Vannes, ce sont les 1 254 salarié·es qui ont perdu leur emploi : ce sont eux qui ont pris le risque.</p><p>Et une partie du risque des actionnaires est couverte par l&#x27;argent public : plus de 80 millions d&#x27;aides pour Michelin en France en 2023, déclarés sous serment devant le Sénat.</p></div><div class="objection"><q>211 milliards d&#x27;aides, c&#x27;est un chiffre gonflé.</q><p>C&#x27;est l&#x27;estimation au sens large de la commission du Sénat. Au sens strict, elle compte 108 milliards ; le Haut-commissariat au Plan arrive à 112 milliards.</p><p>Même le chiffre le plus bas reste énorme. Et le Sénat dénonce surtout qu&#x27;il n&#x27;existe aucun suivi global de ces aides.</p></div><div class="objection"><q>Les baisses de charges, ça crée des emplois.</q><p>C&#x27;est le pari depuis les années 1990. Mais ces exonérations, 75 milliards en 2023, sont les plus fortes au niveau du SMIC et diminuent quand le salaire monte.</p><p>Résultat : augmenter un salarié au-dessus du SMIC coûte plus cher à l&#x27;employeur. Le rapport Bozio-Wasmer de 2024 propose lui-même d&#x27;arrêter de les renforcer sur les bas salaires.</p></div></div>
+<div class="carte"><div class="barre"><h3>Commande chat à coller (!sources)</h3><button class="copier" type="button" data-copie="commande">Copier</button></div>
+<pre class="commande" id="commande">Chiffres du live : Michelin, 2 Md€ de bénéfice net en 2023 (Michelin) · 83,4 M€ d&#x27;aides en France en 2023 et 1 254 postes supprimés (Sénat, audition du 18/03/2025) · CAC 40 : 107,5 Md€ rendus aux actionnaires en 2025 (Vernimmen) · aides aux entreprises 211 Md€ au sens large (Sénat, juillet 2025)</pre></div></section>
+<section id="visuels" class="c-rouge"><div class="tete"><span class="etiquette">Visuels · 9:16 et carrousel 4:5</span>
+<h2>Prêts à mettre à l'écran</h2><p>Pour l'instant, fais une capture d'écran. La version finale les proposera en PNG.</p></div>
+<div class="visuels"><div class="visuel rouge" role="img" aria-label="107 milliards rendus aux actionnaires du CAC 40 en 2025"><span class="haut">Rendus aux actionnaires du CAC 40 en 2025</span><span class="gros chiffre">107<br>Md€</span><span class="src">Source : La Lettre Vernimmen</span></div><div class="visuel encre" role="img" aria-label="83 millions d&#x27;aides publiques et 1 254 postes supprimés"><span class="haut">Michelin en France</span><div class="vs"><div><span class="moyen chiffre">83,4 M€</span><div class="barre-v" style="width:100%"></div><span class="haut">d&#x27;aides publiques en 2023</span></div><div><span class="moyen chiffre">1 254</span><div class="barre-v" style="width:60%"></div><span class="haut">postes supprimés en 2024</span></div></div><span class="src">Source : Sénat, audition du 18 mars 2025</span></div><div class="visuel creme" role="img" aria-label="211 milliards d&#x27;aides publiques aux entreprises"><span class="haut">Aides publiques aux entreprises</span><div><span class="gros chiffre accent">211</span><p class="phrase">milliards en 2023, au sens large</p></div><span class="src">Source : commission d&#x27;enquête du Sénat, 2025</span></div></div>
+<div class="tete"><h3>Carrousel Instagram, prêt à poster</h3><p>Fais défiler. Mets les sources en légende (bouton « Copier pour la description » plus bas).</p></div>
+<div class="carrousel"><div class="slide"><span class="num">1/6</span><div><p class="titre">Pas d&#x27;argent pour les salaires ?</p></div><p class="texte">Regarde les comptes de Michelin.</p></div><div class="slide"><span class="num">2/6</span><div><p class="titre">2 milliards</p></div><p class="texte">de bénéfice net en 2023.</p></div><div class="slide"><span class="num">3/6</span><div><p class="titre">+ de 80 millions</p></div><p class="texte">d&#x27;argent public en France la même année.</p></div><div class="slide"><span class="num">4/6</span><div><p class="titre">Près de la moitié</p></div><p class="texte">du bénéfice reversée en dividendes.</p></div><div class="slide"><span class="num">5/6</span><div><p class="titre">1 254 postes</p></div><p class="texte">supprimés à Cholet et Vannes.</p></div><div class="slide"><span class="num">6/6</span><div><p class="titre">Pas d&#x27;argent pour qui ?</p></div><p class="texte">Sources en légende.</p></div></div></section>
+<section id="sources" class="c-gris"><div class="tete"><span class="etiquette">Ta garantie</span><h2>Sources</h2>
+<p>Chaque chiffre du kit renvoie ici. Si quelqu'un conteste, tu as la réponse.</p></div>
+<div class="carte"><div class="barre"><span class="duree">Vérifiées le 13 nov. 2026</span><button class="copier" type="button" data-copie="texte-sources" style="--c: var(--encre)">Copier pour la description</button></div>
+<div class="source" id="src-W1"><span class="num">W1</span><div><p>Michelin ferme Cholet (955 postes) et Vannes (299) : 1 254 postes supprimés.</p><span class="meta">Sénat, compte rendu de la commission d&#x27;enquête, 18 mars 2025 · <a href="https://www.senat.fr/compte-rendu-commissions/20250317/ce_aidespubliques.html" target="_blank" rel="noopener">voir</a></span></div></div><div class="source" id="src-W2"><span class="num">W2</span><div><p>Aides reçues par Michelin en France en 2023 : 40,4 M€ de crédit d&#x27;impôt recherche, 32,4 M€ d&#x27;allègements, 10,6 M€ de soutien à l&#x27;emploi (83,4 M€).</p><span class="meta">Sénat, même compte rendu</span></div></div><div class="source" id="src-W3"><span class="num">W3</span><div><p>Michelin 2023 : résultat net de 2,0 Md€ ; taux de distribution de 48,7 %.</p><span class="meta">Michelin, communiqué du 11 févr. 2024 · <a href="https://www.michelin.com/investisseurs/bourse/dividende-actions" target="_blank" rel="noopener">voir</a></span></div></div><div class="source" id="src-W4"><span class="num">W4</span><div><p>Programme de rachat d&#x27;actions jusqu&#x27;à 1 Md€ sur 2024-2026.</p><span class="meta">Sénat, même compte rendu</span></div></div><div class="source" id="src-W5"><span class="num">W5</span><div><p>CAC 40 en 2025 : 107,5 Md€ rendus aux actionnaires (72,8 de dividendes, 34,8 de rachats).</p><span class="meta">La Lettre Vernimmen, via BFM Bourse · <a href="https://www.tradingsat.com/cac-40-FR0003500008/actualites/cac-40-totalenergies-sanofi-bnp-paribas-axa-lvmh-voici-les-groupes-du-cac-40-qui-ont-le-plus-rendu-de-cash-a-leurs-actionnaires-en-2025-1154553.html" target="_blank" rel="noopener">voir</a></span></div></div><div class="source" id="src-W6"><span class="num">W6</span><div><p>Aides publiques aux entreprises : 211 Md€ en 2023 au sens large (108 au sens strict ; 111,9 selon le Haut-commissariat au Plan).</p><span class="meta">Public Sénat, juillet 2025 · <a href="https://www.publicsenat.fr/actualites/economie/211-milliards-deuros-daides-publiques-aux-entreprises-sur-quoi-repose-le-calcul-de-la-commission-denquete-du-senat" target="_blank" rel="noopener">voir</a></span></div></div><div class="source" id="src-W7"><span class="num">W7</span><div><p>Exonérations de cotisations patronales : 75 Md€ en 2023, les plus fortes au niveau du SMIC.</p><span class="meta">vie-publique.fr, rapport Bozio-Wasmer · <a href="https://www.vie-publique.fr/en-bref/295634-exonerations-de-cotisations-patronales-75-milliards-euros-en-2023" target="_blank" rel="noopener">voir</a></span></div></div><pre id="texte-sources" hidden>Sources (vérifiées le 13/11/2026) :
+- Michelin : bénéfice 2023 (Michelin) ; aides 2023 et 1 254 postes (Sénat, 18/03/2025)
+- CAC 40, 107,5 Md€ rendus aux actionnaires en 2025 : La Lettre Vernimmen
+- 211 Md€ d&#x27;aides aux entreprises (sens large) : commission d&#x27;enquête du Sénat (2025)
+- 75 Md€ d&#x27;exonérations de cotisations patronales : vie-publique.fr</pre></div></section>
+<footer><h3>Ce qu'on attend de toi</h3>
+<p>Rien, à part d'être exact·e. Tu n'as pas à reprendre nos mots ni à nous citer. Si tu donnes un chiffre, garde sa source.</p>
+<p>Si le sujet t&#x27;a plu, il y a d&#x27;autres kits : la dette, la Sécu, les lycées, la Palestine, la préférence nationale.</p>
+<p>Une question, un chiffre contesté en commentaire ? Réponds au message qui t'a envoyé ce kit, on te répond vite.</p>
+<p class="proto">Prototype · version 0.2</p></footer></div>
+<script>
+document.querySelectorAll('button.copier').forEach(function (btn) {
+  btn.addEventListener('click', function (ev) {
+    ev.preventDefault();
+    var cible = document.getElementById(btn.dataset.copie);
+    if (!cible) return;
+    var paras = cible.querySelectorAll('p');
+    var texte = paras.length ? Array.from(paras).map(function (p) { return p.textContent; }).join('\n\n') : cible.textContent;
+    var libelle = btn.textContent;
+    function fini(msg) { btn.textContent = msg; btn.classList.add('fait'); setTimeout(function () { btn.textContent = libelle; btn.classList.remove('fait'); }, 2000); }
+    function repli() {
+      var zone = document.createElement('textarea');
+      zone.value = texte; zone.setAttribute('readonly', ''); zone.style.position = 'fixed'; zone.style.opacity = '0';
+      document.body.appendChild(zone); zone.select();
+      var ok = false; try { ok = document.execCommand('copy'); } catch (e) {}
+      document.body.removeChild(zone);
+      fini(ok ? 'Copié' : 'Sélectionne le texte à la main');
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(texte).then(function () { fini('Copié'); }, repli);
+    } else { repli(); }
+  });
+});
+</script>
+<script>document.querySelectorAll('a[data-ouvre]').forEach(function(a){a.addEventListener('click',function(){var d=document.getElementById(a.dataset.ouvre);if(d)d.open=true;});});</script></body></html>

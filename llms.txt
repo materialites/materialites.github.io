@@ -1,0 +1,70 @@
+# Matérialités
+
+> Références (vidéos, podcasts, articles, livres) pour lire l'économie par ses matérialités : travail, propriété, rente, dette, extraction, rapports impériaux. Site francophone d'économie politique hétérodoxe, d'appui principalement marxiste. Chaque référence renvoie à l'original ; les présentations sont écrites par l'équipe du site.
+
+Pour recommander des contenus selon une question : repérer le ou les concepts proches ci-dessous, puis lire refs.json (champs concepts ; niveau : entree, intermediaire ou avance ; format ; duree_min). Les réfs « pour_commencer » de chaque concept et les étapes des parcours sont la sélection conseillée.
+
+## Données
+
+- [refs.json](refs.json) : les 4729 références, les 49 concepts avec leur présentation, et les parcours
+
+## Parcours de lecture
+
+- [Salaire, profit : qui produit la richesse ?](parcours/salaire-profit.html) : part de l'idée reçue « Le salaire rémunère ce que chacun apporte, et le profit récompense le risque pris par l'entrepreneur. »
+- [D'où vient l'argent ?](parcours/argent.html) : part de l'idée reçue « Les banques prêtent l'argent des épargnants, et l'État doit gérer son budget comme un ménage. »
+- [Le climat, une affaire de petits gestes ?](parcours/climat.html) : part de l'idée reçue « La crise climatique est la faute de tous, il faut changer nos comportements et faire confiance à la croissance verte. »
+- [Féminisme marxiste : le travail qu'on ne compte pas](parcours/feminisme.html) : part de l'idée reçue « Les inégalités entre femmes et hommes viennent de choix individuels et de préjugés qui reculent. »
+- [Pourquoi le logement coûte-t-il si cher ?](parcours/logement.html) : part de l'idée reçue « Les loyers sont trop chers parce qu'on ne construit pas assez : il suffit de libérer l'offre et d'aider les ménages à devenir propriétaires. »
+- [L'IA, un cas d'école](parcours/ia.html) : part de l'idée reçue « L'IA est une révolution technique qui va profiter à tous ; il suffit de bien la réguler. »
+
+## Concepts
+
+- [Néolibéralisme](concepts/neoliberalisme.html) : Pas un retrait de l'État, mais un État qui fabrique et impose la concurrence.
+- [Austérité et dette publique](concepts/austerite-dette-publique.html) : La dette publique sert moins à « vivre au-dessus de nos moyens » qu'à discipliner les dépenses sociales.
+- [Privatisations et services publics](concepts/privatisations-services-publics.html) : Ce qui était un droit devient un marché : qui y gagne quand on privatise ?
+- [Flexibilisation du travail](concepts/flexibilisation-travail.html) : Rendre le travail « flexible », c'est déplacer le risque de l'employeur vers le salarié.
+- [Protection sociale et retraites](concepts/protection-sociale.html) : Retraites, chômage, santé : une part du salaire mise en commun, que l'on présente comme un coût.
+- [Fiscalité et inégalités](concepts/fiscalite-inegalites.html) : L'impôt dit beaucoup de qui paie pour qui, et de ce que le « ruissellement » ne fait pas.
+- [Libre-échange et mondialisation](concepts/libre-echange-mondialisation.html) : Le libre-échange met les travailleurs en concurrence bien plus que les produits.
+- [Gouvernance économique européenne](concepts/gouvernance-europeenne.html) : Des règles budgétaires et monétaires qui placent une politique économique hors du vote.
+- [École et université](concepts/ecole-universite.html) : L'école et l'université, de plus en plus pensées comme un marché du capital humain.
+- [Libéralisme autoritaire et fascisation](concepts/autoritarisme-fascisation.html) : Quand le marché ne convainc plus, il s'impose : néolibéralisme et dérive autoritaire.
+- [Périphérie européenne](concepts/peripherie-europeenne.html) : Grèce, Portugal, Europe de l'Est : le centre et la périphérie à l'intérieur de l'Europe.
+- [Industrie et désindustrialisation](concepts/industrie-desindustrialisation.html) : La désindustrialisation n'est pas une fatalité technique, c'est une suite de choix de capital.
+- [Valeur et exploitation](concepts/valeur-exploitation.html) : D'où vient le profit ? Du travail qui n'est pas payé, répond la théorie de la valeur.
+- [Inflation par les profits](concepts/profits-inflation.html) : L'inflation récente a d'abord gonflé les marges des entreprises, pas les salaires.
+- [Rente et logement](concepts/rente-logement.html) : Le logement cher, c'est la rente : un revenu tiré de la propriété, pas du travail.
+- [Accumulation et crises du capitalisme](concepts/accumulation-crises.html) : Le capitalisme doit croître pour exister, et ses crises viennent de cette course même.
+- [Concentration et monopoles](concepts/concentration-monopoles.html) : La concurrence produit des géants : Big Tech, agro-industrie, pharmacie.
+- [Luttes de classes](concepts/luttes-de-classes.html) : Les classes n'ont pas disparu : grèves, rapports de force et conflits pour le partage.
+- [Travail : conditions, santé, temps de travail](concepts/travail-conditions.html) : Ce que le travail fait aux corps et au temps : santé, cadences, durée.
+- [Histoire du capitalisme](concepts/histoire-capitalisme.html) : Enclosures, esclavage, colonies, usines : comment le capitalisme est devenu le monde.
+- [Monnaie endogène](concepts/monnaie-endogene.html) : Les banques ne prêtent pas l'épargne : elles créent la monnaie en accordant des crédits.
+- [Théorie moderne de la monnaie (MMT)](concepts/mmt-chartalisme.html) : Un État qui émet sa monnaie ne peut pas faire faillite comme un ménage.
+- [Demande effective et chômage](concepts/demande-effective-chomage.html) : Le chômage vient du manque de débouchés, pas de chômeurs qui refusent de travailler.
+- [Banques centrales et politique monétaire](concepts/banque-centrale.html) : L'indépendance des banques centrales : une politique bien réelle, hors du débat démocratique.
+- [Climat](concepts/climat.html) : Le climat change au rythme de l'accumulation du capital, pas seulement des gestes individuels.
+- [Eau](concepts/eau.html) : L'eau, bien commun ou marchandise : mégabassines, privatisation, conflits d'usage.
+- [Pollutions et santé](concepts/pollutions-sante.html) : Les pollutions tombent sur les mêmes : ouvriers, quartiers populaires, pays du Sud.
+- [Biodiversité, terres et agriculture](concepts/biodiversite-terres.html) : Les terres et le vivant pris dans l'agro-industrie et la spéculation foncière.
+- [Énergie](concepts/energie.html) : Le prix et la production de l'énergie : marché européen, nucléaire, fossiles, sobriété.
+- [Extractivisme](concepts/extractivisme.html) : Mines, pétrole, métaux de la transition : la nature et le Sud comme réservoirs.
+- [Animaux et antispécisme](concepts/animaux-antispecisme.html) : L'élevage industriel et la question animale lus à travers le capital.
+- [Théorie de la dépendance](concepts/dependance.html) : Le Sud n'est pas « en retard » : il est intégré au marché mondial en position dominée.
+- [Dettes africaines](concepts/dettes-africaines.html) : Les dettes africaines comme instrument de contrôle, bien plus que comme aide.
+- [Franc CFA](concepts/franc-cfa.html) : Une monnaie créée par la France en 1945, toujours arrimée à l'euro et garantie par Paris.
+- [Économie de guerre et militarisme](concepts/economie-de-guerre.html) : Réarmement, industrie militaire et budgets : à qui profite l'économie de guerre ?
+- [Palestine, sionisme et capitalisme](concepts/palestine.html) : La colonisation de la Palestine, ses intérêts économiques et ceux qui en profitent.
+- [Travail reproductif](concepts/travail-reproductif.html) : Faire à manger, soigner, élever : le travail gratuit sans lequel aucune économie ne tourne.
+- [Inégalités de genre au travail](concepts/patriarcat-salaires.html) : Écarts de salaires, temps partiel, métiers féminisés : le genre structure le travail.
+- [État racial intégral](concepts/etat-racial-integral.html) : Comment l'État et le marché du travail organisent une hiérarchie raciale.
+- [Instabilité financière](concepts/instabilite-financiere.html) : La finance fabrique ses propres crises, et l'État paie la note.
+- [Bulle de l'IA](concepts/bulle-ia.html) : Des milliards investis dans l'IA : promesse de productivité ou nouvelle bulle ?
+- [Cryptomonnaies](concepts/cryptomonnaies.html) : Les cryptomonnaies, entre spéculation, idéologie libertarienne et monnaie privée.
+- [Santé publique, médicaments et pandémies](concepts/sante-publique.html) : Médicaments, hôpital, pandémies : la santé prise entre service public et profit.
+- [Handicap et validisme](concepts/handicap-validisme.html) : Le handicap comme rapport social : travail, revenus, institutions.
+- [Salaire à vie et Sécurité sociale étendue](concepts/salaire-a-vie-securite-sociale.html) : Étendre la Sécurité sociale à tout : le salaire attaché à la personne, pas à l'emploi.
+- [Communs, coopératives et autogestion](concepts/communs-cooperatives.html) : Produire sans patron : coopératives, communs, autogestion.
+- [Planification démocratique et socialisme](concepts/planification-socialisme.html) : Décider ensemble de ce que l'on produit : la planification démocratique.
+- [Prix de l'essence et contrôle des prix](concepts/prix-essence.html) : Quand l'essence flambe : marges des pétroliers, taxes et contrôle des prix.
+- [Planification écologique vs néolibéralisme](concepts/planification-ecologique.html) : La transition ne se fera pas par le marché : qui planifie, et pour qui ?

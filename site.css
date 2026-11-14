@@ -1,0 +1,136 @@
+/* Nos composants, dans l'esprit de Dopetrope (assets/css/main.css) : blocs blancs, coins arrondis, une couleur par famille. */
+:root { --accent: #d52349; --encre: #252122; --doux: #6b6b6b; --trait: #e0e0e0; }
+
+/* bandeau sans image : un aplat clair et deux formes de couleur, discrètes */
+#banner { background: #f3ede4; overflow: hidden; }
+#banner::before, #banner::after { content: ""; position: absolute; border-radius: 50%; opacity: .55; }
+#banner::before { width: 420px; height: 420px; left: -120px; top: -160px; background: #f6c6b8; }
+#banner::after { width: 360px; height: 360px; right: -90px; bottom: -170px; background: #bcd3ee; }
+#banner header { position: relative; z-index: 1; max-width: 46em; }
+#banner header p { color: #f3b4c2; }
+
+/* menu visible sur mobile (le thème le remplace par un panneau en JavaScript, qu'on n'utilise pas) */
+@media screen and (max-width: 980px) {
+  #nav { display: block !important; margin-top: 1.5em; }
+  #nav > ul > li { display: inline-block; margin: .2em; }
+  #nav > ul > li > a { padding: .4em .8em; }
+  #banner header { padding: 2em 1.5em; }
+}
+
+.surtitre { text-transform: uppercase; letter-spacing: .12em; font-size: .78em; font-weight: 700; color: var(--f, var(--accent)); margin: 0 0 .4em !important; }
+.compte { color: var(--doux); font-weight: 400; }
+.box.post > header h2 { margin-bottom: .3em; }
+.fiche { font-size: 1.1em; border-left: 4px solid var(--f); padding-left: 1em; }
+.fiche-vide { color: var(--doux); font-style: italic; }
+.titre-auto { color: var(--doux); }
+
+/* idées reçues */
+a.box.on-dit { display: block; text-decoration: none; color: inherit; border-top: 5px solid var(--f); min-height: 15em; transition: transform .15s, box-shadow .15s; }
+a.box.on-dit:hover { transform: translateY(-3px); box-shadow: 0 6px 16px rgba(0,0,0,.12); }
+.on-dit-phrase { font-weight: 700; font-size: 1.3em; line-height: 1.3; color: var(--encre); margin-bottom: .6em !important; }
+.on-dit-reponse { color: var(--doux); }
+
+/* carte */
+.carte-intro { max-width: 50em; }
+.carte-zone { display: grid; grid-template-columns: minmax(0, 2fr) minmax(260px, 1fr); gap: 1.5em; align-items: start; }
+#carte-svg { width: 100%; height: auto; background: #fafafa; border: 1px solid var(--trait); border-radius: 6px; }
+#carte-svg .lien { stroke: #d8d8d8; stroke-width: 1.2; }
+#carte-svg .lien.faible { opacity: 0; }
+#carte-svg .lien.voisin { stroke: var(--encre); stroke-width: 2; opacity: 1; }
+#carte-svg .noeud { cursor: pointer; }
+#carte-svg .noeud circle { stroke: #fff; stroke-width: 2; }
+#carte-svg .noeud text { font: 600 15px "Source Sans Pro", sans-serif; fill: var(--encre); paint-order: stroke; stroke: #fafafa; stroke-width: 4px; pointer-events: none; }
+#carte-svg .noeud:hover circle, #carte-svg .noeud:focus circle, #carte-svg .noeud.choisi circle { stroke: var(--encre); stroke-width: 3; }
+#carte-svg .noeud:focus { outline: none; }
+#carte-svg.choix .noeud.eteint { opacity: .25; }
+#carte-svg.choix .lien:not(.voisin) { opacity: .2; }
+#carte-panneau { border-left: 1px solid var(--trait); padding-left: 1.5em; min-height: 18em; }
+.panneau-aide { color: var(--doux); font-style: italic; }
+.panneau-concept { border-left: 4px solid var(--f); padding-left: .8em; margin-bottom: 1em; }
+.panneau-concept h3 { margin: 0; }
+.panneau-concept p { margin: .2em 0 !important; }
+.panneau-q { font-weight: 700; font-size: 1.25em; line-height: 1.3; color: var(--encre); }
+.panneau-q-auto { font-weight: 400; color: var(--doux); }
+.panneau-refs .ref { margin-bottom: .6em; }
+.lien-bouton { background: none; border: 0; padding: 0; color: var(--accent); text-decoration: underline; cursor: pointer; font: inherit; }
+.legende { display: flex; flex-wrap: wrap; gap: .3em 1.2em; margin-top: 1em; font-size: .9em; }
+.legende span::before { content: ""; display: inline-block; width: .8em; height: .8em; border-radius: 50%; background: var(--f); margin-right: .4em; vertical-align: -1px; }
+
+/* parcours */
+.box.parcours { position: relative; min-height: 12em; }
+.bientot { position: absolute; top: 1em; right: 1em; font-size: .75em; font-weight: 700; text-transform: uppercase; letter-spacing: .1em;
+  background: #f3ede4; color: var(--doux); padding: .1em .6em; border-radius: 4px; }
+
+/* familles et pastilles */
+.box.famille { border-top: 5px solid var(--f); }
+.pastilles { display: flex; flex-wrap: wrap; gap: .4em; align-items: center; }
+.pastille { display: inline-block; padding: .15em .75em; border-radius: 999px; background: #f4f4f4; border-left: 4px solid var(--f);
+  color: var(--encre) !important; text-decoration: none !important; font-size: .92em; line-height: 1.7; }
+.pastille:hover { background: var(--f); color: #fff !important; }
+.croix { font-weight: 900; color: var(--doux); }
+.themes-pied a { border-left: 4px solid var(--f); padding-left: .6em; }
+
+/* croisements (barre latérale) */
+.croisements a { display: block; text-decoration: none; color: inherit; }
+.croisement-q { display: block; font-weight: 700; color: var(--encre); line-height: 1.3; }
+.croisement-avec { display: block; font-size: .88em; color: var(--doux); border-left: 3px solid var(--g); padding-left: .5em; margin-top: .3em; }
+.croisements a:hover .croisement-q { color: var(--accent); }
+
+/* filtres */
+.filtres { display: flex; flex-wrap: wrap; gap: .4em; margin: 0 0 1.2em; }
+.filtres button { font: inherit; font-size: .9em; padding: .25em .9em; border-radius: 999px; border: 1px solid #ccc; background: #fff; color: var(--encre); cursor: pointer; }
+.filtres button.actif { background: var(--encre); border-color: var(--encre); color: #fff; }
+
+/* cartes de références */
+.grille-refs { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1em; margin-bottom: 2em; }
+.ref { display: flex; flex-direction: column; background: #fff; border: 1px solid var(--trait); border-radius: 6px; overflow: hidden;
+  text-decoration: none !important; color: inherit !important; transition: transform .15s, box-shadow .15s; }
+.ref:hover { transform: translateY(-2px); box-shadow: 0 6px 14px rgba(0,0,0,.1); }
+.ref[hidden] { display: none; }
+.ref-visuel { aspect-ratio: 16 / 9; display: block; background: #f3ede4; }
+.ref-visuel img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.format-motif { display: flex; align-items: center; justify-content: center; height: 100%; color: var(--doux); font-weight: 700;
+  text-transform: uppercase; letter-spacing: .12em; font-size: .85em; border-bottom: 3px solid var(--f, var(--accent)); }
+.ref-texte { display: flex; flex-direction: column; gap: .25em; padding: .7em .9em .9em; line-height: 1.35; }
+.ref-format { font-size: .72em; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--doux); }
+.ref-titre { font-weight: 700; color: var(--encre); }
+.ref-pourquoi { font-size: .92em; }
+.ref-meta { font-size: .82em; color: var(--doux); }
+.panneau-refs .ref { flex-direction: row; }
+.panneau-refs .ref-visuel { width: 100px; flex: none; aspect-ratio: auto; }
+
+@media screen and (max-width: 980px) {
+  .carte-zone { grid-template-columns: 1fr; }
+  #carte-panneau { border-left: 0; padding-left: 0; min-height: 0; }
+  #carte-svg .noeud text { font-size: 18px; }
+}
+
+/* textures du thème absentes de l'archive : fonds unis */
+body, #main, #main .major h2 { background-image: none !important; }
+#main:before, #footer:before { display: none; }
+
+/* lisibilité : texte un peu plus grand et plus foncé que le thème d'origine */
+body, input, textarea, select { color: #3d3d3d; font-size: 17px; }
+.fiche { color: #2f2f2f; line-height: 1.7; }
+
+/* les trois portes d'entrée de l'accueil sont cliquables en entier */
+#intro a.entree { display: block; text-decoration: none; color: inherit; border-radius: 6px; transition: transform .15s; }
+#intro a.entree:hover { transform: translateY(-4px); }
+#intro a.entree:hover h2 { color: #d52349; }
+
+/* filtres : le thème force le texte des boutons en blanc ; on reprend la main */
+.filtres button { color: var(--encre) !important; background: #fff !important; box-shadow: none !important; height: auto !important;
+  line-height: 1.5 !important; font-weight: 400 !important; text-transform: none !important; transition: none !important; }
+.filtres button:hover { border-color: var(--encre); }
+.filtres button.actif { color: #fff !important; background: var(--encre) !important; }
+
+/* pages parcours */
+a.box.parcours { display: block; text-decoration: none; color: inherit; border-top: 5px solid var(--accent); }
+a.box.parcours:hover h3 { color: #d52349; }
+.parcours-page .etape { border-left: 3px solid #eee; padding-left: 1.2em; margin: 2.5em 0; }
+.parcours-page .etape p { line-height: 1.7; }
+.methode { background: #f7f3ec; padding: 1em; border-left-color: var(--accent) !important; }
+
+/* lien vers le formulaire d'avis dans le menu du haut */
+#nav li.menu-avis a { border: 2px solid #d52349; border-radius: 6px; color: #d52349; }
+#nav li.menu-avis a:hover { background: #d52349; color: #fff; }
