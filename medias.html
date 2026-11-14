@@ -1,0 +1,259 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style><title>Matérialités pour les créateur·ices</title><meta name="robots" content="noindex"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;800;900&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap"><style>
+/* Mise en page : une colonne pour le téléphone. Quatre temps de couleur : comprendre (bleu), se préparer (ocre), créer (rouge), streamer (prune). Les formes du bandeau du site reviennent dans l'en-tête. */
+:root {
+  --fond: #f6f1ea;
+  --carte: #ffffff;
+  --encre: #252122;
+  --doux: #675f5c;
+  --trait: #e6ddd2;
+  --rouge: #d52349;  --rouge-doux: #fde4e9;
+  --bleu: #2c5f93;   --bleu-doux: #e1ecf8;
+  --ocre: #a8650b;   --ocre-doux: #fbedd6;
+  --prune: #6d3f8f;  --prune-doux: #efe4f6;
+  --rond-rose: #f6c6b8; --rond-bleu: #bcd3ee;
+  --f-titre: "Archivo", "Arial Narrow", system-ui, sans-serif;
+  --f-texte: "Source Sans 3", "Source Sans Pro", system-ui, sans-serif;
+  --f-chiffre: "IBM Plex Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --fond: #1a1617; --carte: #252021; --encre: #f3ede7; --doux: #b8aeaa; --trait: #3a3233;
+    --rouge: #ff5d7c; --rouge-doux: #43202a; --bleu: #8fbbeb; --bleu-doux: #1d2a39;
+    --ocre: #f0b25a; --ocre-doux: #3a2a14; --prune: #c9a2ea; --prune-doux: #2f2338;
+    --rond-rose: #5a2c33; --rond-bleu: #233a55; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --fond: #1a1617; --carte: #252021; --encre: #f3ede7; --doux: #b8aeaa; --trait: #3a3233;
+  --rouge: #ff5d7c; --rouge-doux: #43202a; --bleu: #8fbbeb; --bleu-doux: #1d2a39;
+  --ocre: #f0b25a; --ocre-doux: #3a2a14; --prune: #c9a2ea; --prune-doux: #2f2338;
+  --rond-rose: #5a2c33; --rond-bleu: #233a55; color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 4.2rem; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
+body {
+  background: var(--fond); color: var(--encre);
+  font: 400 1.0625rem/1.55 var(--f-texte);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 0 3rem;
+}
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--fond); }
+.page { max-width: 46rem; margin: 0 auto; display: grid; gap: 3.2rem; }
+a { color: var(--rouge); }
+h1, h2, h3 { font-family: var(--f-titre); text-wrap: balance; margin: 0; line-height: 1.08; }
+h2 { font-size: clamp(1.7rem, 6vw, 2.3rem); font-weight: 900; letter-spacing: -.01em; }
+h3 { font-size: 1.12rem; font-weight: 800; }
+p { margin: 0; }
+.chiffre { font-family: var(--f-chiffre); font-variant-numeric: tabular-nums; }
+.etiquette { display: inline-block; font: 700 .74rem/1 var(--f-texte); text-transform: uppercase; letter-spacing: .13em; padding: .38rem .6rem; border-radius: 999px; background: var(--c-doux); color: var(--c); justify-self: start; }
+.src-tag { font: 600 .72rem var(--f-chiffre); color: var(--doux); border: 1px solid var(--trait); border-radius: 5px; padding: 0 .3rem; white-space: nowrap; text-decoration: none; }
+a.src-tag:hover { color: var(--rouge); border-color: var(--rouge); }
+
+/* ---------- en-tête ---------- */
+.hero { position: relative; overflow: hidden; margin-inline: calc(-1 * max(16px, env(safe-area-inset-left, 0px))); padding: 2rem max(16px, env(safe-area-inset-left, 0px)) 2.2rem; }
+.hero::before, .hero::after { content: ""; position: absolute; border-radius: 50%; z-index: 0; }
+.hero::before { width: 22rem; height: 22rem; left: -8rem; top: -11rem; background: var(--rond-rose); opacity: .7; }
+.hero::after { width: 18rem; height: 18rem; right: -6rem; bottom: -9rem; background: var(--rond-bleu); opacity: .7; }
+.hero > * { position: relative; z-index: 1; }
+.hero-in { max-width: 46rem; margin: 0 auto; display: grid; gap: 1.1rem; }
+.marque { display: flex; justify-content: space-between; gap: .8rem; flex-wrap: wrap; font: 800 .82rem var(--f-titre); letter-spacing: .08em; text-transform: uppercase; }
+.marque span { color: var(--doux); font-weight: 600; letter-spacing: .04em; }
+.gros-chiffre { font: 900 clamp(4.6rem, 24vw, 8.5rem)/.85 var(--f-titre); color: var(--rouge); letter-spacing: -.04em; }
+.gros-chiffre small { font-size: .32em; letter-spacing: 0; color: var(--encre); margin-left: .15em; }
+.hero h1 { font-size: clamp(1.6rem, 6.4vw, 2.5rem); font-weight: 900; }
+.hero .accroche { font-size: 1.15rem; max-width: 36rem; }
+.pastilles { display: flex; flex-wrap: wrap; gap: .5rem; }
+.pastilles span { background: var(--carte); border: 1px solid var(--trait); border-radius: 999px; padding: .35rem .8rem; font-weight: 600; font-size: .92rem; }
+.actu { background: var(--carte); border-left: 4px solid var(--bleu); border-radius: 0 10px 10px 0; padding: .7rem .9rem; font-size: .95rem; }
+.actu b { color: var(--bleu); }
+
+/* ---------- navigation ---------- */
+nav.onglets { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--fond); margin-inline: calc(-1 * max(16px, env(safe-area-inset-left, 0px))); padding: .55rem max(16px, env(safe-area-inset-left, 0px)); border-bottom: 1px solid var(--trait); overflow-x: auto; margin-top: -2.4rem; }
+nav.onglets ul { list-style: none; margin: 0 auto; padding: 0; display: flex; gap: .4rem; max-width: 46rem; }
+nav.onglets a { display: flex; align-items: center; gap: .4rem; white-space: nowrap; text-decoration: none; color: var(--encre); font: 700 .93rem var(--f-texte); padding: .38rem .85rem; border-radius: 999px; background: var(--carte); border: 1px solid var(--trait); }
+nav.onglets a::before { content: ""; width: .55rem; height: .55rem; border-radius: 50%; background: var(--c); }
+nav.onglets a:hover, nav.onglets a:focus-visible { border-color: var(--c); outline: none; }
+
+/* ---------- sections ---------- */
+section { display: grid; gap: 1.1rem; }
+.c-bleu { --c: var(--bleu); --c-doux: var(--bleu-doux); }
+.c-ocre { --c: var(--ocre); --c-doux: var(--ocre-doux); }
+.c-rouge { --c: var(--rouge); --c-doux: var(--rouge-doux); }
+.c-prune { --c: var(--prune); --c-doux: var(--prune-doux); }
+.c-gris { --c: var(--doux); --c-doux: var(--trait); }
+.tete { display: grid; gap: .55rem; }
+.tete p { color: var(--doux); font-size: 1.05rem; max-width: 38rem; }
+.carte { background: var(--carte); border: 1px solid var(--trait); border-radius: 16px; padding: 1.15rem 1.2rem; display: grid; gap: .9rem; min-width: 0; }
+
+/* comprendre */
+.schema { background: var(--bleu-doux); border-radius: 16px; padding: .8rem; overflow-x: auto; }
+.schema svg { display: block; width: 100%; min-width: 34rem; height: auto; }
+.schema .boite { fill: var(--carte); stroke: var(--bleu); stroke-width: 2; }
+.schema .boite-r { fill: var(--rouge-doux); stroke: var(--rouge); stroke-width: 2; }
+.schema .t1 { font: 800 15px "Archivo", sans-serif; fill: var(--encre); }
+.schema .t2 { font: 400 12.5px "Source Sans 3", sans-serif; fill: var(--doux); }
+.schema .tf { font: 700 12.5px "IBM Plex Mono", monospace; fill: var(--bleu); }
+.schema .tf-r { font: 700 12.5px "IBM Plex Mono", monospace; fill: var(--rouge); }
+.schema .fleche { stroke: var(--bleu); stroke-width: 2.5; fill: none; }
+.schema .fleche-r { stroke: var(--rouge); stroke-width: 2.5; fill: none; stroke-dasharray: 6 5; }
+.schema .pointe { fill: var(--bleu); }
+.schema .pointe-r { fill: var(--rouge); }
+.flux { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1.2fr); align-items: stretch; gap: .5rem; }
+.flux .etape { background: var(--bleu-doux); border-radius: 14px; padding: .9rem 1rem; display: grid; gap: .25rem; align-content: start; font-size: .97rem; }
+.flux .etape.fort { background: var(--rouge-doux); }
+.flux .qui-f { font: 900 1.35rem/1.05 var(--f-titre); }
+.flux .etape.fort .qui-f { color: var(--rouge); }
+.flux .vers { align-self: center; font: 900 1.6rem var(--f-titre); color: var(--bleu); }
+@media (max-width: 36rem) { .flux { grid-template-columns: minmax(0, 1fr); } .flux .vers { transform: rotate(90deg); justify-self: center; line-height: 1; } }
+.cinq { list-style: none; margin: 0; padding: 0; display: grid; gap: .7rem; counter-reset: q; }
+.cinq li { background: var(--carte); border: 1px solid var(--trait); border-radius: 14px; padding: 1rem 1.1rem; display: grid; gap: .35rem; counter-increment: q; }
+.cinq h3::before { content: counter(q) ". "; color: var(--bleu); }
+
+/* se préparer */
+.parcours { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; }
+.parcours li { display: grid; grid-template-columns: 4.2rem minmax(0, 1fr); gap: .9rem; position: relative; padding-bottom: 1.1rem; }
+.parcours li::before { content: ""; position: absolute; left: 2.05rem; top: 2.4rem; bottom: 0; width: 2px; background: var(--ocre-doux); }
+.parcours li:last-child::before { display: none; }
+.duree-rond { width: 4.2rem; height: 4.2rem; border-radius: 50%; background: var(--ocre-doux); color: var(--ocre); display: grid; place-items: center; text-align: center; font: 700 .85rem/1.05 var(--f-chiffre); }
+.parcours .carte { gap: .45rem; }
+.parcours .type { font: 700 .74rem var(--f-texte); text-transform: uppercase; letter-spacing: .12em; color: var(--ocre); }
+.parcours a.titre { font: 800 1.08rem/1.25 var(--f-titre); color: var(--encre); text-decoration: none; }
+.parcours a.titre:hover { color: var(--ocre); text-decoration: underline; }
+.parcours .retiens { font-size: .95rem; background: var(--fond); border-radius: 10px; padding: .55rem .75rem; }
+.quiz { display: grid; gap: .6rem; }
+.quiz details { background: var(--carte); border: 1px solid var(--trait); border-radius: 12px; padding: .8rem 1rem; }
+.quiz summary { cursor: pointer; font-weight: 700; list-style: none; display: flex; justify-content: space-between; gap: 1rem; }
+.quiz summary::-webkit-details-marker { display: none; }
+.quiz summary::after { content: "Voir la réponse"; font: 600 .78rem var(--f-texte); color: var(--ocre); white-space: nowrap; }
+.quiz details[open] summary::after { content: "Masquer"; }
+.quiz details p { margin-top: .6rem; color: var(--doux); }
+summary:focus-visible { outline: 2px solid var(--c, var(--rouge)); outline-offset: 3px; border-radius: 4px; }
+
+/* créer */
+.angles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .8rem; }
+@media (max-width: 34rem) { .angles { grid-template-columns: minmax(0, 1fr); } }
+.angle { background: var(--carte); border: 1px solid var(--trait); border-top: 6px solid var(--rouge); border-radius: 14px; padding: 1rem 1.05rem; display: grid; gap: .55rem; align-content: start; }
+.angle .hook { font: 900 1.3rem/1.15 var(--f-titre); }
+.angle .ton { font-size: .85rem; color: var(--rouge); font-weight: 700; }
+.angle p { font-size: .97rem; }
+.pieges { display: grid; gap: .6rem; }
+.piege { display: grid; grid-template-columns: 1.8rem minmax(0, 1fr); gap: .6rem; align-items: start; }
+.piege .x { width: 1.8rem; height: 1.8rem; border-radius: 50%; background: var(--rouge-doux); color: var(--rouge); display: grid; place-items: center; font: 900 1rem var(--f-titre); }
+.piege b { display: block; }
+.exemple summary { cursor: pointer; font: 800 1.05rem var(--f-titre); color: var(--rouge); }
+.exemple[open] summary { margin-bottom: .8rem; }
+.script { border-left: 3px solid var(--rouge-doux); padding-left: .9rem; display: grid; gap: .6rem; }
+.barre { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; justify-content: space-between; }
+.duree { font: 600 .85rem var(--f-chiffre); color: var(--doux); }
+button.copier { font: 700 .92rem var(--f-texte); border: 0; border-radius: 999px; padding: .5rem 1rem; background: var(--c, var(--rouge)); color: var(--carte); cursor: pointer; }
+button.copier:focus-visible { outline: 3px solid var(--encre); outline-offset: 2px; }
+button.copier.fait { background: var(--encre); }
+
+/* visuels */
+.visuels { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .8rem; }
+@media (max-width: 40rem) { .visuels { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.visuel { aspect-ratio: 9 / 16; max-width: 100%; border-radius: 14px; padding: 9% 8%; display: flex; flex-direction: column; justify-content: space-between; overflow: hidden; container-type: inline-size; position: relative; }
+.visuel.rouge { background: #d52349; color: #fff; }
+.visuel.encre { background: #252122; color: #f6f1ea; }
+.visuel.creme { background: #f6f1ea; color: #252122; border: 1px solid #e6ddd2; }
+.visuel.rouge::after { content: ""; position: absolute; width: 80cqi; height: 80cqi; right: -30cqi; top: -30cqi; border-radius: 50%; background: #f6c6b8; opacity: .35; }
+.visuel.creme::after { content: ""; position: absolute; width: 70cqi; height: 70cqi; left: -25cqi; bottom: -25cqi; border-radius: 50%; background: #bcd3ee; opacity: .7; }
+.visuel > * { position: relative; z-index: 1; }
+.visuel .haut { font: 800 6.4cqi/1.15 "Archivo", sans-serif; text-transform: uppercase; letter-spacing: .06em; }
+.visuel .gros { font: 900 30cqi/.9 "Archivo", sans-serif; letter-spacing: -.03em; }
+.visuel .moyen { font: 900 14cqi/1 "Archivo", sans-serif; }
+.visuel .phrase { font: 800 8.5cqi/1.15 "Archivo", sans-serif; }
+.visuel .src { font: 500 4.6cqi/1.3 "IBM Plex Mono", monospace; opacity: .85; }
+.visuel .vs { display: grid; gap: 6cqi; }
+.visuel .barre-v { height: 4cqi; background: currentColor; border-radius: 2cqi; margin-block: 2cqi; }
+.visuel .accent { color: #d52349; }
+
+/* stream */
+.video { display: grid; gap: .25rem; padding-bottom: .8rem; border-bottom: 1px solid var(--trait); }
+.video:last-child { border-bottom: 0; padding-bottom: 0; }
+.video a { font-weight: 800; font-family: var(--f-titre); text-decoration: none; color: var(--encre); }
+.video a:hover { color: var(--prune); text-decoration: underline; }
+.meta { font-size: .88rem; color: var(--doux); }
+.minutes { display: flex; flex-wrap: wrap; gap: .35rem; margin-top: .2rem; }
+.minutes span { font: 500 .8rem var(--f-chiffre); background: var(--prune-doux); color: var(--prune); border-radius: 6px; padding: .12rem .45rem; }
+ol.fil { margin: 0; padding-left: 1.3rem; display: grid; gap: .45rem; }
+ol.fil li::marker { color: var(--prune); font-weight: 800; }
+.objection { display: grid; gap: .25rem; padding-bottom: .8rem; border-bottom: 1px solid var(--trait); }
+.objection:last-child { border-bottom: 0; padding-bottom: 0; }
+.objection q { font-weight: 800; quotes: "« " " »"; }
+.commande { font: 500 .9rem/1.45 var(--f-chiffre); background: var(--prune-doux); border-radius: 10px; padding: .7rem .85rem; white-space: pre-wrap; word-break: break-word; margin: 0; }
+
+/* sources */
+.source { display: grid; grid-template-columns: 2.4rem minmax(0, 1fr); gap: .6rem; padding-block: .6rem; border-bottom: 1px solid var(--trait); }
+.source:last-of-type { border-bottom: 0; }
+.source .num { font: 600 .82rem/1.7 var(--f-chiffre); color: var(--rouge); }
+.source p { font-size: .97rem; }
+
+footer { display: grid; gap: .6rem; background: var(--carte); border: 1px solid var(--trait); border-radius: 16px; padding: 1.2rem; }
+footer h3 { font-size: 1.2rem; }
+footer p { color: var(--doux); }
+.proto { font: 600 .8rem var(--f-chiffre); color: var(--bleu); }
+
+.carrousel { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(13rem, 1fr); gap: .8rem; overflow-x: auto; padding-bottom: .4rem; scroll-snap-type: x mandatory; }
+.slide { aspect-ratio: 4 / 5; border-radius: 14px; padding: 9% 8%; display: flex; flex-direction: column; justify-content: space-between; container-type: inline-size; scroll-snap-align: start; position: relative; overflow: hidden; }
+.slide:nth-child(3n+1) { background: #d52349; color: #fff; }
+.slide:nth-child(3n+2) { background: #f6f1ea; color: #252122; border: 1px solid #e6ddd2; }
+.slide:nth-child(3n) { background: #252122; color: #f6f1ea; }
+.slide .num { font: 600 5cqi "IBM Plex Mono", monospace; opacity: .7; }
+.slide .titre { font: 900 11cqi/1.02 "Archivo", sans-serif; letter-spacing: -.01em; }
+.slide .texte { font: 600 6.2cqi/1.3 "Source Sans 3", sans-serif; }
+.slide .src { font: 500 4.2cqi/1.3 "IBM Plex Mono", monospace; opacity: .8; }
+.variante { font: 700 .74rem var(--f-texte); text-transform: uppercase; letter-spacing: .1em; color: var(--rouge); }
+.variantes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .8rem; }
+@media (max-width: 44rem) { .variantes { grid-template-columns: minmax(0, 1fr); } }
+.var-carte { background: var(--carte); border: 1px solid var(--trait); border-top: 6px solid var(--rouge); border-radius: 14px; padding: 1rem 1.05rem; display: grid; gap: .55rem; align-content: start; }
+.var-carte .contraste { font: 900 1.9rem/1 var(--f-titre); color: var(--rouge); letter-spacing: -.02em; }
+.var-carte .lire { font-weight: 700; color: var(--rouge); text-decoration: none; }
+.var-carte .lire:hover { text-decoration: underline; }
+.objection p + p { margin-top: .35rem; }
+.angle .lire{font-weight:700;color:var(--rouge);text-decoration:none}</style></head><body><div class="page"><header class="hero"><div class="hero-in">
+<div class="marque">Matérialités <span>Pour les créateur·ices de contenu</span></div>
+<h1>Des contenus d'économie politique, gratuits et de gauche, pour que chacun·e puisse s'emparer des sujets économiques.</h1>
+<p class="accroche">Les discours libéraux de « bon sens » dominent le débat économique : il faut faire des économies, la Sécu est en faillite, augmenter les salaires tuerait l'emploi. On prépare des contenus pour les créateur·ices qui veulent montrer ce que ces discours cachent : qui produit, qui paie, qui possède, qui décide.</p>
+<div class="pastilles"><span>Gratuit</span><span>Chiffres vérifiés et sourcés</span><span>De débutant à confirmé</span></div>
+</div></header>
+<section class="c-rouge"><div class="tete"><span class="etiquette">Ce qu'on propose</span><h2>Des kits prêts à l'emploi</h2>
+<p>Chaque kit part d'un sujet d'actualité : comprendre en 15 minutes, un parcours de vidéos, podcasts et lectures pour se former, des angles et des exemples de scripts courts, une fiche pour les lives, des visuels, un carrousel, et toutes les sources. Rien n'est à reprendre tel quel : c'est un point de départ.</p></div>
+<div class="angles"><div class="angle"><span class="ton">Kit prêt</span><p class="hook">Dette 2027</p><p>91 Md€ C&#x27;est ce que la France va payer en intérêts de la dette en 2027. Mais à qui ?</p><a class="lire" href="kits/dette.html">Ouvrir le kit →</a></div><div class="angle"><span class="ton">Kit prêt</span><p class="hook">Sécu 2027</p><p>67 Md€ d&#x27;allègements de cotisations accordés aux employeurs en 2025. Et c&#x27;est à toi qu&#x27;on présente la facture.</p><a class="lire" href="kits/secu.html">Ouvrir le kit →</a></div><div class="angle"><span class="ton">Kit prêt</span><p class="hook">Lycées 2027</p><p>1 588 postes de profs supprimés prévus au budget 2027, « faute d&#x27;argent ». Voici trois endroits où l&#x27;argent public part à la place.</p><a class="lire" href="kits/lycees.html">Ouvrir le kit →</a></div><div class="angle"><span class="ton">Kit prêt</span><p class="hook">Préférence nationale</p><p>9/10  demandeurs de logement social sont restés sans logement en 2025. La « préférence nationale » du RN n&#x27;en loge pas un de plus.</p><a class="lire" href="kits/preference-nationale.html">Ouvrir le kit →</a></div><div class="angle"><span class="ton">Kit prêt</span><p class="hook">Salaires et profits</p><p>2 Md€ de bénéfice pour Michelin en 2023. Un an plus tard, 1 254 postes supprimés.</p><a class="lire" href="kits/salaires.html">Ouvrir le kit →</a></div></div></section>
+<section class="c-ocre"><div class="tete"><span class="etiquette">Se former</span><h2>Un site de référence, avec des parcours</h2>
+<p>Plus de 4 500 références (vidéos, podcasts, livres, articles) classées par thème et par niveau, de la porte d'entrée de dix minutes au livre de fond. Des parcours de lecture guident pas à pas sur un sujet.</p></div>
+<div class="carte"><h3>Les parcours</h3><ul class="fil"><li><a href="parcours/salaire-profit.html">Salaire, profit : qui produit la richesse ?</a> <span class="meta">part de l'idée reçue « Le salaire rémunère ce que chacun apporte, et le profit récompense le risque pris par l&#x27;entrepreneur. »</span></li><li><a href="parcours/argent.html">D&#x27;où vient l&#x27;argent ?</a> <span class="meta">part de l'idée reçue « Les banques prêtent l&#x27;argent des épargnants, et l&#x27;État doit gérer son budget comme un ménage. »</span></li><li><a href="parcours/climat.html">Le climat, une affaire de petits gestes ?</a> <span class="meta">part de l'idée reçue « La crise climatique est la faute de tous, il faut changer nos comportements et faire confiance à la croissance verte. »</span></li><li><a href="parcours/feminisme.html">Féminisme marxiste : le travail qu&#x27;on ne compte pas</a> <span class="meta">part de l'idée reçue « Les inégalités entre femmes et hommes viennent de choix individuels et de préjugés qui reculent. »</span></li><li><a href="parcours/logement.html">Pourquoi le logement coûte-t-il si cher ?</a> <span class="meta">part de l'idée reçue « Les loyers sont trop chers parce qu&#x27;on ne construit pas assez : il suffit de libérer l&#x27;offre et d&#x27;aider les ménages à devenir propriétaires. »</span></li><li><a href="parcours/ia.html">L&#x27;IA, un cas d&#x27;école</a> <span class="meta">part de l'idée reçue « L&#x27;IA est une révolution technique qui va profiter à tous ; il suffit de bien la réguler. »</span></li></ul><p><a href="index.html">Tous les thèmes et la carte des concepts →</a></p></div></section>
+<section class="c-bleu"><div class="tete"><span class="etiquette">Avec une IA</span><h2>Interroger le site avec ton assistant</h2>
+<p>Le site est fait pour être lu par une IA. Donne à ton assistant (Claude, ChatGPT, Mistral…) l'adresse ci-dessous, puis pose ta question, par exemple : « je prépare une vidéo sur le prix du logement, que dois-je regarder pour débuter ? ». Il te recommandera des contenus adaptés à ton niveau.</p></div>
+<div class="carte"><div class="barre"><h3>L'adresse à donner à ton IA</h3><button class="copier" type="button" data-copie="adresse-ia">Copier</button></div>
+<pre class="commande" id="adresse-ia">https://materialites.github.io/llms.txt</pre>
+<p class="meta">Pour aller plus loin : la liste complète des références au format JSON, https://materialites.github.io/refs.json</p></div></section>
+<footer><h3>On veut tes retours</h3>
+<p>Nos contenus sont gratuits et on veut en proposer régulièrement. Dis-nous si c'est utile pour ton travail, ce qui manque, les sujets que tu aimerais voir traités : on construit les prochains kits avec ces retours.</p>
+<p>N'hésite pas à nous recontacter : réponds simplement au message qui t'a amené·e ici.</p></footer></div><script>
+document.querySelectorAll('button.copier').forEach(function (btn) {
+  btn.addEventListener('click', function (ev) {
+    ev.preventDefault();
+    var cible = document.getElementById(btn.dataset.copie);
+    if (!cible) return;
+    var paras = cible.querySelectorAll('p');
+    var texte = paras.length ? Array.from(paras).map(function (p) { return p.textContent; }).join('\n\n') : cible.textContent;
+    var libelle = btn.textContent;
+    function fini(msg) { btn.textContent = msg; btn.classList.add('fait'); setTimeout(function () { btn.textContent = libelle; btn.classList.remove('fait'); }, 2000); }
+    function repli() {
+      var zone = document.createElement('textarea');
+      zone.value = texte; zone.setAttribute('readonly', ''); zone.style.position = 'fixed'; zone.style.opacity = '0';
+      document.body.appendChild(zone); zone.select();
+      var ok = false; try { ok = document.execCommand('copy'); } catch (e) {}
+      document.body.removeChild(zone);
+      fini(ok ? 'Copié' : 'Sélectionne le texte à la main');
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(texte).then(function () { fini('Copié'); }, repli);
+    } else { repli(); }
+  });
+});
+</script></body></html>
