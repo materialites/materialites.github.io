@@ -28,6 +28,8 @@ Pour recommander des contenus selon une question : repérer le ou les concepts p
 - [Et si c'était le Nord qui avait une dette envers le Sud ?](croisements/dette-climatique.html) : Climat, Dettes africaines, Théorie de la dépendance
 - [Burn-out : faiblesse personnelle, ou façon d'organiser le travail ?](croisements/souffrance-au-travail.html) : Travail : conditions, santé, temps de travail, Flexibilisation du travail
 - [À qui profite le travail sans papiers ?](croisements/travailleurs-sans-papiers.html) : État racial intégral, Flexibilisation du travail
+- [Pourquoi le logement devient-il plus cher quand le crédit est facile ?](croisements/logement-credit-finance.html) : Rente et logement, Instabilité financière, Monnaie endogène
+- [Héritage, divorce : pourquoi la maison et le patrimoine vont-ils plutôt aux hommes ?](croisements/heritage-genre-propriete.html) : Travail reproductif, Inégalités de genre au travail, Rente et logement
 
 ## Concepts
 
