@@ -2,11 +2,11 @@
 
 > Références (vidéos, podcasts, articles, livres) pour lire l'économie par ses matérialités : travail, propriété, rente, dette, extraction, rapports impériaux. Site francophone d'économie politique hétérodoxe, d'appui principalement marxiste. Chaque référence renvoie à l'original ; les présentations sont écrites par l'équipe du site.
 
-Pour recommander des contenus selon une question : repérer le ou les concepts proches ci-dessous, puis lire refs.json (champs concepts ; niveau : entree, intermediaire ou avance ; format ; duree_min). Les réfs « pour_commencer » de chaque concept et les étapes des parcours sont la sélection conseillée.
+Pour recommander des contenus selon une question : repérer le ou les concepts proches ci-dessous, puis lire refs.json (champs concepts : tous les concepts qu'aborde la réf ; concepts_precis, quand il est présent : le ou les concepts centraux, plus fiables ; niveau : entree, intermediaire ou avance ; format ; duree_min). Pour une sélection courte, préférer les réfs dont concepts_precis contient le concept cherché. Les réfs « pour_commencer » de chaque concept et les étapes des parcours sont la sélection conseillée.
 
 ## Données
 
-- [refs.json](refs.json) : les 4729 références, les 49 concepts avec leur présentation, et les parcours
+- [refs.json](refs.json) : les 4975 références, les 49 concepts avec leur présentation, et les parcours
 
 ## Parcours de lecture
 
@@ -16,6 +16,18 @@ Pour recommander des contenus selon une question : repérer le ou les concepts p
 - [Féminisme marxiste : le travail qu'on ne compte pas](parcours/feminisme.html) : part de l'idée reçue « Les inégalités entre femmes et hommes viennent de choix individuels et de préjugés qui reculent. »
 - [Pourquoi le logement coûte-t-il si cher ?](parcours/logement.html) : part de l'idée reçue « Les loyers sont trop chers parce qu'on ne construit pas assez : il suffit de libérer l'offre et d'aider les ménages à devenir propriétaires. »
 - [L'IA, un cas d'école](parcours/ia.html) : part de l'idée reçue « L'IA est une révolution technique qui va profiter à tous ; il suffit de bien la réguler. »
+- [La dette publique : qui doit quoi à qui ?](parcours/dette.html) : part de l'idée reçue « L'État vit au-dessus de ses moyens : la dette publique est un fardeau qu'on laisse à nos enfants, il faut faire des économies. »
+- [Retraites, Sécu : qui paie, et pour qui ?](parcours/retraites-secu.html) : part de l'idée reçue « On vit plus longtemps, il y a de moins en moins d'actifs pour chaque retraité : il faudra travailler plus longtemps. Et la Sécu dépense plus qu'elle ne gagne, son déficit pèse sur la dette. »
+- [Augmenter les salaires, est-ce ruiner l'emploi ?](parcours/salaires.html) : part de l'idée reçue « Augmenter les salaires, c'est relancer l'inflation et détruire des emplois : pour le pouvoir d'achat, mieux vaut baisser les charges et laisser la banque centrale tenir les prix. »
+
+## Croisements inattendus (fiches)
+
+- [Pourquoi un médicament coûte-t-il si cher quand la recherche est en partie payée par le public ?](croisements/brevets-medicaments.html) : Santé publique, médicaments et pandémies, Concentration et monopoles
+- [La banque centrale finance-t-elle, sans le dire, la crise climatique ?](croisements/banque-centrale-climat.html) : Banques centrales et politique monétaire, Climat
+- [Que consomme vraiment l'IA, et qui paie la facture ?](croisements/ia-data-centers.html) : Bulle de l'IA, Énergie, Eau
+- [Et si c'était le Nord qui avait une dette envers le Sud ?](croisements/dette-climatique.html) : Climat, Dettes africaines, Théorie de la dépendance
+- [Burn-out : faiblesse personnelle, ou façon d'organiser le travail ?](croisements/souffrance-au-travail.html) : Travail : conditions, santé, temps de travail, Flexibilisation du travail
+- [À qui profite le travail sans papiers ?](croisements/travailleurs-sans-papiers.html) : État racial intégral, Flexibilisation du travail
 
 ## Concepts
 

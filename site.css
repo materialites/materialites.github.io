@@ -34,9 +34,11 @@ a.box.on-dit:hover { transform: translateY(-3px); box-shadow: 0 6px 16px rgba(0,
 .carte-intro { max-width: 50em; }
 .carte-zone { display: grid; grid-template-columns: minmax(0, 2fr) minmax(260px, 1fr); gap: 1.5em; align-items: start; }
 #carte-svg { width: 100%; height: auto; background: #fafafa; border: 1px solid var(--trait); border-radius: 6px; }
-#carte-svg .lien { stroke: #d8d8d8; stroke-width: 1.2; }
+#carte-svg .lien { stroke: #dedede; stroke-width: 1; }
 #carte-svg .lien.faible { opacity: 0; }
+#carte-svg .lien.avant { stroke: var(--accent); stroke-width: 2.6; opacity: .8; }
 #carte-svg .lien.voisin { stroke: var(--encre); stroke-width: 2; opacity: 1; }
+#carte-svg .lien.avant.voisin { stroke: var(--accent); stroke-width: 3.5; }
 #carte-svg .noeud { cursor: pointer; }
 #carte-svg .noeud circle { stroke: #fff; stroke-width: 2; }
 #carte-svg .noeud text { font: 600 15px "Source Sans Pro", sans-serif; fill: var(--encre); paint-order: stroke; stroke: #fafafa; stroke-width: 4px; pointer-events: none; }
@@ -75,6 +77,35 @@ a.box.on-dit:hover { transform: translateY(-3px); box-shadow: 0 6px 16px rgba(0,
 .croisement-q { display: block; font-weight: 700; color: var(--encre); line-height: 1.3; }
 .croisement-avec { display: block; font-size: .88em; color: var(--doux); border-left: 3px solid var(--g); padding-left: .5em; margin-top: .3em; }
 .croisements a:hover .croisement-q { color: var(--accent); }
+.autres-croisements { margin-top: 1em; }
+.autres-croisements summary { cursor: pointer; color: var(--doux); font-size: .95em; }
+.croisements.secondaires li { margin: .7em 0; }
+.croisements.secondaires .croisement-q { font-weight: 400; font-size: .92em; color: var(--doux); }
+
+/* croisements à explorer (accueil) */
+.grille-croisements { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1em; }
+.grille-croisements li { padding: 0 !important; margin: 0; }
+a.box.croisement-carte { display: flex; flex-direction: column; gap: .5em; height: 100%; margin: 0; padding: 1.2em 1.3em; text-decoration: none; color: inherit;
+  border: 0; border-top: 5px solid var(--f); border-image: linear-gradient(90deg, var(--f) 50%, var(--g) 50%) 1 0 0 0; transition: transform .15s, box-shadow .15s; }
+a.box.croisement-carte:hover { transform: translateY(-3px); box-shadow: 0 6px 16px rgba(0,0,0,.12); }
+a.box.croisement-carte:hover .croisement-q { color: var(--accent); }
+.croisement-carte .croisement-q { font-size: 1.1em; }
+.croisement-duo { font-size: .88em; color: var(--doux); margin-top: auto; }
+.plus-croisements { margin-top: 1em; }
+.plus-croisements summary { list-style: none; display: table; margin: 0 auto 1.5em; cursor: pointer; }
+.plus-croisements summary::-webkit-details-marker { display: none; }
+.plus-croisements[open] summary { display: none; }
+.croisement-n { font-size: .8em; color: var(--doux); text-transform: uppercase; letter-spacing: .08em; }
+
+/* panneau de la carte : croisements à explorer depuis un concept */
+.panneau-titre { font-weight: 700; margin: 0 0 .3em !important; }
+.panneau-avant { list-style: none; padding: 0; margin: 0 0 1em; }
+.panneau-avant li { padding: 0 !important; margin: 0 0 .5em; }
+.panneau-avant button { display: block; width: 100%; height: auto !important; text-align: left; cursor: pointer; font: inherit; font-weight: 700 !important;
+  line-height: 1.3 !important; text-transform: none !important; color: var(--encre) !important; background: none !important; box-shadow: none !important;
+  border: 0; border-left: 3px solid var(--accent); border-radius: 0; padding: 0 0 0 .6em !important; transition: none !important; }
+.panneau-avant button span { display: block; font-weight: 400; font-size: .88em; color: var(--doux); }
+.panneau-avant button:hover, .panneau-avant button:focus-visible { color: var(--accent) !important; }
 
 /* filtres */
 .filtres { display: flex; flex-wrap: wrap; gap: .4em; margin: 0 0 1.2em; }
@@ -134,3 +165,11 @@ a.box.parcours:hover h3 { color: #d52349; }
 /* lien vers le formulaire d'avis dans le menu du haut */
 #nav li.menu-avis a { border: 2px solid #d52349; border-radius: 6px; color: #d52349; }
 #nav li.menu-avis a:hover { background: #d52349; color: #fff; }
+
+.idee-label{margin:0 0 .2em;font-size:.75em;text-transform:uppercase;letter-spacing:.06em;color:#d52349;font-weight:700}
+
+/* croisements inattendus (fiches écrites) */
+.sous-titre-croisements { margin: 1.5em 0 .8em; font-size: 1.1em; }
+.croisement-badge { align-self: flex-start; font-size: .72em; font-weight: 700; text-transform: uppercase; letter-spacing: .1em;
+  background: var(--accent); color: #fff; padding: .1em .6em; border-radius: 4px; }
+a.box.croisement-original { background: #fffaf4; }

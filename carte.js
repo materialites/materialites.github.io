@@ -17,9 +17,10 @@
   const gLiens = el("g", {}, svg), gNoeuds = el("g", {}, svg);
   const traits = liens.map(l => {
     const a = parId[l.a], b = parId[l.b];
-    // au repos, seuls les liens forts (5 réfs communes ou plus) sont tracés ; les autres apparaissent au clic
-    return Object.assign(el("line", { x1: a.x, y1: a.y, x2: b.x, y2: b.y, class: l.n >= 5 ? "lien" : "lien faible" }, gLiens), { lien: l });
+    // au repos : les croisements mis en avant en couleur, les liens forts (10 réfs communes ou plus) en gris pâle ; les autres apparaissent au clic
+    return Object.assign(el("line", { x1: a.x, y1: a.y, x2: b.x, y2: b.y, class: l.v ? "lien avant" : l.n >= 10 ? "lien" : "lien faible" }, gLiens), { lien: l });
   });
+  gLiens.append(...traits.filter(t => t.lien.v));  // les liens mis en avant passent au-dessus des autres
   const rayon = n => 7 + Math.sqrt(n.n) * 0.9;
   const points = noeuds.map(n => {
     const g = el("g", { class: "noeud", tabindex: 0, role: "button", "aria-label": n.nom, transform: `translate(${n.x},${n.y})` }, gNoeuds);
@@ -46,7 +47,12 @@
     if (!a) { panneau.innerHTML = '<p class="panneau-aide">Choisissez un premier concept sur la carte.</p>'; return; }
     let h = blocConcept(parId[a]);
     if (!b) {
-      h += `<p class="panneau-aide">Choisissez un deuxième concept : ceux qui restent nets partagent des références avec celui-ci.</p>`;
+      const avant = liens.filter(l => l.v && (l.a === a || l.b === a));
+      if (avant.length) h += `<p class="panneau-titre">Croisements à explorer</p><ul class="panneau-avant">${avant.map(l => {
+        const autre = l.a === a ? l.b : l.a;
+        return `<li><button type="button" data-autre="${autre}">${echap(paires[cle(a, autre)].q)} <span>avec ${echap(parId[autre].nom)}</span></button></li>`;
+      }).join("")}</ul>`;
+      h += `<p class="panneau-aide">${avant.length ? "Ou choisissez" : "Choisissez"} un deuxième concept : ceux qui restent nets partagent des références avec celui-ci.</p>`;
     } else {
       h += blocConcept(parId[b]);
       const p = paires[cle(a, b)];
@@ -56,6 +62,7 @@
     }
     panneau.innerHTML = h + '<button class="lien-bouton" type="button">Recommencer</button>';
     panneau.querySelector(".lien-bouton").onclick = () => { choix = []; dessiner(); };
+    panneau.querySelectorAll("[data-autre]").forEach(x => x.onclick = () => cliquer(x.dataset.autre));
   }
 
   function cliquer(id) {
