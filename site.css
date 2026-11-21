@@ -32,11 +32,12 @@ a.box.on-dit:hover { transform: translateY(-3px); box-shadow: 0 6px 16px rgba(0,
 
 /* carte */
 .carte-intro { max-width: 50em; }
-.carte-zone { display: grid; grid-template-columns: minmax(0, 2fr) minmax(260px, 1fr); gap: 1.5em; align-items: start; }
+.carte-zone { display: grid; grid-template-columns: minmax(0, 3fr) minmax(260px, 1fr); gap: 1.5em; align-items: start; }
 #carte-svg { width: 100%; height: auto; background: #fafafa; border: 1px solid var(--trait); border-radius: 6px; }
 #carte-svg .lien { stroke: #dedede; stroke-width: 1; }
 #carte-svg .lien.faible { opacity: 0; }
-#carte-svg .lien.avant { stroke: var(--accent); stroke-width: 2.6; opacity: .8; }
+#carte-svg .lien { stroke: #ececec; }
+#carte-svg .lien.avant { stroke: var(--accent); stroke-width: 1.4; opacity: .35; }
 #carte-svg .lien.voisin { stroke: var(--encre); stroke-width: 2; opacity: 1; }
 #carte-svg .lien.avant.voisin { stroke: var(--accent); stroke-width: 3.5; }
 #carte-svg .noeud { cursor: pointer; }
@@ -133,7 +134,6 @@ a.box.croisement-carte:hover .croisement-q { color: var(--accent); }
 @media screen and (max-width: 980px) {
   .carte-zone { grid-template-columns: 1fr; }
   #carte-panneau { border-left: 0; padding-left: 0; min-height: 0; }
-  #carte-svg .noeud text { font-size: 18px; }
 }
 
 /* textures du thème absentes de l'archive : fonds unis */
@@ -173,3 +173,20 @@ a.box.parcours:hover h3 { color: #d52349; }
 .croisement-badge { align-self: flex-start; font-size: .72em; font-weight: 700; text-transform: uppercase; letter-spacing: .1em;
   background: var(--accent); color: #fff; padding: .1em .6em; border-radius: 4px; }
 a.box.croisement-original { background: #fffaf4; }
+
+/* page carte : grands croisements rangés par thème, dépliables */
+.renvoi-carte { margin-top: 1.5em; display: flex; gap: 1em; flex-wrap: wrap; }
+.famille-croisements { border: 1px solid var(--trait); border-left: 5px solid var(--f); border-radius: 6px; background: #fff; margin: 0 0 .8em; }
+.famille-croisements summary { cursor: pointer; padding: .9em 1.2em; display: flex; justify-content: space-between; align-items: baseline; gap: 1em; list-style: none; }
+.famille-croisements summary::-webkit-details-marker { display: none; }
+.famille-croisements summary::before { content: "▸"; color: var(--f); margin-right: .2em; transition: transform .15s; }
+.famille-croisements[open] summary::before { transform: rotate(90deg); }
+.fc-nom { font-weight: 700; flex: 1; color: var(--encre); }
+.fc-n { color: var(--doux); font-size: .9em; }
+.liste-croisements { list-style: none; padding: 0 1.2em 1em; margin: 0; }
+.liste-croisements li { padding: 0 !important; margin: 0; border-top: 1px solid var(--trait); }
+.liste-croisements a { display: block; padding: .8em 0 .8em 1em; text-decoration: none; color: inherit;
+  border-left: 3px solid var(--f); border-image: linear-gradient(180deg, var(--f) 50%, var(--g) 50%) 0 0 0 1; margin: .5em 0; }
+.liste-croisements a:hover .croisement-q { color: var(--accent); }
+.liste-croisements .croisement-q { display: block; font-weight: 700; line-height: 1.35; }
+.liste-croisements .croisement-duo { display: block; font-size: .88em; color: var(--doux); margin-top: .2em; }
