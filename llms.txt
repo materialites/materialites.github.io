@@ -6,7 +6,7 @@ Pour recommander des contenus selon une question : repérer le ou les concepts p
 
 ## Données
 
-- [refs.json](refs.json) : les 5446 références, les 49 concepts avec leur présentation, et les parcours
+- [refs.json](refs.json) : les 5774 références, les 49 concepts avec leur présentation, et les parcours
 
 ## Parcours de lecture
 

@@ -54913,23 +54913,6 @@
    "resume": "Dépenses publiques et limites budgétaires"
   },
   {
-   "id": "https://www.exploring-economics.org/en/discover/modern-money-theory-for-beginners/",
-   "titre": "Modern Money Theory for Beginners",
-   "lien": "https://www.youtube.com/watch?v=E5JTn7GS4oA",
-   "format": "video",
-   "source": "exploring-economics",
-   "date": "",
-   "duree_min": null,
-   "niveau": "intermediaire",
-   "concepts": [
-    "mmt-chartalisme"
-   ],
-   "concepts_precis": [
-    "mmt-chartalisme"
-   ],
-   "resume": "Principes de base de la théorie MMT"
-  },
-  {
    "id": "https://www.exploring-economics.org/en/discover/monetary-and-fiscal-policy-aggregate-demand-and-ag/",
    "titre": "Monetary and fiscal policy | Aggregate demand and aggregate supply | Macroeconomics",
    "lien": "https://www.youtube.com/watch?v=ntxMOKXHlfo",
@@ -55450,25 +55433,6 @@
     "planification-ecologique"
    ],
    "resume": "Durand propose une démocratie économique dans les limites."
-  },
-  {
-   "id": "https://www.exploring-economics.org/en/discover/plenary-session-01-20151022keynote-eckhard-hein-fm/",
-   "titre": "Secular Stagnation or stagnation policy? Steindl after Summers",
-   "lien": "https://www.youtube.com/watch?v=2gRhk8bxE1M",
-   "format": "video",
-   "source": "exploring-economics",
-   "date": "",
-   "duree_min": null,
-   "niveau": "intermediaire",
-   "concepts": [
-    "accumulation-crises",
-    "demande-effective-chomage",
-    "monnaie-endogene"
-   ],
-   "concepts_precis": [
-    "monnaie-endogene"
-   ],
-   "resume": "Hein critique le consensus de la stagnation séculière."
   },
   {
    "id": "https://www.exploring-economics.org/en/discover/plenary-session-03-20151024keynote-mark-blyth-fmm/",
@@ -89898,6 +89862,7 @@
    "niveau": null,
    "concepts": [
     "prix-essence",
+    "valeur-exploitation",
     "salaire-a-vie-securite-sociale"
    ],
    "concepts_precis": [
@@ -92860,6 +92825,7 @@
    "niveau": null,
    "concepts": [
     "economie-de-guerre",
+    "planification-socialisme",
     "travail-reproductif",
     "valeur-exploitation"
    ],
@@ -93513,6 +93479,7 @@
    "niveau": null,
    "concepts": [
     "economie-de-guerre",
+    "gouvernance-europeenne",
     "energie",
     "prix-essence"
    ],
@@ -94728,6 +94695,7 @@
    "niveau": null,
    "concepts": [
     "dettes-africaines",
+    "prix-essence",
     "neoliberalisme",
     "austerite-dette-publique"
    ],
@@ -94873,7 +94841,9 @@
    "duree_min": null,
    "niveau": null,
    "concepts": [
-    "banque-centrale"
+    "banque-centrale",
+    "monnaie-endogene",
+    "cryptomonnaies"
    ],
    "concepts_precis": [
     "banque-centrale"
@@ -97574,7 +97544,7 @@
    "niveau": null,
    "concepts": [
     "patriarcat-salaires",
-    "flexibilisation-travail",
+    "travail-conditions",
     "luttes-de-classes"
    ],
    "concepts_precis": [
@@ -97613,7 +97583,7 @@
    "concepts": [
     "patriarcat-salaires",
     "luttes-de-classes",
-    "flexibilisation-travail"
+    "travail-conditions"
    ],
    "concepts_precis": [
     "luttes-de-classes"
@@ -97704,7 +97674,8 @@
    "duree_min": 12,
    "niveau": null,
    "concepts": [
-    "protection-sociale"
+    "protection-sociale",
+    "flexibilisation-travail"
    ],
    "concepts_precis": [
     "protection-sociale"
@@ -98131,6 +98102,7 @@
    "concepts": [
     "accumulation-crises",
     "planification-socialisme",
+    "demande-effective-chomage",
     "flexibilisation-travail"
    ],
    "concepts_precis": [
@@ -98755,7 +98727,7 @@
    "concepts": [
     "neoliberalisme",
     "gouvernance-europeenne",
-    "flexibilisation-travail"
+    "fiscalite-inegalites"
    ],
    "concepts_precis": [
     "neoliberalisme"
@@ -99887,7 +99859,7 @@
    "concepts": [
     "industrie-desindustrialisation",
     "energie",
-    "climat"
+    "energie"
    ],
    "concepts_precis": [
     "industrie-desindustrialisation"
@@ -100013,7 +99985,9 @@
    "duree_min": null,
    "niveau": "avance",
    "concepts": [
-    "mmt-chartalisme"
+    "mmt-chartalisme",
+    "prix-essence",
+    "profits-inflation"
    ],
    "concepts_precis": [],
    "resume": "Émission monétaire et demande effective"
@@ -100122,6 +100096,6076 @@
     "luttes-de-classes"
    ],
    "resume": "Monnaie CFA et zone franc"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL11964091W",
+   "titre": "Néo-libéralisme, version française",
+   "lien": "https://openlibrary.org/works/OL11964091W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2007",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "neoliberalisme"
+   ],
+   "concepts_precis": [
+    "neoliberalisme"
+   ],
+   "resume": "Néolibéralisme français (Denord)."
+  },
+  {
+   "id": "https://openlibrary.org/works/OL1344386W",
+   "titre": "Fascisme et grand capital",
+   "lien": "https://openlibrary.org/works/OL1344386W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "1936",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "autoritarisme-fascisation",
+    "travail-reproductif",
+    "valeur-exploitation",
+    "patriarcat-salaires"
+   ],
+   "concepts_precis": [
+    "travail-reproductif",
+    "patriarcat-salaires"
+   ],
+   "resume": "Fascisme et grand capital (Guérin)."
+  },
+  {
+   "id": "https://openlibrary.org/works/OL16801438W",
+   "titre": "Le laboratoire des pollutions industrielles",
+   "lien": "https://openlibrary.org/works/OL16801438W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2011",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "pollutions-sante",
+    "industrie-desindustrialisation",
+    "climat"
+   ],
+   "concepts_precis": [
+    "pollutions-sante"
+   ],
+   "resume": "Pollutions industrielles (Le Roux)."
+  },
+  {
+   "id": "https://openlibrary.org/works/OL17053421W",
+   "titre": "The Shifts and the Shocks",
+   "lien": "https://openlibrary.org/works/OL17053421W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2014",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "instabilite-financiere"
+   ],
+   "concepts_precis": [],
+   "resume": "Crises financières globales (Wolf)."
+  },
+  {
+   "id": "https://openlibrary.org/works/OL1716968W",
+   "titre": "Neoliberalism, Globalization and Inequalities",
+   "lien": "https://openlibrary.org/works/OL1716968W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2007",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "neoliberalisme",
+    "sante-publique",
+    "privatisations-services-publics"
+   ],
+   "concepts_precis": [
+    "neoliberalisme",
+    "privatisations-services-publics"
+   ],
+   "resume": "Inégalités néolibérales (Navarro)."
+  },
+  {
+   "id": "https://openlibrary.org/works/OL17846210W",
+   "titre": "Souveraineté alimentaire – que fait l’Europe?",
+   "lien": "https://openlibrary.org/works/OL17846210W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2009",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "biodiversite-terres",
+    "gouvernance-europeenne",
+    "gouvernance-europeenne",
+    "energie"
+   ],
+   "concepts_precis": [
+    "energie"
+   ],
+   "resume": "Souveraineté alimentaire européenne."
+  },
+  {
+   "id": "https://openlibrary.org/works/OL17998459W",
+   "titre": "Crises et renouveau du capitalisme",
+   "lien": "https://openlibrary.org/works/OL17998459W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2002",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "accumulation-crises",
+    "planification-socialisme",
+    "histoire-capitalisme"
+   ],
+   "concepts_precis": [
+    "accumulation-crises",
+    "histoire-capitalisme"
+   ],
+   "resume": "Crises et renouveau capitaliste."
+  },
+  {
+   "id": "https://openlibrary.org/works/OL18892145W",
+   "titre": "Les politiques d'environnement",
+   "lien": "https://openlibrary.org/works/OL18892145W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "1998",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "pollutions-sante",
+    "climat"
+   ],
+   "concepts_precis": [
+    "climat"
+   ],
+   "resume": "Politiques environnementales et capitalisme fossile"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL19114468W",
+   "titre": "Sortir de l'entreprise capitaliste",
+   "lien": "https://openlibrary.org/works/OL19114468W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2007",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "planification-socialisme"
+   ],
+   "concepts_precis": [],
+   "resume": "Sortir du capitalisme par la propriété sociale"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL19196809W",
+   "titre": "Contre-temps",
+   "lien": "https://openlibrary.org/works/OL19196809W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "1988",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "climat",
+    "histoire-capitalisme"
+   ],
+   "concepts_precis": [],
+   "resume": "Capitalisme, histoire économique et transition énergétique"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL19364462W",
+   "titre": "The Crisis of Neoliberalism",
+   "lien": "https://openlibrary.org/works/OL19364462W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2013",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "neoliberalisme"
+   ],
+   "concepts_precis": [
+    "neoliberalisme"
+   ],
+   "resume": "Crise du néolibéralisme et projet politique d'ensemble"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL20425340W",
+   "titre": "Latin American Theories of Development and Underdevelopment",
+   "lien": "https://openlibrary.org/works/OL20425340W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2010",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "dependance"
+   ],
+   "concepts_precis": [
+    "dependance"
+   ],
+   "resume": "Dépendance mondiale et sous-développement produit par le capitalisme"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL20838119W",
+   "titre": "Case Studies in the Origins of Capitalism",
+   "lien": "https://openlibrary.org/works/OL20838119W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2018",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "histoire-capitalisme"
+   ],
+   "concepts_precis": [
+    "histoire-capitalisme"
+   ],
+   "resume": "Origines historiques du capitalisme et enclosures"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL21254317W",
+   "titre": "Marx and Living Labour",
+   "lien": "https://openlibrary.org/works/OL21254317W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2013",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "valeur-exploitation"
+   ],
+   "concepts_precis": [
+    "valeur-exploitation"
+   ],
+   "resume": "Valeur travail, plus-value et exploitation capitaliste"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL21265269W",
+   "titre": "Social Foundations of Markets, Money and Credit",
+   "lien": "https://openlibrary.org/works/OL21265269W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2003",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "monnaie-endogene",
+    "valeur-exploitation",
+    "accumulation-crises"
+   ],
+   "concepts_precis": [
+    "accumulation-crises"
+   ],
+   "resume": "Création monétaire par le crédit bancaire endogène"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL21284924W",
+   "titre": "Handbook of Neoliberalism",
+   "lien": "https://openlibrary.org/works/OL21284924W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2016",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "neoliberalisme"
+   ],
+   "concepts_precis": [
+    "neoliberalisme"
+   ],
+   "resume": "Néolibéralisme comme projet politique d'ensemble"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL21357000W",
+   "titre": "Money, Markets and Capital",
+   "lien": "https://openlibrary.org/works/OL21357000W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2018",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "banque-centrale",
+    "instabilite-financiere"
+   ],
+   "concepts_precis": [
+    "banque-centrale",
+    "instabilite-financiere"
+   ],
+   "resume": "Politique monétaire et marchés financiers"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL2254303W",
+   "titre": "De l'énergie pour l'Europe",
+   "lien": "https://openlibrary.org/works/OL2254303W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "1994",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "energie",
+    "gouvernance-europeenne"
+   ],
+   "concepts_precis": [
+    "energie"
+   ],
+   "resume": "Énergie européenne et gouvernance UE"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL22641050W",
+   "titre": "New contributions to monetary analysis",
+   "lien": "https://openlibrary.org/works/OL22641050W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2013",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "banque-centrale"
+   ],
+   "concepts_precis": [
+    "banque-centrale"
+   ],
+   "resume": "Analyse monétaire et politique financière"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL23134653W",
+   "titre": "Leur dette, notre démocratie!",
+   "lien": "https://openlibrary.org/works/OL23134653W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2013",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "dettes-africaines",
+    "rente-logement",
+    "austerite-dette-publique"
+   ],
+   "concepts_precis": [
+    "austerite-dette-publique"
+   ],
+   "resume": "Dette publique et ajustement structurel"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL23259506W",
+   "titre": "Handbook of critical issues in finance",
+   "lien": "https://openlibrary.org/works/OL23259506W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2012",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "instabilite-financiere",
+    "banque-centrale"
+   ],
+   "concepts_precis": [
+    "instabilite-financiere"
+   ],
+   "resume": "Crises financières et spéculation bancaire"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL23299069W",
+   "titre": "Dette de qui, dette de quoi?",
+   "lien": "https://openlibrary.org/works/OL23299069W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2013",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "dettes-africaines",
+    "austerite-dette-publique"
+   ],
+   "concepts_precis": [
+    "austerite-dette-publique"
+   ],
+   "resume": "Dette sociale, économique et politique"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL23359999W",
+   "titre": "Les pensées monétaires dans l'histoire",
+   "lien": "https://openlibrary.org/works/OL23359999W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2014",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "banque-centrale",
+    "monnaie-endogene",
+    "instabilite-financiere"
+   ],
+   "concepts_precis": [
+    "banque-centrale",
+    "instabilite-financiere"
+   ],
+   "resume": "Histoire de la politique monétaire"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL23412404W",
+   "titre": "Illusion financière",
+   "lien": "https://openlibrary.org/works/OL23412404W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2012",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "instabilite-financiere"
+   ],
+   "concepts_precis": [
+    "instabilite-financiere"
+   ],
+   "resume": "Analyse de la crise financière 2008"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL23766183W",
+   "titre": "Au delà du capitalisme?",
+   "lien": "https://openlibrary.org/works/OL23766183W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "1998",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "planification-socialisme"
+   ],
+   "concepts_precis": [],
+   "resume": "Proposition d'alternative socialiste"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL23850009W",
+   "titre": "Transition et ouverture de l'économie russe, 1992-2002",
+   "lien": "https://openlibrary.org/works/OL23850009W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2002",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "economie-de-guerre"
+   ],
+   "concepts_precis": [],
+   "resume": "Transition économique et militarisme"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL23908765W",
+   "titre": "L'expérience du travail à l'épreuve de la modernisation",
+   "lien": "https://openlibrary.org/works/OL23908765W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2003",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "travail-conditions",
+    "industrie-desindustrialisation"
+   ],
+   "concepts_precis": [
+    "industrie-desindustrialisation"
+   ],
+   "resume": "Conditions de travail et modernisation"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL23973482W",
+   "titre": "Vers la démocratie économique",
+   "lien": "https://openlibrary.org/works/OL23973482W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2005",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "neoliberalisme",
+    "fiscalite-inegalites",
+    "fiscalite-inegalites"
+   ],
+   "concepts_precis": [
+    "neoliberalisme"
+   ],
+   "resume": "Critique du néolibéralisme et inégalités"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL24026411W",
+   "titre": "L'idéal au travail",
+   "lien": "https://openlibrary.org/works/OL24026411W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2006",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "travail-conditions",
+    "flexibilisation-travail"
+   ],
+   "concepts_precis": [
+    "travail-conditions"
+   ],
+   "resume": "Sociologie des conditions de travail"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL24027882W",
+   "titre": "Le bas de l'échelle",
+   "lien": "https://openlibrary.org/works/OL24027882W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2006",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "profits-inflation",
+    "travail-conditions"
+   ],
+   "concepts_precis": [
+    "travail-conditions"
+   ],
+   "resume": "Inflation par les profits et classe ouvrière"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL24039942W",
+   "titre": "Capitalisme et éducation",
+   "lien": "https://openlibrary.org/works/OL24039942W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2006",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "ecole-universite"
+   ],
+   "concepts_precis": [
+    "ecole-universite"
+   ],
+   "resume": "Marchandisation de l'éducation"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL24044955W",
+   "titre": "Emploi, éloge de la stabilité",
+   "lien": "https://openlibrary.org/works/OL24044955W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2006",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "flexibilisation-travail",
+    "demande-effective-chomage"
+   ],
+   "concepts_precis": [
+    "demande-effective-chomage"
+   ],
+   "resume": "Marché du travail et chômage"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL24047373W",
+   "titre": "La France industrielle en question",
+   "lien": "https://openlibrary.org/works/OL24047373W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2006",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "industrie-desindustrialisation"
+   ],
+   "concepts_precis": [
+    "industrie-desindustrialisation"
+   ],
+   "resume": "Politique industrielle et déclin"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL2413024W",
+   "titre": "Le déséquilibre de la terreur",
+   "lien": "https://openlibrary.org/works/OL2413024W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2001",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "economie-de-guerre",
+    "libre-echange-mondialisation"
+   ],
+   "concepts_precis": [
+    "economie-de-guerre"
+   ],
+   "resume": "Militarisme et croissance économique"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL2413025W",
+   "titre": "Production d'armes, croissance et innovation",
+   "lien": "https://openlibrary.org/works/OL2413025W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "1995",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "economie-de-guerre",
+    "industrie-desindustrialisation"
+   ],
+   "concepts_precis": [
+    "economie-de-guerre"
+   ],
+   "resume": "Industrie armée et aspects économiques"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL2413026W",
+   "titre": "Les industries européennes d'armement",
+   "lien": "https://openlibrary.org/works/OL2413026W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "1996",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "industrie-desindustrialisation",
+    "economie-de-guerre",
+    "energie"
+   ],
+   "concepts_precis": [
+    "economie-de-guerre"
+   ],
+   "resume": "Politique industrielle européenne"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL24231742W",
+   "titre": "Europe, l'expérience grecque le débat stratégique",
+   "lien": "https://openlibrary.org/works/OL24231742W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2015",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "gouvernance-europeenne",
+    "peripherie-europeenne",
+    "peripherie-europeenne",
+    "energie",
+    "prix-essence"
+   ],
+   "concepts_precis": [
+    "energie",
+    "prix-essence"
+   ],
+   "resume": "Intégration économique européenne"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL24514022W",
+   "titre": "Temps de travail et travail du temps",
+   "lien": "https://openlibrary.org/works/OL24514022W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2014",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "travail-conditions",
+    "flexibilisation-travail"
+   ],
+   "concepts_precis": [
+    "flexibilisation-travail"
+   ],
+   "resume": "Conditions de travail et temps"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL25161077W",
+   "titre": "New Contributions to Monetary Analysis",
+   "lien": "https://openlibrary.org/works/OL25161077W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2013",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "banque-centrale",
+    "monnaie-endogene"
+   ],
+   "concepts_precis": [
+    "monnaie-endogene"
+   ],
+   "resume": "Analyse monétaire et politique"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL25192017W",
+   "titre": "Economy in Society",
+   "lien": "https://openlibrary.org/works/OL25192017W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2023",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "profits-inflation",
+    "eau"
+   ],
+   "concepts_precis": [
+    "eau"
+   ],
+   "resume": "Économie politique et société"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL26742371W",
+   "titre": "Globalization, Competitiveness and Human Security",
+   "lien": "https://openlibrary.org/works/OL26742371W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2012",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "libre-echange-mondialisation",
+    "dependance"
+   ],
+   "concepts_precis": [
+    "libre-echange-mondialisation"
+   ],
+   "resume": "Globalisation et développement économique"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL26768616W",
+   "titre": "Debating Modern Monetary Theory",
+   "lien": "https://openlibrary.org/works/OL26768616W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2022",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "mmt-chartalisme",
+    "banque-centrale",
+    "banque-centrale"
+   ],
+   "concepts_precis": [
+    "mmt-chartalisme"
+   ],
+   "resume": "Théorie monétaire moderne (MMT)"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL2698479W",
+   "titre": "Time out!",
+   "lien": "https://openlibrary.org/works/OL2698479W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "1995",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "travail-conditions",
+    "valeur-exploitation"
+   ],
+   "concepts_precis": [
+    "valeur-exploitation"
+   ],
+   "resume": "Temps de travail et conditions"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL27084188W",
+   "titre": "Money, Finance, and Capitalist Crisis",
+   "lien": "https://openlibrary.org/works/OL27084188W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2022",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "instabilite-financiere",
+    "accumulation-crises",
+    "banque-centrale"
+   ],
+   "concepts_precis": [
+    "instabilite-financiere"
+   ],
+   "resume": "Crises financières et capitalisme"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL27809669W",
+   "titre": "Central Banking, Monetary Policy and Social Responsibility",
+   "lien": "https://openlibrary.org/works/OL27809669W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2022",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "banque-centrale"
+   ],
+   "concepts_precis": [
+    "banque-centrale"
+   ],
+   "resume": "Politique monétaire et banques centrales"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL27851528W",
+   "titre": "Independance des Banques Centrales",
+   "lien": "https://openlibrary.org/works/OL27851528W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2022",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "banque-centrale",
+    "monnaie-endogene"
+   ],
+   "concepts_precis": [
+    "banque-centrale"
+   ],
+   "resume": "Indépendance des banques centrales"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL2797761W",
+   "titre": "Croissance et crise",
+   "lien": "https://openlibrary.org/works/OL2797761W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "1985",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "accumulation-crises",
+    "rente-logement"
+   ],
+   "concepts_precis": [
+    "accumulation-crises"
+   ],
+   "resume": "Accumulation, crises et croissance"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL28017931W",
+   "titre": "Central Banking, Monetary Policy and the Environment",
+   "lien": "https://openlibrary.org/works/OL28017931W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2022",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "banque-centrale",
+    "energie"
+   ],
+   "concepts_precis": [
+    "banque-centrale",
+    "energie"
+   ],
+   "resume": "Politique monétaire et environnement"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL28841451W",
+   "titre": "Money and Capital",
+   "lien": "https://openlibrary.org/works/OL28841451W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2022",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "rente-logement",
+    "monnaie-endogene"
+   ],
+   "concepts_precis": [
+    "monnaie-endogene"
+   ],
+   "resume": "Rente foncière et histoire économique"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL28845523W",
+   "titre": "Socio-Economie du Travail. 2021 - 1, N 9",
+   "lien": "https://openlibrary.org/works/OL28845523W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2022",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "travail-conditions",
+    "flexibilisation-travail",
+    "luttes-de-classes",
+    "valeur-exploitation"
+   ],
+   "concepts_precis": [
+    "flexibilisation-travail",
+    "valeur-exploitation",
+    "luttes-de-classes",
+    "travail-conditions"
+   ],
+   "resume": "Conditions de travail et santé"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL28945390W",
+   "titre": "Climat",
+   "lien": "https://openlibrary.org/works/OL28945390W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2015",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "climat",
+    "energie"
+   ],
+   "concepts_precis": [
+    "climat"
+   ],
+   "resume": "Capitalisme fossile et réchauffement"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL29050718W",
+   "titre": "Central Banking, Monetary Policy and Income Distribution",
+   "lien": "https://openlibrary.org/works/OL29050718W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2023",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "banque-centrale"
+   ],
+   "concepts_precis": [
+    "banque-centrale"
+   ],
+   "resume": "Monnaie, banques centrales et revenus"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL2931619W",
+   "titre": "Eco-socialism",
+   "lien": "https://openlibrary.org/works/OL2931619W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "1993",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "planification-ecologique",
+    "planification-socialisme",
+    "climat"
+   ],
+   "concepts_precis": [
+    "climat"
+   ],
+   "resume": "Planification écologique vs marché"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL30155384W",
+   "titre": "Cryptos",
+   "lien": "https://openlibrary.org/works/OL30155384W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2019",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "cryptomonnaies"
+   ],
+   "concepts_precis": [
+    "cryptomonnaies"
+   ],
+   "resume": "Spéculation crypto et énergie"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL31139401W",
+   "titre": "Socio-Economie du Travail",
+   "lien": "https://openlibrary.org/works/OL31139401W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2022",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "travail-conditions",
+    "communs-cooperatives",
+    "salaire-a-vie-securite-sociale",
+    "flexibilisation-travail"
+   ],
+   "concepts_precis": [
+    "flexibilisation-travail"
+   ],
+   "resume": "Conditions de travail et santé"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL31504332W",
+   "titre": "Les temps du travail",
+   "lien": "https://openlibrary.org/works/OL31504332W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2014",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "travail-conditions",
+    "flexibilisation-travail"
+   ],
+   "concepts_precis": [
+    "flexibilisation-travail"
+   ],
+   "resume": "Temps de travail et histoire"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL3156724W",
+   "titre": "L' économie de Keynes",
+   "lien": "https://openlibrary.org/works/OL3156724W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "1995",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "demande-effective-chomage",
+    "neoliberalisme"
+   ],
+   "concepts_precis": [
+    "neoliberalisme"
+   ],
+   "resume": "Demande insuffisante vs salaires élevés"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL3156725W",
+   "titre": "Surproduit et reproduction",
+   "lien": "https://openlibrary.org/works/OL3156725W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "1976",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "accumulation-crises",
+    "valeur-exploitation"
+   ],
+   "concepts_precis": [
+    "valeur-exploitation"
+   ],
+   "resume": "Surproduction et taux de profit stagnants"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL32067372W",
+   "titre": "Résistances africaines à la domination néocoloniale",
+   "lien": "https://openlibrary.org/works/OL32067372W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2021",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "neoliberalisme",
+    "luttes-de-classes",
+    "demande-effective-chomage"
+   ],
+   "concepts_precis": [
+    "neoliberalisme"
+   ],
+   "resume": "Centre-périphérie et échange inégal"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL33253026W",
+   "titre": "La précarité",
+   "lien": "https://openlibrary.org/works/OL33253026W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2006",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "flexibilisation-travail",
+    "demande-effective-chomage"
+   ],
+   "concepts_precis": [
+    "demande-effective-chomage"
+   ],
+   "resume": "Réformes marché travail et précarité"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL35450050W",
+   "titre": "De l'économie sociale au tiers-secteur",
+   "lien": "https://openlibrary.org/works/OL35450050W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2001",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "rente-logement",
+    "communs-cooperatives"
+   ],
+   "concepts_precis": [
+    "communs-cooperatives"
+   ],
+   "resume": "Rente foncière et tiers-secteur économique"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL35940W",
+   "titre": "A treatise on money",
+   "lien": "https://openlibrary.org/works/OL35940W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "1930",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "banque-centrale"
+   ],
+   "concepts_precis": [
+    "banque-centrale"
+   ],
+   "resume": "Banques centrales et politique monétaire"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL37236642W",
+   "titre": "Nouvelles Europes",
+   "lien": "https://openlibrary.org/works/OL37236642W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2006",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "gouvernance-europeenne",
+    "peripherie-europeenne"
+   ],
+   "concepts_precis": [
+    "gouvernance-europeenne"
+   ],
+   "resume": "Crise existentielle UE et défiance."
+  },
+  {
+   "id": "https://openlibrary.org/works/OL38035230W",
+   "titre": "Neoliberalisme, Mondialisation et Ecologie",
+   "lien": "https://openlibrary.org/works/OL38035230W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2024",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "energie",
+    "planification-ecologique",
+    "libre-echange-mondialisation",
+    "neoliberalisme"
+   ],
+   "concepts_precis": [
+    "neoliberalisme"
+   ],
+   "resume": "Économie politique et écologie."
+  },
+  {
+   "id": "https://openlibrary.org/works/OL42310420W",
+   "titre": "Primitive accumulation, class struggle and the capitalist state",
+   "lien": "https://openlibrary.org/works/OL42310420W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "1983",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "valeur-exploitation",
+    "luttes-de-classes",
+    "histoire-capitalisme"
+   ],
+   "concepts_precis": [
+    "valeur-exploitation"
+   ],
+   "resume": "Accumulation primitive et luttes de classes."
+  },
+  {
+   "id": "https://openlibrary.org/works/OL42400962W",
+   "titre": "Central Banking, Monetary Policy and Financial In/Stability",
+   "lien": "https://openlibrary.org/works/OL42400962W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2025",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "banque-centrale",
+    "instabilite-financiere"
+   ],
+   "concepts_precis": [
+    "banque-centrale"
+   ],
+   "resume": "Banques centrales et instabilité financière."
+  },
+  {
+   "id": "https://openlibrary.org/works/OL42536935W",
+   "titre": "Innovation in Capitalist Economies",
+   "lien": "https://openlibrary.org/works/OL42536935W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2025",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "histoire-capitalisme"
+   ],
+   "concepts_precis": [],
+   "resume": "Capitalisme historique et innovation."
+  },
+  {
+   "id": "https://openlibrary.org/works/OL43423619W",
+   "titre": "Cette Europe malade du néolibéralisme",
+   "lien": "https://openlibrary.org/works/OL43423619W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2019",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "neoliberalisme",
+    "gouvernance-europeenne",
+    "autoritarisme-fascisation"
+   ],
+   "concepts_precis": [
+    "neoliberalisme"
+   ],
+   "resume": "Austérité néolibérale et défiance fiscale."
+  },
+  {
+   "id": "https://openlibrary.org/works/OL43533100W",
+   "titre": "La dette comme rapport social",
+   "lien": "https://openlibrary.org/works/OL43533100W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2017",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "dettes-africaines",
+    "austerite-dette-publique"
+   ],
+   "concepts_precis": [
+    "austerite-dette-publique"
+   ],
+   "resume": "Dette comme rapport social global."
+  },
+  {
+   "id": "https://openlibrary.org/works/OL43941903W",
+   "titre": "Résistances à l'impôt, attachement à l'État",
+   "lien": "https://openlibrary.org/works/OL43941903W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2018",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "fiscalite-inegalites",
+    "protection-sociale"
+   ],
+   "concepts_precis": [
+    "fiscalite-inegalites"
+   ],
+   "resume": "Fiscalité et attachement à l'État."
+  },
+  {
+   "id": "https://openlibrary.org/works/OL44083466W",
+   "titre": "Crise et sortie de crise",
+   "lien": "https://openlibrary.org/works/OL44083466W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2000",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "instabilite-financiere",
+    "monnaie-endogene",
+    "demande-effective-chomage"
+   ],
+   "concepts_precis": [
+    "monnaie-endogene",
+    "demande-effective-chomage"
+   ],
+   "resume": "Crises financières et sortie de crise."
+  },
+  {
+   "id": "https://openlibrary.org/works/OL44315150W",
+   "titre": "Comment les économistes réchauffent la planète",
+   "lien": "https://openlibrary.org/works/OL44315150W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2016",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "climat",
+    "prix-essence"
+   ],
+   "concepts_precis": [
+    "climat"
+   ],
+   "resume": "Livre traite réchauffement et prix énergie."
+  },
+  {
+   "id": "https://openlibrary.org/works/OL44417398W",
+   "titre": "L'accaparement des biens communs",
+   "lien": "https://openlibrary.org/works/OL44417398W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2018",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "eau",
+    "communs-cooperatives",
+    "biodiversite-terres"
+   ],
+   "concepts_precis": [
+    "communs-cooperatives"
+   ],
+   "resume": "Livre traite accaparement des ressources."
+  },
+  {
+   "id": "https://openlibrary.org/works/OL44819676W",
+   "titre": "L'intégrisme économique",
+   "lien": "https://openlibrary.org/works/OL44819676W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2017",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "neoliberalisme",
+    "extractivisme",
+    "libre-echange-mondialisation"
+   ],
+   "concepts_precis": [
+    "neoliberalisme"
+   ],
+   "resume": "Neolibéralisme et extraction de ressources."
+  },
+  {
+   "id": "https://openlibrary.org/works/OL45043142W",
+   "titre": "Europe, alternatives démocratiques",
+   "lien": "https://openlibrary.org/works/OL45043142W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2019",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "gouvernance-europeenne",
+    "communs-cooperatives",
+    "peripherie-europeenne",
+    "energie"
+   ],
+   "concepts_precis": [
+    "energie"
+   ],
+   "resume": "Gouvernance UE et alternatives politiques."
+  },
+  {
+   "id": "https://openlibrary.org/works/OL45255186W",
+   "titre": "L'intrus et l'absent",
+   "lien": "https://openlibrary.org/works/OL45255186W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2016",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "flexibilisation-travail",
+    "prix-essence",
+    "profits-inflation"
+   ],
+   "concepts_precis": [
+    "flexibilisation-travail"
+   ],
+   "resume": "Travail, salaires et inflation par les profits."
+  },
+  {
+   "id": "https://openlibrary.org/works/OL45842904W",
+   "titre": "La restructuration permanente de la condition ouvrière",
+   "lien": "https://openlibrary.org/works/OL45842904W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2018",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "flexibilisation-travail",
+    "luttes-de-classes",
+    "travail-conditions"
+   ],
+   "concepts_precis": [
+    "flexibilisation-travail"
+   ],
+   "resume": "Flexibilisation et conditions de travail."
+  },
+  {
+   "id": "https://openlibrary.org/works/OL4901193W",
+   "titre": "Lettre au président des Français à propos de la Côte d'Ivoire et de l'Afrique en général",
+   "lien": "https://openlibrary.org/works/OL4901193W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2005",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "franc-cfa",
+    "eau"
+   ],
+   "concepts_precis": [
+    "eau"
+   ],
+   "resume": "Zone franc et souveraineté monétaire africaine."
+  },
+  {
+   "id": "https://openlibrary.org/works/OL4925245W",
+   "titre": "Class struggle and the industrial revolution",
+   "lien": "https://openlibrary.org/works/OL4925245W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "1974",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "luttes-de-classes",
+    "valeur-exploitation",
+    "industrie-desindustrialisation"
+   ],
+   "concepts_precis": [
+    "luttes-de-classes"
+   ],
+   "resume": "Lutte des classes et révolution industrielle"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL5212123W",
+   "titre": "Le fer de lance",
+   "lien": "https://openlibrary.org/works/OL5212123W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "1985",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "industrie-desindustrialisation"
+   ],
+   "concepts_precis": [
+    "industrie-desindustrialisation"
+   ],
+   "resume": "Politique industrielle et propriété publique"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL5789941W",
+   "titre": "Trading away our rights",
+   "lien": "https://openlibrary.org/works/OL5789941W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2004",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "libre-echange-mondialisation",
+    "flexibilisation-travail"
+   ],
+   "concepts_precis": [
+    "libre-echange-mondialisation"
+   ],
+   "resume": "Libre-échange et standards du travail"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL6077216W",
+   "titre": "Les règles dans la pensée économique contemporaine",
+   "lien": "https://openlibrary.org/works/OL6077216W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2003",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "gouvernance-europeenne",
+    "neoliberalisme"
+   ],
+   "concepts_precis": [
+    "neoliberalisme"
+   ],
+   "resume": "Régulation et pensée économique contemporaine"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL741614W",
+   "titre": "De la valeur aux prix de production",
+   "lien": "https://openlibrary.org/works/OL741614W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "1980",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "valeur-exploitation",
+    "energie",
+    "profits-inflation"
+   ],
+   "concepts_precis": [
+    "valeur-exploitation"
+   ],
+   "resume": "Valeur marxiste et prix de production"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL8445925W",
+   "titre": "Les classes sociales dans le capitalisme aujourd'hui",
+   "lien": "https://openlibrary.org/works/OL8445925W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "1974",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "luttes-de-classes",
+    "climat",
+    "valeur-exploitation"
+   ],
+   "concepts_precis": [
+    "valeur-exploitation",
+    "climat"
+   ],
+   "resume": "Classes sociales dans le capitalisme"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL8954336W",
+   "titre": "Banque du Sud et nouvelle crise internationale",
+   "lien": "https://openlibrary.org/works/OL8954336W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2008",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "dettes-africaines",
+    "banque-centrale",
+    "instabilite-financiere"
+   ],
+   "concepts_precis": [
+    "banque-centrale",
+    "instabilite-financiere"
+   ],
+   "resume": "Dette du Sud et institutions internationales"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL8954338W",
+   "titre": "Sortir de l'impasse",
+   "lien": "https://openlibrary.org/works/OL8954338W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "2002",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "dependance",
+    "libre-echange-mondialisation",
+    "austerite-dette-publique"
+   ],
+   "concepts_precis": [
+    "austerite-dette-publique"
+   ],
+   "resume": "Dépendance et dette internationale"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL9008229W",
+   "titre": "Le travail",
+   "lien": "https://openlibrary.org/works/OL9008229W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "1995",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "travail-conditions",
+    "flexibilisation-travail"
+   ],
+   "concepts_precis": [
+    "flexibilisation-travail",
+    "travail-conditions"
+   ],
+   "resume": "Conditions de travail et sens du travail"
+  },
+  {
+   "id": "https://openlibrary.org/works/OL9239907W",
+   "titre": "Le travail",
+   "lien": "https://openlibrary.org/works/OL9239907W",
+   "format": "livre",
+   "source": "openlibrary.org",
+   "date": "1998",
+   "duree_min": null,
+   "niveau": null,
+   "concepts": [
+    "travail-conditions",
+    "communs-cooperatives",
+    "flexibilisation-travail",
+    "valeur-exploitation",
+    "luttes-de-classes"
+   ],
+   "concepts_precis": [
+    "flexibilisation-travail",
+    "valeur-exploitation",
+    "luttes-de-classes",
+    "travail-conditions"
+   ],
+   "resume": "Travail, aspects sociaux et économiques"
+  },
+  {
+   "id": "-0dQ3dG46vM",
+   "titre": "Les banques sont-elles responsables de la crise ? par Jézabel Couppey-Soubeyran",
+   "lien": "https://youtu.be/-0dQ3dG46vM",
+   "format": "video",
+   "source": "SorbonnEco",
+   "date": "2015-01-20",
+   "duree_min": 8,
+   "niveau": null,
+   "concepts": [
+    "instabilite-financiere",
+    "banque-centrale",
+    "banque-centrale"
+   ],
+   "concepts_precis": [
+    "banque-centrale"
+   ],
+   "resume": "Crise financière et régulation bancaire"
+  },
+  {
+   "id": "-2hSTuQ1dqA",
+   "titre": "Session 1 : Les Rencontres IRES-ISST : Que sait-on du travail ?, 12 juin 2024",
+   "lien": "https://youtu.be/-2hSTuQ1dqA",
+   "format": "video",
+   "source": "Institut de Recherches Economiques et Sociales IRES",
+   "date": "2024-06-14",
+   "duree_min": 45,
+   "niveau": null,
+   "concepts": [
+    "travail-conditions"
+   ],
+   "concepts_precis": [
+    "travail-conditions"
+   ],
+   "resume": "Conditions de travail et santé au travail"
+  },
+  {
+   "id": "-43LIv8mKOo",
+   "titre": "Demba Moussa Dembélé, président de ARCADE sur le franc CFA",
+   "lien": "https://youtu.be/-43LIv8mKOo",
+   "format": "video",
+   "source": "Simone & Laurent Gbagbo, le droit à la différence",
+   "date": "2017-09-04",
+   "duree_min": 63,
+   "niveau": null,
+   "concepts": [
+    "dettes-africaines",
+    "franc-cfa",
+    "mmt-chartalisme"
+   ],
+   "concepts_precis": [
+    "mmt-chartalisme"
+   ],
+   "resume": "Dette africaine et système monétaire"
+  },
+  {
+   "id": "-BzTAA0xwCg",
+   "titre": "🎤 #JS2025 Table ronde - Santé environnement et inégalités sociales",
+   "lien": "https://youtu.be/-BzTAA0xwCg",
+   "format": "video",
+   "source": "Médecins du Monde",
+   "date": "2025-05-07",
+   "duree_min": 72,
+   "niveau": null,
+   "concepts": [
+    "pollutions-sante",
+    "sante-publique",
+    "climat"
+   ],
+   "concepts_precis": [
+    "sante-publique"
+   ],
+   "resume": "Pollutions environnementales et santé"
+  },
+  {
+   "id": "-KQDeoOKH_k",
+   "titre": "119 - Frédéric Farah pour le livre \"Dette et politique\"",
+   "lien": "https://youtu.be/-KQDeoOKH_k",
+   "format": "video",
+   "source": "Nouvelle Action Royaliste",
+   "date": "2022-07-12",
+   "duree_min": 93,
+   "niveau": null,
+   "concepts": [
+    "austerite-dette-publique",
+    "rente-logement",
+    "instabilite-financiere"
+   ],
+   "concepts_precis": [
+    "austerite-dette-publique"
+   ],
+   "resume": "Austérité, dette publique et crises"
+  },
+  {
+   "id": "-O5BJSv3btU",
+   "titre": "LECTURE 2 | Endogenous Money | L. Randall Wray",
+   "lien": "https://youtu.be/-O5BJSv3btU",
+   "format": "video",
+   "source": "Instituto de Economia da Unicamp",
+   "date": "2018-09-17",
+   "duree_min": 159,
+   "niveau": null,
+   "concepts": [
+    "monnaie-endogene",
+    "mmt-chartalisme",
+    "banque-centrale"
+   ],
+   "concepts_precis": [
+    "mmt-chartalisme",
+    "banque-centrale"
+   ],
+   "resume": "Création monétaire endogène par le crédit"
+  },
+  {
+   "id": "-Yt1nLyHMPE",
+   "titre": "SRT Lab | Alessandra Mezzadri | Aaron Jaffe, Tithi Bhattacharya, Sue Ferguson | Social Reproduction",
+   "lien": "https://youtu.be/-Yt1nLyHMPE",
+   "format": "video",
+   "source": "SRT Lab",
+   "date": "2025-10-20",
+   "duree_min": 74,
+   "niveau": null,
+   "concepts": [
+    "travail-reproductif"
+   ],
+   "concepts_precis": [
+    "travail-reproductif"
+   ],
+   "resume": "Reproduction sociale et capitalisme global."
+  },
+  {
+   "id": "0-QPBmIodTs",
+   "titre": "Bien manger ? Enjeux éthiques de la production alimentaire, partie II",
+   "lien": "https://youtu.be/0-QPBmIodTs",
+   "format": "video",
+   "source": "Espace Éthique",
+   "date": "2026-03-02",
+   "duree_min": 36,
+   "niveau": null,
+   "concepts": [
+    "pollutions-sante",
+    "biodiversite-terres"
+   ],
+   "concepts_precis": [
+    "biodiversite-terres"
+   ],
+   "resume": "Pesticides et dépendance agricole."
+  },
+  {
+   "id": "0FwXs3e4PNE",
+   "titre": "Modern Money w/ L. Randall Wray",
+   "lien": "https://youtu.be/0FwXs3e4PNE",
+   "format": "video",
+   "source": "Real Progressives",
+   "date": "2025-04-02",
+   "duree_min": 72,
+   "niveau": null,
+   "concepts": [
+    "mmt-chartalisme",
+    "banque-centrale"
+   ],
+   "concepts_precis": [
+    "mmt-chartalisme"
+   ],
+   "resume": "Monnaie moderne, emploi plein et dette."
+  },
+  {
+   "id": "18lvFuvWFR4",
+   "titre": "La fascination de l’ogre : desserrer l’étau de la finance [Laurence Scialom]",
+   "lien": "https://youtu.be/18lvFuvWFR4",
+   "format": "video",
+   "source": "Xerfi",
+   "date": "2019-04-30",
+   "duree_min": 14,
+   "niveau": null,
+   "concepts": [
+    "instabilite-financiere",
+    "banque-centrale"
+   ],
+   "concepts_precis": [
+    "instabilite-financiere"
+   ],
+   "resume": "Crises financières, banques et spéculation."
+  },
+  {
+   "id": "1GQMqxqpwls",
+   "titre": "\"Sortir du capitalisme : actualité et urgence du communisme\" Conférence de Bernard VASSEUR.",
+   "lien": "https://youtu.be/1GQMqxqpwls",
+   "format": "video",
+   "source": "YT upopaube",
+   "date": "2022-09-28",
+   "duree_min": 106,
+   "niveau": null,
+   "concepts": [
+    "planification-socialisme",
+    "valeur-exploitation"
+   ],
+   "concepts_precis": [
+    "valeur-exploitation",
+    "planification-socialisme"
+   ],
+   "resume": "Sortir du capitalisme par le communisme."
+  },
+  {
+   "id": "1McKuEp6RA8",
+   "titre": "Bruno Tinel:   Vive la dette publique",
+   "lien": "https://youtu.be/1McKuEp6RA8",
+   "format": "video",
+   "source": "AltrimentiVideo",
+   "date": "2016-10-11",
+   "duree_min": 73,
+   "niveau": null,
+   "concepts": [
+    "austerite-dette-publique"
+   ],
+   "concepts_precis": [
+    "austerite-dette-publique"
+   ],
+   "resume": "Dette publique, investissement et fiscalité."
+  },
+  {
+   "id": "1WmQMIYHY6Q",
+   "titre": "Anwar Shaikh on Inflation, William Buckley, Liberals and Conservatives",
+   "lien": "https://youtu.be/1WmQMIYHY6Q",
+   "format": "video",
+   "source": "webm thread #225",
+   "date": "2017-01-14",
+   "duree_min": 14,
+   "niveau": null,
+   "concepts": [
+    "demande-effective-chomage",
+    "profits-inflation",
+    "neoliberalisme"
+   ],
+   "concepts_precis": [
+    "neoliberalisme"
+   ],
+   "resume": "Chômage, inflation et demande effective."
+  },
+  {
+   "id": "1xRgkik6Ly0",
+   "titre": "Fascisme et bloc bourgeois - Stefano Palombarini",
+   "lien": "https://youtu.be/1xRgkik6Ly0",
+   "format": "video",
+   "source": "lundimatin",
+   "date": "2024-06-18",
+   "duree_min": 82,
+   "niveau": null,
+   "concepts": [
+    "autoritarisme-fascisation",
+    "neoliberalisme",
+    "travail-reproductif"
+   ],
+   "concepts_precis": [
+    "travail-reproductif"
+   ],
+   "resume": "Fascisme bourgeois, répression et capital."
+  },
+  {
+   "id": "2P5sIy5GUS4",
+   "titre": "Du marxisme à l'écologie - André Gorz, Ep.01",
+   "lien": "https://youtu.be/2P5sIy5GUS4",
+   "format": "video",
+   "source": "Guillaume Fleurance",
+   "date": "2022-10-04",
+   "duree_min": 22,
+   "niveau": null,
+   "concepts": [
+    "planification-ecologique",
+    "climat",
+    "valeur-exploitation"
+   ],
+   "concepts_precis": [
+    "valeur-exploitation"
+   ],
+   "resume": "Marxisme écologique et décroissance."
+  },
+  {
+   "id": "2RKWTktGsY0",
+   "titre": "Afrique, Interview sur le Franc CFA de Demba Moussa Dembélé, Directeur de l’Arcade (1/2)",
+   "lien": "https://youtu.be/2RKWTktGsY0",
+   "format": "video",
+   "source": "Africa 24",
+   "date": "2015-09-14",
+   "duree_min": 12,
+   "niveau": null,
+   "concepts": [
+    "franc-cfa",
+    "dettes-africaines",
+    "austerite-dette-publique"
+   ],
+   "concepts_precis": [
+    "austerite-dette-publique"
+   ],
+   "resume": "Souveraineté monétaire et zone franc."
+  },
+  {
+   "id": "3-RKlA3clN0",
+   "titre": "Le sable, matière première #1 : Nelo Magalhães (ATECOPOL 30-01-2025)",
+   "lien": "https://youtu.be/3-RKlA3clN0",
+   "format": "video",
+   "source": "TOXICPLANET",
+   "date": "2025-02-04",
+   "duree_min": 33,
+   "niveau": null,
+   "concepts": [
+    "extractivisme",
+    "climat",
+    "energie"
+   ],
+   "concepts_precis": [
+    "extractivisme"
+   ],
+   "resume": "Le sable comme ressource extractive"
+  },
+  {
+   "id": "3DRtLy18uvw",
+   "titre": "Nelo Magalhães",
+   "lien": "https://youtu.be/3DRtLy18uvw",
+   "format": "video",
+   "source": "Jean Claude COGREL",
+   "date": "2024-06-19",
+   "duree_min": 74,
+   "niveau": null,
+   "concepts": [
+    "planification-ecologique",
+    "climat",
+    "energie"
+   ],
+   "concepts_precis": [
+    "climat"
+   ],
+   "resume": "Infrastructures et choix politiques écologiques"
+  },
+  {
+   "id": "3RYGH44jOGM",
+   "titre": "01 Extractivisme numérique Bruno Théret (IRISSO, Université Paris Dauphine, PSL)",
+   "lien": "https://youtu.be/3RYGH44jOGM",
+   "format": "video",
+   "source": "ABELARTESS",
+   "date": "2019-06-26",
+   "duree_min": 14,
+   "niveau": null,
+   "concepts": [
+    "extractivisme",
+    "cryptomonnaies"
+   ],
+   "concepts_precis": [
+    "cryptomonnaies"
+   ],
+   "resume": "Extraction de données comme ressource"
+  },
+  {
+   "id": "3TJPlyVV_Yw",
+   "titre": "Pablo Servigne: Comprendre l'effondrement, la transition et l'entraide | Conférence au CESE (2019)",
+   "lien": "https://youtu.be/3TJPlyVV_Yw",
+   "format": "video",
+   "source": "Adaptation Radicale",
+   "date": "2026-05-16",
+   "duree_min": 175,
+   "niveau": null,
+   "concepts": [
+    "biodiversite-terres",
+    "climat",
+    "extractivisme",
+    "prix-essence"
+   ],
+   "concepts_precis": [
+    "prix-essence"
+   ],
+   "resume": "Dépendance pétrolière et fragilité systémique"
+  },
+  {
+   "id": "3TwmGj-s-3s",
+   "titre": "Prof. Tithi Bhattacharya on what she means by Feminism for the 99%. #feminismfor99%",
+   "lien": "https://youtu.be/3TwmGj-s-3s",
+   "format": "video",
+   "source": "India & Global Left",
+   "date": "2023-02-25",
+   "duree_min": 62,
+   "niveau": null,
+   "concepts": [
+    "travail-reproductif",
+    "etat-racial-integral"
+   ],
+   "concepts_precis": [
+    "travail-reproductif"
+   ],
+   "resume": "Exploitation du travail reproductif féminin"
+  },
+  {
+   "id": "3W1V9oa222U",
+   "titre": "3 présentation Hélène Tordjman (IFRIS - Université Paris XIII)",
+   "lien": "https://youtu.be/3W1V9oa222U",
+   "format": "video",
+   "source": "UMR SADAPT 1048",
+   "date": "2022-03-28",
+   "duree_min": 27,
+   "niveau": null,
+   "concepts": [
+    "biodiversite-terres",
+    "planification-ecologique",
+    "climat"
+   ],
+   "concepts_precis": [
+    "climat"
+   ],
+   "resume": "Croissance verte vs limites écologiques naturelles"
+  },
+  {
+   "id": "3YnHT2A3a6Y",
+   "titre": "Pavlina Tcherneva - The Federal Job Guarantee",
+   "lien": "https://youtu.be/3YnHT2A3a6Y",
+   "format": "video",
+   "source": "ModernMoneyNetwork",
+   "date": "2018-03-03",
+   "duree_min": 74,
+   "niveau": null,
+   "concepts": [
+    "mmt-chartalisme",
+    "demande-effective-chomage"
+   ],
+   "concepts_precis": [
+    "demande-effective-chomage"
+   ],
+   "resume": "Garantie d'emploi et théorie monétaire moderne"
+  },
+  {
+   "id": "3ZpSh5pO9SI",
+   "titre": "« Le travail est devenu insoutenable ». Entretien avec Dominique Méda",
+   "lien": "https://youtu.be/3ZpSh5pO9SI",
+   "format": "video",
+   "source": "La Vie des Idées",
+   "date": "2023-06-15",
+   "duree_min": 12,
+   "niveau": null,
+   "concepts": [
+    "travail-conditions",
+    "flexibilisation-travail"
+   ],
+   "concepts_precis": [
+    "flexibilisation-travail"
+   ],
+   "resume": "Conditions de travail et souffrance ouvrière"
+  },
+  {
+   "id": "3aiuLkqZd5s",
+   "titre": "Patriarcat et capitalisme selon Maria Mies (10/13)",
+   "lien": "https://youtu.be/3aiuLkqZd5s",
+   "format": "video",
+   "source": "Floraisons",
+   "date": "2023-05-21",
+   "duree_min": 36,
+   "niveau": null,
+   "concepts": [
+    "travail-reproductif",
+    "valeur-exploitation",
+    "planification-socialisme",
+    "patriarcat-salaires"
+   ],
+   "concepts_precis": [
+    "travail-reproductif",
+    "patriarcat-salaires"
+   ],
+   "resume": "Exploitation domestique dans le patriarcat"
+  },
+  {
+   "id": "3jXASkwGb3g",
+   "titre": "Dr Ndongo Samba Sylla - Lecture hétérodoxe des crises de la dette dans les pays du sud global",
+   "lien": "https://youtu.be/3jXASkwGb3g",
+   "format": "video",
+   "source": "IDEAs - Africa Network",
+   "date": "2026-10-16",
+   "duree_min": 67,
+   "niveau": null,
+   "concepts": [
+    "dependance",
+    "dettes-africaines"
+   ],
+   "concepts_precis": [],
+   "resume": "Crises de la dette dans le Sud global."
+  },
+  {
+   "id": "3nxoEKtHQKA",
+   "titre": "ROSA LUXEMBURG - Minutes Rouges ep 41",
+   "lien": "https://youtu.be/3nxoEKtHQKA",
+   "format": "video",
+   "source": "Minutes Rouges",
+   "date": "2021-12-26",
+   "duree_min": 18,
+   "niveau": "entree",
+   "concepts": [
+    "economie-de-guerre",
+    "planification-socialisme",
+    "valeur-exploitation"
+   ],
+   "concepts_precis": [
+    "valeur-exploitation"
+   ],
+   "resume": "Impérialisme et analyse marxiste."
+  },
+  {
+   "id": "41rghDOsf3w",
+   "titre": "Comment redonner du sens au travail ?",
+   "lien": "https://youtu.be/41rghDOsf3w",
+   "format": "video",
+   "source": "unedictv",
+   "date": "2023-02-14",
+   "duree_min": 15,
+   "niveau": null,
+   "concepts": [
+    "flexibilisation-travail",
+    "travail-conditions",
+    "protection-sociale"
+   ],
+   "concepts_precis": [
+    "flexibilisation-travail"
+   ],
+   "resume": "Réformes du marché du travail."
+  },
+  {
+   "id": "44Va32EODC4",
+   "titre": "Michel Aglietta, L'énigme de la monnaie internationale",
+   "lien": "https://youtu.be/44Va32EODC4",
+   "format": "video",
+   "source": "Xerfi",
+   "date": "2016-06-06",
+   "duree_min": 9,
+   "niveau": null,
+   "concepts": [
+    "monnaie-endogene"
+   ],
+   "concepts_precis": [
+    "monnaie-endogene"
+   ],
+   "resume": "Monnaie internationale et crédit."
+  },
+  {
+   "id": "467WgEvO8f4",
+   "titre": "Les ambitions de la Chine dans le domaine monétaire et financier [Michel Aglietta]",
+   "lien": "https://youtu.be/467WgEvO8f4",
+   "format": "video",
+   "source": "Xerfi",
+   "date": "2022-04-20",
+   "duree_min": 17,
+   "niveau": null,
+   "concepts": [
+    "banque-centrale",
+    "monnaie-endogene",
+    "instabilite-financiere"
+   ],
+   "concepts_precis": [
+    "monnaie-endogene"
+   ],
+   "resume": "Politique monétaire mondiale."
+  },
+  {
+   "id": "47OohmlJIEU",
+   "titre": "Professor Stephanie Kelton interview with Steven Hail Jan 2026",
+   "lien": "https://youtu.be/47OohmlJIEU",
+   "format": "video",
+   "source": "Modern Money Lab",
+   "date": "2026-01-16",
+   "duree_min": 68,
+   "niveau": null,
+   "concepts": [
+    "mmt-chartalisme"
+   ],
+   "concepts_precis": [
+    "mmt-chartalisme"
+   ],
+   "resume": "Théorie MMT et politique budgétaire."
+  },
+  {
+   "id": "4O9HVA3feRo",
+   "titre": "bruno théret",
+   "lien": "https://youtu.be/4O9HVA3feRo",
+   "format": "video",
+   "source": "Kris Pottie",
+   "date": "2015-11-18",
+   "duree_min": 18,
+   "niveau": null,
+   "concepts": [
+    "gouvernance-europeenne",
+    "austerite-dette-publique"
+   ],
+   "concepts_precis": [
+    "austerite-dette-publique"
+   ],
+   "resume": "Gouvernance économique européenne."
+  },
+  {
+   "id": "4TPiJ7Lck_U",
+   "titre": "Les néolibéraux veulent détruire l’État social – Christophe Ramaux",
+   "lien": "https://youtu.be/4TPiJ7Lck_U",
+   "format": "video",
+   "source": "Penser c'est chouette",
+   "date": "2025-10-24",
+   "duree_min": 104,
+   "niveau": null,
+   "concepts": [
+    "neoliberalisme",
+    "protection-sociale"
+   ],
+   "concepts_precis": [
+    "neoliberalisme"
+   ],
+   "resume": "Débat néolibéralisme vs État social."
+  },
+  {
+   "id": "5tSqwJTyfFA",
+   "titre": "Benjamin Braun and Daniela Gabor: In Search of a Green Macro-Financial Regime",
+   "lien": "https://youtu.be/5tSqwJTyfFA",
+   "format": "video",
+   "source": "Cambridge Society For Economic Pluralism",
+   "date": "2021-12-10",
+   "duree_min": 82,
+   "niveau": null,
+   "concepts": [
+    "banque-centrale",
+    "instabilite-financiere",
+    "profits-inflation"
+   ],
+   "concepts_precis": [
+    "profits-inflation",
+    "banque-centrale",
+    "instabilite-financiere"
+   ],
+   "resume": "Banques centrales et politique monétaire"
+  },
+  {
+   "id": "5uCuy7Nzhms",
+   "titre": "JEA 2025 - Grand entretien avec Michaël Zemmour",
+   "lien": "https://youtu.be/5uCuy7Nzhms",
+   "format": "video",
+   "source": "Alternatives Economiques",
+   "date": "2025-11-29",
+   "duree_min": 91,
+   "niveau": null,
+   "concepts": [
+    "protection-sociale",
+    "flexibilisation-travail"
+   ],
+   "concepts_precis": [
+    "protection-sociale"
+   ],
+   "resume": "Protection sociale et retraites"
+  },
+  {
+   "id": "6J0m18AejWA",
+   "titre": "Modern Money Theory | L. Randall Wray | Cátedra Internacional PMDCE-UAM",
+   "lien": "https://youtu.be/6J0m18AejWA",
+   "format": "video",
+   "source": "Economía UAM-A",
+   "date": "2026-10-01",
+   "duree_min": 126,
+   "niveau": null,
+   "concepts": [
+    "mmt-chartalisme"
+   ],
+   "concepts_precis": [
+    "mmt-chartalisme"
+   ],
+   "resume": "Théorie moderne de la monnaie (MMT)"
+  },
+  {
+   "id": "6nZBILRz2kM",
+   "titre": "Les brevets : un modèle dépassé",
+   "lien": "https://youtu.be/6nZBILRz2kM",
+   "format": "video",
+   "source": "FRANCE 24",
+   "date": "2020-01-23",
+   "duree_min": 11,
+   "niveau": null,
+   "concepts": [
+    "sante-publique",
+    "flexibilisation-travail",
+    "dependance"
+   ],
+   "concepts_precis": [
+    "flexibilisation-travail"
+   ],
+   "resume": "Santé publique, médicaments et brevets"
+  },
+  {
+   "id": "6pUgHTqctF0",
+   "titre": "Taxe Zucman : débat intégral entre Gabriel Zucman et Philippe Aghion au FDDAY 2025",
+   "lien": "https://youtu.be/6pUgHTqctF0",
+   "format": "video",
+   "source": "iWeek | Les Voix de la Tech | L'IA fait sa loi",
+   "date": "2025-09-19",
+   "duree_min": 40,
+   "niveau": null,
+   "concepts": [
+    "fiscalite-inegalites"
+   ],
+   "concepts_precis": [
+    "fiscalite-inegalites"
+   ],
+   "resume": "Fiscalité et inégalités de revenus"
+  },
+  {
+   "id": "7QM2gug_JSA",
+   "titre": "Sortir du consumérisme ?",
+   "lien": "https://youtu.be/7QM2gug_JSA",
+   "format": "video",
+   "source": "Université populaire du pays d'Aix",
+   "date": "2023-03-26",
+   "duree_min": 51,
+   "niveau": null,
+   "concepts": [
+    "biodiversite-terres",
+    "planification-ecologique",
+    "communs-cooperatives"
+   ],
+   "concepts_precis": [
+    "communs-cooperatives",
+    "planification-ecologique"
+   ],
+   "resume": "Biodiversité et agriculture (déclin)"
+  },
+  {
+   "id": "7Yn6zy-0tIE",
+   "titre": "Karl Marx, la téléologie 3 Une vision philosophique atypique et autistique",
+   "lien": "https://youtu.be/7Yn6zy-0tIE",
+   "format": "video",
+   "source": "La MécaniqueUniverselle",
+   "date": "2024-08-06",
+   "duree_min": 19,
+   "niveau": null,
+   "concepts": [
+    "valeur-exploitation"
+   ],
+   "concepts_precis": [
+    "valeur-exploitation"
+   ],
+   "resume": "Théorie de la plus-value et fétichisme"
+  },
+  {
+   "id": "7cLDFjTt4Bs",
+   "titre": "Professor L Randall Wray | The History and Nature of Money | January 2024",
+   "lien": "https://youtu.be/7cLDFjTt4Bs",
+   "format": "video",
+   "source": "Modern Money Lab",
+   "date": "2024-01-17",
+   "duree_min": 72,
+   "niveau": null,
+   "concepts": [
+    "mmt-chartalisme",
+    "monnaie-endogene"
+   ],
+   "concepts_precis": [
+    "mmt-chartalisme"
+   ],
+   "resume": "Monnaie, dette et théorie MMT"
+  },
+  {
+   "id": "8V9B6uqD69E",
+   "titre": "Débat. Faut-il sortir du marché européen de l’électricité ?",
+   "lien": "https://youtu.be/8V9B6uqD69E",
+   "format": "video",
+   "source": "Mediapart",
+   "date": "2023-03-02",
+   "duree_min": 42,
+   "niveau": null,
+   "concepts": [
+    "energie",
+    "gouvernance-europeenne"
+   ],
+   "concepts_precis": [
+    "energie"
+   ],
+   "resume": "Marché de l'électricité et prix"
+  },
+  {
+   "id": "8_GNTq3UgDw",
+   "titre": "L'économie numérique : un cimetière pour l'emploi ? Avec Michel Husson",
+   "lien": "https://youtu.be/8_GNTq3UgDw",
+   "format": "video",
+   "source": "Société Louise Michel",
+   "date": "2018-03-09",
+   "duree_min": 72,
+   "niveau": null,
+   "concepts": [
+    "accumulation-crises",
+    "economie-de-guerre"
+   ],
+   "concepts_precis": [],
+   "resume": "Crises d'emploi et financiarisation"
+  },
+  {
+   "id": "91EGceaqFE4",
+   "titre": "J'ai très mal au travail | Christophe Dejours (3/12)",
+   "lien": "https://youtu.be/91EGceaqFE4",
+   "format": "video",
+   "source": "Souffrance et Travail",
+   "date": "2011-06-12",
+   "duree_min": 11,
+   "niveau": null,
+   "concepts": [
+    "travail-conditions",
+    "flexibilisation-travail"
+   ],
+   "concepts_precis": [
+    "travail-conditions"
+   ],
+   "resume": "Santé au travail et reconnaissance"
+  },
+  {
+   "id": "9K2GCw79k9Y",
+   "titre": "Hélène Tordjman - La croissance verte contre la nature : critique de l'écologie marchande",
+   "lien": "https://youtu.be/9K2GCw79k9Y",
+   "format": "video",
+   "source": "librairie mollat",
+   "date": "2022-09-09",
+   "duree_min": 55,
+   "niveau": null,
+   "concepts": [
+    "planification-ecologique",
+    "climat",
+    "energie"
+   ],
+   "concepts_precis": [
+    "climat"
+   ],
+   "resume": "Croissance verte vs écologie réelle"
+  },
+  {
+   "id": "9cdgnzQ0NSg",
+   "titre": "Christophe DEJOURS: Violências no Trabalho - Entrevista Completa (Legendado em PT/BR)",
+   "lien": "https://youtu.be/9cdgnzQ0NSg",
+   "format": "video",
+   "source": "CLINICAND - PSICANÁLISE E ESQUIZOANÁLISE",
+   "date": "2020-01-14",
+   "duree_min": 30,
+   "niveau": null,
+   "concepts": [
+    "travail-conditions",
+    "luttes-de-classes",
+    "communs-cooperatives"
+   ],
+   "concepts_precis": [
+    "travail-conditions"
+   ],
+   "resume": "Violences et santé au travail"
+  },
+  {
+   "id": "9gel7u7NV9E",
+   "titre": "Randall Wray - Why Our Economy Keeps Crashing",
+   "lien": "https://youtu.be/9gel7u7NV9E",
+   "format": "video",
+   "source": "Wellbeing Economics Brighton",
+   "date": "2023-03-11",
+   "duree_min": 144,
+   "niveau": null,
+   "concepts": [
+    "instabilite-financiere",
+    "accumulation-crises",
+    "banque-centrale"
+   ],
+   "concepts_precis": [
+    "accumulation-crises"
+   ],
+   "resume": "Instabilité financière et bulles"
+  },
+  {
+   "id": "9s_DxT6j6cs",
+   "titre": "#ThinkingThroughTheCrises: Tithi Bhattacharya",
+   "lien": "https://youtu.be/9s_DxT6j6cs",
+   "format": "video",
+   "source": "Amsterdam Institute for Social Science Research",
+   "date": "2020-10-15",
+   "duree_min": 86,
+   "niveau": null,
+   "concepts": [
+    "travail-reproductif",
+    "salaire-a-vie-securite-sociale"
+   ],
+   "concepts_precis": [
+    "travail-reproductif"
+   ],
+   "resume": "Théorie de la reproduction sociale et travail"
+  },
+  {
+   "id": "9zgsIFW6Pmk",
+   "titre": "Emmanuel Todd explique le génie militaire de Macron",
+   "lien": "https://youtu.be/9zgsIFW6Pmk",
+   "format": "video",
+   "source": "Éthique et tac",
+   "date": "2026-05-02",
+   "duree_min": 16,
+   "niveau": null,
+   "concepts": [
+    "economie-de-guerre",
+    "peripherie-europeenne"
+   ],
+   "concepts_precis": [
+    "economie-de-guerre"
+   ],
+   "resume": "Bellicisme européen et guerre contre la Russie"
+  },
+  {
+   "id": "ACaNT_6RwmM",
+   "titre": "Eric Toussaint - Assemblée Citoyenne Européenne sur la Dette - Bruxelles, le 16 octobre 2015",
+   "lien": "https://youtu.be/ACaNT_6RwmM",
+   "format": "video",
+   "source": "CADTM INTERNATIONAL",
+   "date": "2015-10-19",
+   "duree_min": 26,
+   "niveau": null,
+   "concepts": [
+    "dettes-africaines",
+    "gouvernance-europeenne",
+    "peripherie-europeenne",
+    "austerite-dette-publique"
+   ],
+   "concepts_precis": [
+    "austerite-dette-publique"
+   ],
+   "resume": "Dette publique mondiale et gouvernance UE"
+  },
+  {
+   "id": "AGAXenvbIjE",
+   "titre": "What Did Marx Have to Say about Cooking Dinner? Social Reproduction Theory and Labor Theory of Value",
+   "lien": "https://youtu.be/AGAXenvbIjE",
+   "format": "video",
+   "source": "Yale University",
+   "date": "2020-10-27",
+   "duree_min": 116,
+   "niveau": null,
+   "concepts": [
+    "travail-reproductif",
+    "valeur-exploitation"
+   ],
+   "concepts_precis": [
+    "valeur-exploitation"
+   ],
+   "resume": "Reproduction sociale et théorie marxiste du travail"
+  },
+  {
+   "id": "AdF9zKPAW4E",
+   "titre": "Faut-il reboucher le trou de la sécu ? - Nicolas Da Silva",
+   "lien": "https://youtu.be/AdF9zKPAW4E",
+   "format": "video",
+   "source": "Ozé Le Podcast",
+   "date": "2025-07-31",
+   "duree_min": 87,
+   "niveau": null,
+   "concepts": [
+    "protection-sociale",
+    "salaire-a-vie-securite-sociale"
+   ],
+   "concepts_precis": [
+    "protection-sociale"
+   ],
+   "resume": "Protection sociale, retraites et revenu garanti"
+  },
+  {
+   "id": "At5D4_TFM3E",
+   "titre": "Hommage à Michel Aglietta avec Robert Boyer",
+   "lien": "https://youtu.be/At5D4_TFM3E",
+   "format": "video",
+   "source": "Journées de l'Economie",
+   "date": "2025-10-16",
+   "duree_min": 9,
+   "niveau": null,
+   "concepts": [
+    "neoliberalisme"
+   ],
+   "concepts_precis": [
+    "neoliberalisme"
+   ],
+   "resume": "Régulation macroéconomique institutionnelle historique"
+  },
+  {
+   "id": "B3cY1q3c_qY",
+   "titre": "Christophe Dejours   Syndrome d'épuisement professionnel",
+   "lien": "https://youtu.be/B3cY1q3c_qY",
+   "format": "video",
+   "source": "Clinique du travail",
+   "date": "2017-08-19",
+   "duree_min": 83,
+   "niveau": null,
+   "concepts": [
+    "travail-conditions",
+    "flexibilisation-travail"
+   ],
+   "concepts_precis": [
+    "travail-conditions"
+   ],
+   "resume": "Santé au travail, souffrance et conditions de travail"
+  },
+  {
+   "id": "B6pg1W8x9Gc",
+   "titre": "DANIELA GABOR - Critical Macro-Finance (chap. 1/11)",
+   "lien": "https://youtu.be/B6pg1W8x9Gc",
+   "format": "video",
+   "source": "Diagrammes",
+   "date": "2025-10-20",
+   "duree_min": 13,
+   "niveau": null,
+   "concepts": [
+    "banque-centrale",
+    "profits-inflation",
+    "instabilite-financiere"
+   ],
+   "concepts_precis": [
+    "instabilite-financiere"
+   ],
+   "resume": "Macro-finance et taux d'intérêt."
+  },
+  {
+   "id": "BS3Tk5a6JR4",
+   "titre": "Michel HUSSON : Numérique - Emploi, Organisation du travail et émancipation",
+   "lien": "https://youtu.be/BS3Tk5a6JR4",
+   "format": "video",
+   "source": "Fsetud CGT",
+   "date": "2018-06-08",
+   "duree_min": 38,
+   "niveau": null,
+   "concepts": [
+    "concentration-monopoles",
+    "flexibilisation-travail",
+    "luttes-de-classes"
+   ],
+   "concepts_precis": [
+    "flexibilisation-travail",
+    "luttes-de-classes"
+   ],
+   "resume": "Concentration et organisation numérique."
+  },
+  {
+   "id": "Bx8jlR2IXZo",
+   "titre": "Tithi Bhattacharya Keynote Address at SocFem Convergence",
+   "lien": "https://youtu.be/Bx8jlR2IXZo",
+   "format": "video",
+   "source": "Socialist Feminist Working Group",
+   "date": "2019-05-09",
+   "duree_min": 57,
+   "niveau": null,
+   "concepts": [
+    "travail-reproductif",
+    "luttes-de-classes",
+    "patriarcat-salaires"
+   ],
+   "concepts_precis": [
+    "travail-reproductif",
+    "patriarcat-salaires"
+   ],
+   "resume": "Reproduction sociale et travail de soin."
+  },
+  {
+   "id": "BxY-nDAPGyk",
+   "titre": "[Podcast] Dé-libérer le travail démocratie et temporalités au cœur des enjeux de santé au travail",
+   "lien": "https://youtu.be/BxY-nDAPGyk",
+   "format": "video",
+   "source": "Sociologie et entreprise",
+   "date": "2022-10-28",
+   "duree_min": 86,
+   "niveau": null,
+   "concepts": [
+    "travail-conditions",
+    "flexibilisation-travail",
+    "sante-publique"
+   ],
+   "concepts_precis": [
+    "sante-publique"
+   ],
+   "resume": "Santé au travail et temporalités."
+  },
+  {
+   "id": "CZphT00aAiQ",
+   "titre": "Ensemble, traquons les banques et les multinationales prédatrices (Dominique Plihon Attac18)",
+   "lien": "https://youtu.be/CZphT00aAiQ",
+   "format": "video",
+   "source": "Pascal Martin",
+   "date": "2014-07-27",
+   "duree_min": 41,
+   "niveau": null,
+   "concepts": [
+    "concentration-monopoles",
+    "libre-echange-mondialisation",
+    "instabilite-financiere"
+   ],
+   "concepts_precis": [
+    "concentration-monopoles",
+    "instabilite-financiere"
+   ],
+   "resume": "Monopoles bancaires et profits."
+  },
+  {
+   "id": "ClsQJRCVv4s",
+   "titre": "\"Exploitation” : moteur ou maladie du capitalisme ?",
+   "lien": "https://youtu.be/ClsQJRCVv4s",
+   "format": "video",
+   "source": "hasard organisé",
+   "date": "2026-10-25",
+   "duree_min": 59,
+   "niveau": null,
+   "concepts": [
+    "histoire-capitalisme",
+    "animaux-antispecisme",
+    "valeur-exploitation"
+   ],
+   "concepts_precis": [
+    "valeur-exploitation"
+   ],
+   "resume": "Exploitation comme moteur historique."
+  },
+  {
+   "id": "CykN1UcFm20",
+   "titre": "[economie.org] La macroéconomie #3 – Formation des prix et politique monétaire - Benoît Borrits",
+   "lien": "https://youtu.be/CykN1UcFm20",
+   "format": "video",
+   "source": "economie-org",
+   "date": "2020-01-31",
+   "duree_min": 36,
+   "niveau": null,
+   "concepts": [
+    "profits-inflation",
+    "banque-centrale"
+   ],
+   "concepts_precis": [
+    "profits-inflation"
+   ],
+   "resume": "Inflation par les profits et prix."
+  },
+  {
+   "id": "Czi3xGux6Lg",
+   "titre": "A TEORIA MARXISTA DO VALOR TRABALHO - ERNEST MANDEL",
+   "lien": "https://youtu.be/Czi3xGux6Lg",
+   "format": "video",
+   "source": "ENTENDA A SOCIOLOGIA (ARIOVALDO SANTOS - UEL - PR)",
+   "date": "2026-07-17",
+   "duree_min": 37,
+   "niveau": null,
+   "concepts": [
+    "valeur-exploitation"
+   ],
+   "concepts_precis": [
+    "valeur-exploitation"
+   ],
+   "resume": "Valeur travail et plus-value."
+  },
+  {
+   "id": "DFwrZnMeA1o",
+   "titre": "Olivier Delorme : Arménie, Grèce, Europe et impérialisme turc",
+   "lien": "https://youtu.be/DFwrZnMeA1o",
+   "format": "video",
+   "source": "Cercle de Kelven",
+   "date": "2025-03-25",
+   "duree_min": 30,
+   "niveau": null,
+   "concepts": [
+    "peripherie-europeenne",
+    "mmt-chartalisme"
+   ],
+   "concepts_precis": [
+    "mmt-chartalisme"
+   ],
+   "resume": "Impérialisme turc et menace sur l'Europe du Sud"
+  },
+  {
+   "id": "D_XYWCoQRZs",
+   "titre": "GRÈVE FÉMINISTE : arrêter le monde pour le changer",
+   "lien": "https://youtu.be/D_XYWCoQRZs",
+   "format": "video",
+   "source": "Au Poste",
+   "date": "2026-04-16",
+   "duree_min": 108,
+   "niveau": null,
+   "concepts": [
+    "travail-reproductif",
+    "patriarcat-salaires",
+    "valeur-exploitation"
+   ],
+   "concepts_precis": [
+    "travail-reproductif",
+    "patriarcat-salaires"
+   ],
+   "resume": "Travail reproductif invisible et PIB excluant les femmes"
+  },
+  {
+   "id": "DyBbidjjNKI",
+   "titre": "La croissance verte contre la nature, conférence d'Hélène Tordjman 10.03.2022",
+   "lien": "https://youtu.be/DyBbidjjNKI",
+   "format": "video",
+   "source": "Cercle de débats Rosa Luxemburg",
+   "date": "2022-09-17",
+   "duree_min": 114,
+   "niveau": null,
+   "concepts": [
+    "planification-ecologique",
+    "climat",
+    "energie"
+   ],
+   "concepts_precis": [
+    "climat"
+   ],
+   "resume": "Critique de l'écosocialisme et de la croissance verte"
+  },
+  {
+   "id": "ECdMKQpoWJ4",
+   "titre": "Inflation, on connaît la chanson ?",
+   "lien": "https://youtu.be/ECdMKQpoWJ4",
+   "format": "video",
+   "source": "Département de recherche CHANGES",
+   "date": "2022-12-20",
+   "duree_min": 87,
+   "niveau": null,
+   "concepts": [
+    "prix-essence",
+    "profits-inflation"
+   ],
+   "concepts_precis": [
+    "profits-inflation"
+   ],
+   "resume": "Inflation, coût de la vie et contrôle des prix énergétiques"
+  },
+  {
+   "id": "EN4C1uoQdao",
+   "titre": "Christophe Dejours - Le travail entre aliénation et émancipation",
+   "lien": "https://youtu.be/EN4C1uoQdao",
+   "format": "video",
+   "source": "Groupe vaudois de philosophie",
+   "date": "2018-05-31",
+   "duree_min": 58,
+   "niveau": null,
+   "concepts": [
+    "travail-conditions",
+    "valeur-exploitation"
+   ],
+   "concepts_precis": [
+    "valeur-exploitation"
+   ],
+   "resume": "Aliénation au travail, santé mentale et conditions d'emploi"
+  },
+  {
+   "id": "ER-uUAuKUA0",
+   "titre": "Le capitalisme nous mène à la faillite ? Gaël Giraud explique.",
+   "lien": "https://youtu.be/ER-uUAuKUA0",
+   "format": "video",
+   "source": "Le Crayon",
+   "date": "2025-11-20",
+   "duree_min": 54,
+   "niveau": null,
+   "concepts": [
+    "concentration-monopoles",
+    "austerite-dette-publique",
+    "peripherie-europeenne"
+   ],
+   "concepts_precis": [
+    "austerite-dette-publique",
+    "peripherie-europeenne"
+   ],
+   "resume": "Concentration du pouvoir entre états et algorithmes"
+  },
+  {
+   "id": "FJtjTLHPBUc",
+   "titre": "Mireille Bruyere   L'insoutenable productivité du travail",
+   "lien": "https://youtu.be/FJtjTLHPBUc",
+   "format": "video",
+   "source": "Les Amis du Temps des cerises",
+   "date": "2019-02-23",
+   "duree_min": 57,
+   "niveau": null,
+   "concepts": [
+    "demande-effective-chomage",
+    "valeur-exploitation",
+    "neoliberalisme"
+   ],
+   "concepts_precis": [
+    "neoliberalisme"
+   ],
+   "resume": "Productivité excessive et limites de la plus-value"
+  },
+  {
+   "id": "FiFuYO_NUzM",
+   "titre": "André Gorz, une vie",
+   "lien": "https://youtu.be/FiFuYO_NUzM",
+   "format": "video",
+   "source": "Librairie Ombres Blanches",
+   "date": "2024-02-21",
+   "duree_min": 54,
+   "niveau": null,
+   "concepts": [
+    "accumulation-crises",
+    "valeur-exploitation"
+   ],
+   "concepts_precis": [
+    "valeur-exploitation"
+   ],
+   "resume": "Crises du capitalisme et biographie d'un penseur clé"
+  },
+  {
+   "id": "GWoEmmVq2ac",
+   "titre": "9/13 Respostas europeias - Michel Husson",
+   "lien": "https://youtu.be/GWoEmmVq2ac",
+   "format": "video",
+   "source": "Catarina Martins - BE no Parlamento Europeu",
+   "date": "2011-11-26",
+   "duree_min": 19,
+   "niveau": null,
+   "concepts": [
+    "peripherie-europeenne",
+    "gouvernance-europeenne",
+    "austerite-dette-publique",
+    "eau"
+   ],
+   "concepts_precis": [
+    "eau"
+   ],
+   "resume": "Crise des dettes et rôle de l'UE dans les pays du Sud"
+  },
+  {
+   "id": "Gb49GxEmBXs",
+   "titre": "Configurations du capitalisme contemporain",
+   "lien": "https://youtu.be/Gb49GxEmBXs",
+   "format": "video",
+   "source": "hasard organisé",
+   "date": "2026-10-24",
+   "duree_min": 59,
+   "niveau": null,
+   "concepts": [
+    "dependance",
+    "valeur-exploitation",
+    "histoire-capitalisme"
+   ],
+   "concepts_precis": [
+    "valeur-exploitation"
+   ],
+   "resume": "Capitalisme contemporain et exploitation"
+  },
+  {
+   "id": "HcNMhJAM4Xs",
+   "titre": "Conférence Bernard Vasseur : Le communisme a de l'avenir... si on le libère du passé",
+   "lien": "https://youtu.be/HcNMhJAM4Xs",
+   "format": "video",
+   "source": "PCF 93",
+   "date": "2020-10-08",
+   "duree_min": 53,
+   "niveau": null,
+   "concepts": [
+    "dependance",
+    "extractivisme",
+    "planification-socialisme"
+   ],
+   "concepts_precis": [
+    "planification-socialisme"
+   ],
+   "resume": "Communisme libéré et extraction"
+  },
+  {
+   "id": "IpVC-yPR8d4",
+   "titre": "Les liaisons coupables entre la Politique et la Finance",
+   "lien": "https://youtu.be/IpVC-yPR8d4",
+   "format": "video",
+   "source": "TV5MONDE",
+   "date": "2015-02-13",
+   "duree_min": 12,
+   "niveau": null,
+   "concepts": [
+    "banque-centrale",
+    "instabilite-financiere"
+   ],
+   "concepts_precis": [
+    "instabilite-financiere"
+   ],
+   "resume": "Banques centrales et crises financières"
+  },
+  {
+   "id": "IqFmGe0iBRs",
+   "titre": "Bernard Friot \"Retraites le Régime Général\" Séminaire Mensuel Réseau Salariat Paris février 2019",
+   "lien": "https://youtu.be/IqFmGe0iBRs",
+   "format": "video",
+   "source": "NostraBlablatus",
+   "date": "2019-09-09",
+   "duree_min": 145,
+   "niveau": null,
+   "concepts": [
+    "salaire-a-vie-securite-sociale",
+    "protection-sociale"
+   ],
+   "concepts_precis": [
+    "salaire-a-vie-securite-sociale"
+   ],
+   "resume": "Salaire à vie et sécurité sociale"
+  },
+  {
+   "id": "IzVzrPcTdAo",
+   "titre": "Inflation: The Fed's Crash Landing with L. Randall Wray",
+   "lien": "https://youtu.be/IzVzrPcTdAo",
+   "format": "video",
+   "source": "Real Progressives",
+   "date": "2022-05-25",
+   "duree_min": 60,
+   "niveau": null,
+   "concepts": [
+    "mmt-chartalisme",
+    "banque-centrale",
+    "banque-centrale",
+    "profits-inflation"
+   ],
+   "concepts_precis": [
+    "profits-inflation",
+    "mmt-chartalisme",
+    "banque-centrale"
+   ],
+   "resume": "Théorie monétaire MMT et inflation"
+  },
+  {
+   "id": "JUd07ReU2ag",
+   "titre": "Fabrice Nicolino #3 : \"L'OPA de l'industrie sur le syndicalisme paysan\"",
+   "lien": "https://youtu.be/JUd07ReU2ag",
+   "format": "video",
+   "source": "Théâtre du Rond-Point",
+   "date": "2017-05-12",
+   "duree_min": 8,
+   "niveau": null,
+   "concepts": [
+    "biodiversite-terres",
+    "animaux-antispecisme",
+    "industrie-desindustrialisation",
+    "luttes-de-classes"
+   ],
+   "concepts_precis": [
+    "luttes-de-classes"
+   ],
+   "resume": "L'industrie agroalimentaire et la pollution."
+  },
+  {
+   "id": "K0jbE_CdQS4",
+   "titre": "Fabrice Nicolino #1 : \"Le hold-up planétaire de l'industrie transnationale sur l'alimentation\"",
+   "lien": "https://youtu.be/K0jbE_CdQS4",
+   "format": "video",
+   "source": "Théâtre du Rond-Point",
+   "date": "2017-05-12",
+   "duree_min": 9,
+   "niveau": null,
+   "concepts": [
+    "biodiversite-terres",
+    "animaux-antispecisme",
+    "climat"
+   ],
+   "concepts_precis": [
+    "biodiversite-terres"
+   ],
+   "resume": "Le hold-up planétaire de l'industrie alimentaire."
+  },
+  {
+   "id": "L0rycUEJgRM",
+   "titre": "Pr Christophe Dejours -  Harcèlement et santé au travail",
+   "lien": "https://youtu.be/L0rycUEJgRM",
+   "format": "video",
+   "source": "Passeur d'Alertes",
+   "date": "2017-10-20",
+   "duree_min": 10,
+   "niveau": null,
+   "concepts": [
+    "travail-conditions",
+    "sante-publique",
+    "travail-reproductif"
+   ],
+   "concepts_precis": [
+    "travail-reproductif"
+   ],
+   "resume": "Le harcèlement et la santé au travail."
+  },
+  {
+   "id": "L1mGN7E3DFw",
+   "titre": "Audition de Philippe Aghion, Prix Nobel d'économie",
+   "lien": "https://youtu.be/L1mGN7E3DFw",
+   "format": "video",
+   "source": "Sénat",
+   "date": "2026-11-20",
+   "duree_min": 61,
+   "niveau": null,
+   "concepts": [
+    "gouvernance-europeenne",
+    "industrie-desindustrialisation"
+   ],
+   "concepts_precis": [
+    "gouvernance-europeenne"
+   ],
+   "resume": "La compétitivité européenne et les inégalités."
+  },
+  {
+   "id": "LAcei8tQEQM",
+   "titre": "Le capitalisme : critique et résilience [Pierre-Yves Gomez]",
+   "lien": "https://youtu.be/LAcei8tQEQM",
+   "format": "video",
+   "source": "Xerfi",
+   "date": "2022-09-16",
+   "duree_min": 13,
+   "niveau": null,
+   "concepts": [
+    "histoire-capitalisme",
+    "fiscalite-inegalites"
+   ],
+   "concepts_precis": [],
+   "resume": "Critique historique du capitalisme et résilience."
+  },
+  {
+   "id": "LZ3jT5pyQUw",
+   "titre": "Palestine and the Political Economy of the Middle East (feat. Adam Hanieh)",
+   "lien": "https://youtu.be/LZ3jT5pyQUw",
+   "format": "video",
+   "source": "Emancipations with Daniel Tutt",
+   "date": "2025-09-02",
+   "duree_min": 88,
+   "niveau": null,
+   "concepts": [
+    "palestine",
+    "concentration-monopoles",
+    "mmt-chartalisme"
+   ],
+   "concepts_precis": [
+    "mmt-chartalisme"
+   ],
+   "resume": "L'économie de l'occupation et le capitalisme fossile."
+  },
+  {
+   "id": "M8Nlp2kc0mk",
+   "titre": "Tithi Bhattacharya | Teoria da Reprodução Social",
+   "lien": "https://youtu.be/M8Nlp2kc0mk",
+   "format": "video",
+   "source": "Amasa Carvalho",
+   "date": "2026-03-21",
+   "duree_min": 11,
+   "niveau": null,
+   "concepts": [
+    "travail-reproductif",
+    "etat-racial-integral",
+    "salaire-a-vie-securite-sociale"
+   ],
+   "concepts_precis": [
+    "salaire-a-vie-securite-sociale"
+   ],
+   "resume": "La théorie de la reproduction sociale et les inégalités."
+  },
+  {
+   "id": "Mlwkr7wPh-A",
+   "titre": "J'ai très mal au travail | Christophe Dejours (5/12)",
+   "lien": "https://youtu.be/Mlwkr7wPh-A",
+   "format": "video",
+   "source": "Souffrance et Travail",
+   "date": "2011-06-12",
+   "duree_min": 12,
+   "niveau": null,
+   "concepts": [
+    "travail-conditions"
+   ],
+   "concepts_precis": [
+    "travail-conditions"
+   ],
+   "resume": "Santé et souffrance au travail"
+  },
+  {
+   "id": "O-RaeWgCBOM",
+   "titre": "Benoît Borrits : « Une entreprise sans propriétaire, c’est possible. »",
+   "lien": "https://youtu.be/O-RaeWgCBOM",
+   "format": "video",
+   "source": "Regards",
+   "date": "2018-06-26",
+   "duree_min": 15,
+   "niveau": null,
+   "concepts": [
+    "communs-cooperatives",
+    "travail-conditions"
+   ],
+   "concepts_precis": [
+    "communs-cooperatives"
+   ],
+   "resume": "Propriété sociale et coopératives"
+  },
+  {
+   "id": "O2arnLTqoAE",
+   "titre": "Organisation du travail et démocratie, avec Christophe Dejours",
+   "lien": "https://youtu.be/O2arnLTqoAE",
+   "format": "video",
+   "source": "Librairie Vrin",
+   "date": "2025-04-29",
+   "duree_min": 55,
+   "niveau": null,
+   "concepts": [
+    "travail-conditions",
+    "planification-socialisme",
+    "luttes-de-classes",
+    "flexibilisation-travail"
+   ],
+   "concepts_precis": [
+    "flexibilisation-travail"
+   ],
+   "resume": "Démocratie et organisation du travail"
+  },
+  {
+   "id": "O6s8sQ42rSY",
+   "titre": "Rationalité autoréférentielle et mimétisme - André Orléan",
+   "lien": "https://youtu.be/O6s8sQ42rSY",
+   "format": "video",
+   "source": "Laboratoire Pacte",
+   "date": "2020-12-14",
+   "duree_min": 69,
+   "niveau": null,
+   "concepts": [
+    "instabilite-financiere",
+    "mmt-chartalisme",
+    "banque-centrale"
+   ],
+   "concepts_precis": [
+    "instabilite-financiere"
+   ],
+   "resume": "Crises financières et panique"
+  },
+  {
+   "id": "Or_pcfOlPGM",
+   "titre": "Ulysse Lojkine \"Le point négatif c'est pas la rémunération ou les condition, c'est la précarité\"",
+   "lien": "https://youtu.be/Or_pcfOlPGM",
+   "format": "video",
+   "source": "RIP le podcast des étudiants",
+   "date": "2023-11-02",
+   "duree_min": 65,
+   "niveau": null,
+   "concepts": [
+    "flexibilisation-travail",
+    "ecole-universite",
+    "dependance"
+   ],
+   "concepts_precis": [],
+   "resume": "Précarité et marché du travail"
+  },
+  {
+   "id": "PMzLtWr3Jqk",
+   "titre": "Terrain Social #30 - Le féminisme... forcément révolutionnaire - Aurore Koechlin",
+   "lien": "https://youtu.be/PMzLtWr3Jqk",
+   "format": "video",
+   "source": "L'Onde Porteuse",
+   "date": "2021-03-11",
+   "duree_min": 16,
+   "niveau": null,
+   "concepts": [
+    "travail-reproductif",
+    "luttes-de-classes"
+   ],
+   "concepts_precis": [
+    "travail-reproductif"
+   ],
+   "resume": "Féminisme et travail reproductif"
+  },
+  {
+   "id": "PSiFg3OcSSU",
+   "titre": "Inflation : tout comprendre en 12 minutes",
+   "lien": "https://youtu.be/PSiFg3OcSSU",
+   "format": "video",
+   "source": "Florian ZINGRAFF",
+   "date": "2026-05-17",
+   "duree_min": 12,
+   "niveau": null,
+   "concepts": [
+    "profits-inflation",
+    "prix-essence"
+   ],
+   "concepts_precis": [
+    "profits-inflation"
+   ],
+   "resume": "Inflation par les profits et prix"
+  },
+  {
+   "id": "QD0aPNWpIJA",
+   "titre": "#27 Services publics : une réinvention nécessaire ?",
+   "lien": "https://youtu.be/QD0aPNWpIJA",
+   "format": "video",
+   "source": "Printemps de l'économie",
+   "date": "2025-03-21",
+   "duree_min": 62,
+   "niveau": null,
+   "concepts": [
+    "privatisations-services-publics"
+   ],
+   "concepts_precis": [
+    "privatisations-services-publics"
+   ],
+   "resume": "Casse des services publics"
+  },
+  {
+   "id": "QKboHv8V2ig",
+   "titre": "Christine Delphy, Le féminisme matérialiste",
+   "lien": "https://youtu.be/QKboHv8V2ig",
+   "format": "video",
+   "source": "CippaPhilosophie",
+   "date": "2014-01-21",
+   "duree_min": 113,
+   "niveau": null,
+   "concepts": [
+    "travail-reproductif",
+    "patriarcat-salaires"
+   ],
+   "concepts_precis": [
+    "travail-reproductif"
+   ],
+   "resume": "Féminisme matérialiste et genre"
+  },
+  {
+   "id": "QRbEriVTFGo",
+   "titre": "colloque André Tosel, Isabelle Garo 1ere partie à Nice le 3 avril 2018",
+   "lien": "https://youtu.be/QRbEriVTFGo",
+   "format": "video",
+   "source": "amisdelaliberte",
+   "date": "2018-04-08",
+   "duree_min": 37,
+   "niveau": null,
+   "concepts": [
+    "neoliberalisme",
+    "valeur-exploitation"
+   ],
+   "concepts_precis": [
+    "valeur-exploitation"
+   ],
+   "resume": "Marx et néolibéralisme (concept 1)"
+  },
+  {
+   "id": "Qm3PQMJdLIA",
+   "titre": "La face cachée de l'économie Française - Un extractivisme ordinaire ? (Podcast avec Nelo Magalhães)",
+   "lien": "https://youtu.be/Qm3PQMJdLIA",
+   "format": "video",
+   "source": "Metabolism of Cities",
+   "date": "2022-11-02",
+   "duree_min": 80,
+   "niveau": null,
+   "concepts": [
+    "extractivisme"
+   ],
+   "concepts_precis": [
+    "extractivisme"
+   ],
+   "resume": "Extractivisme ordinaire français (concept 30)"
+  },
+  {
+   "id": "Qr9h047_jEo",
+   "titre": "Maxime Quijoux, politiste : \"Le mouvement contre la réforme des retraites ne s’essouffle pas\"",
+   "lien": "https://youtu.be/Qr9h047_jEo",
+   "format": "video",
+   "source": "FRANCE 24",
+   "date": "2023-05-02",
+   "duree_min": 11,
+   "niveau": null,
+   "concepts": [
+    "protection-sociale",
+    "flexibilisation-travail",
+    "luttes-de-classes"
+   ],
+   "concepts_precis": [
+    "luttes-de-classes"
+   ],
+   "resume": "Réforme retraites et mobilisations (concept 5)"
+  },
+  {
+   "id": "R6oKkZdxAeU",
+   "titre": "15 FEMMES CONTRE LE FÉMINISME... SOUS COUVERT DE FÉMINISME...",
+   "lien": "https://youtu.be/R6oKkZdxAeU",
+   "format": "video",
+   "source": "La Fabrique du Progrès (ex Fou Allié)",
+   "date": "2025-03-24",
+   "duree_min": 10,
+   "niveau": null,
+   "concepts": [
+    "travail-reproductif",
+    "patriarcat-salaires"
+   ],
+   "concepts_precis": [
+    "travail-reproductif"
+   ],
+   "resume": "Féminisme marxiste et travail reproductif (concept 37)"
+  },
+  {
+   "id": "R74DSv09mBQ",
+   "titre": "\"capitalisme, libéralisme et constitutionnalisme\" (5/11) La Constitution économique",
+   "lien": "https://youtu.be/R74DSv09mBQ",
+   "format": "video",
+   "source": "Lauréline Fontaine",
+   "date": "2019-10-18",
+   "duree_min": 21,
+   "niveau": null,
+   "concepts": [
+    "gouvernance-europeenne",
+    "planification-socialisme",
+    "libre-echange-mondialisation"
+   ],
+   "concepts_precis": [
+    "libre-echange-mondialisation"
+   ],
+   "resume": "Constitution économique européenne (concept 8)"
+  },
+  {
+   "id": "RIUkc3SMxzo",
+   "titre": "Le sable, matière première #3 : questions du public (ATECOPOL 30-01-2025)",
+   "lien": "https://youtu.be/RIUkc3SMxzo",
+   "format": "video",
+   "source": "TOXICPLANET",
+   "date": "2025-02-04",
+   "duree_min": 73,
+   "niveau": null,
+   "concepts": [
+    "extractivisme",
+    "climat",
+    "sante-publique"
+   ],
+   "concepts_precis": [
+    "extractivisme"
+   ],
+   "resume": "Extractivisme du sable (concept 30)"
+  },
+  {
+   "id": "RJ3kIBIZZyo",
+   "titre": "La FRANCE n’a pas de problème de DETTE ! (L'explication choc de Giraud)",
+   "lien": "https://youtu.be/RJ3kIBIZZyo",
+   "format": "video",
+   "source": "Éthique et tac",
+   "date": "2026-06-22",
+   "duree_min": 14,
+   "niveau": null,
+   "concepts": [
+    "austerite-dette-publique",
+    "monnaie-endogene",
+    "monnaie-endogene"
+   ],
+   "concepts_precis": [
+    "monnaie-endogene"
+   ],
+   "resume": "Austérité et mythes de la dette (concept 2)"
+  },
+  {
+   "id": "RKaFuF8Lt8U",
+   "titre": "Vidéo 1-Le chômage dans le contexte français, par André Zylberberg",
+   "lien": "https://youtu.be/RKaFuF8Lt8U",
+   "format": "video",
+   "source": "SorbonnEco",
+   "date": "2015-06-23",
+   "duree_min": 8,
+   "niveau": null,
+   "concepts": [
+    "communs-cooperatives",
+    "flexibilisation-travail",
+    "flexibilisation-travail",
+    "demande-effective-chomage"
+   ],
+   "concepts_precis": [
+    "demande-effective-chomage"
+   ],
+   "resume": "Chômage, coût travail et marché (concept 4)"
+  },
+  {
+   "id": "S7juwERbdAc",
+   "titre": "Jean-Marie HARRIBEY, « Du capitalisme aux différentes interprétations de la crise du coronavirus ».",
+   "lien": "https://youtu.be/S7juwERbdAc",
+   "format": "video",
+   "source": "Espaces Marx Aquitaine-Bordeaux-Gironde",
+   "date": "2020-12-17",
+   "duree_min": 63,
+   "niveau": null,
+   "concepts": [
+    "libre-echange-mondialisation",
+    "accumulation-crises"
+   ],
+   "concepts_precis": [
+    "accumulation-crises"
+   ],
+   "resume": "Crise capitalisme et mondialisation."
+  },
+  {
+   "id": "Sfm8PUMVeSI",
+   "titre": "L . Randall Wray   Modern Money Theory  Intellectual Origins and Policy Implications",
+   "lien": "https://youtu.be/Sfm8PUMVeSI",
+   "format": "video",
+   "source": "Dave Strickler",
+   "date": "2016-08-11",
+   "duree_min": 105,
+   "niveau": null,
+   "concepts": [
+    "mmt-chartalisme"
+   ],
+   "concepts_precis": [
+    "mmt-chartalisme"
+   ],
+   "resume": "Origines théoriques de la MMT."
+  },
+  {
+   "id": "Svb7AtIlfGI",
+   "titre": "05P32. Démocratiser le travail: condition nécessaire pour une société démocratique. Etat des...",
+   "lien": "https://youtu.be/Svb7AtIlfGI",
+   "format": "video",
+   "source": "Democratizing Work",
+   "date": "2021-12-08",
+   "duree_min": 88,
+   "niveau": null,
+   "concepts": [
+    "travail-conditions",
+    "flexibilisation-travail"
+   ],
+   "concepts_precis": [
+    "flexibilisation-travail"
+   ],
+   "resume": "Démocratisation du travail et conditions."
+  },
+  {
+   "id": "T7z_YjSuWf4",
+   "titre": "Interview mit Tithi Bhattacharya - feministische Aktivistin und Autorin // Das Andere Davos 2020",
+   "lien": "https://youtu.be/T7z_YjSuWf4",
+   "format": "video",
+   "source": "Bewegung für den Sozialismus - BFS",
+   "date": "2020-02-22",
+   "duree_min": 14,
+   "niveau": null,
+   "concepts": [
+    "travail-reproductif",
+    "bulle-ia"
+   ],
+   "concepts_precis": [
+    "travail-reproductif"
+   ],
+   "resume": "Reproduction sociale et travail féminin."
+  },
+  {
+   "id": "TPpZGjVGptA",
+   "titre": "Michel Husson présente Les Ondes longues du développement capitaliste le 14 01 2015",
+   "lien": "https://youtu.be/TPpZGjVGptA",
+   "format": "video",
+   "source": "La Brèche",
+   "date": "2015-02-02",
+   "duree_min": 59,
+   "niveau": null,
+   "concepts": [
+    "accumulation-crises",
+    "valeur-exploitation"
+   ],
+   "concepts_precis": [
+    "valeur-exploitation"
+   ],
+   "resume": "Crises du capitalisme à long terme."
+  },
+  {
+   "id": "U8JJBOfIqZs",
+   "titre": "L'intervention de Nicolas Castel, sociologue",
+   "lien": "https://youtu.be/U8JJBOfIqZs",
+   "format": "video",
+   "source": "Michel Perez",
+   "date": "2020-02-22",
+   "duree_min": 32,
+   "niveau": null,
+   "concepts": [
+    "protection-sociale"
+   ],
+   "concepts_precis": [
+    "protection-sociale"
+   ],
+   "resume": "Réforme des retraites et sécurité sociale."
+  },
+  {
+   "id": "UKSQzWShR3M",
+   "titre": "Henri Hatzfeld Analyse des Origines de la Sécurité Sociale en France Séminaire Réseau Salariat Paris",
+   "lien": "https://youtu.be/UKSQzWShR3M",
+   "format": "video",
+   "source": "NostraBlablatus",
+   "date": "2019-02-12",
+   "duree_min": 129,
+   "niveau": null,
+   "concepts": [
+    "protection-sociale",
+    "salaire-a-vie-securite-sociale"
+   ],
+   "concepts_precis": [
+    "protection-sociale"
+   ],
+   "resume": "Origines Sécurité sociale et salaire à vie."
+  },
+  {
+   "id": "UhRWyk3Fn4I",
+   "titre": "A FORMAÇÃO DO PENSAMENTO ECONÔMICO DE KARL MARX (CAP. 2) - ERNEST MANDEL",
+   "lien": "https://youtu.be/UhRWyk3Fn4I",
+   "format": "video",
+   "source": "ENTENDA A SOCIOLOGIA (ARIOVALDO SANTOS - UEL - PR)",
+   "date": "2023-01-12",
+   "duree_min": 38,
+   "niveau": null,
+   "concepts": [
+    "accumulation-crises",
+    "valeur-exploitation"
+   ],
+   "concepts_precis": [
+    "valeur-exploitation"
+   ],
+   "resume": "Analyse historique du capitalisme et Marx."
+  },
+  {
+   "id": "Ut670nLl3KI",
+   "titre": "L'économie politique du socialisme, G. Fondu",
+   "lien": "https://youtu.be/Ut670nLl3KI",
+   "format": "video",
+   "source": "Asso Phi",
+   "date": "2017-05-31",
+   "duree_min": 65,
+   "niveau": null,
+   "concepts": [
+    "planification-socialisme"
+   ],
+   "concepts_precis": [
+    "planification-socialisme"
+   ],
+   "resume": "Théorie économique du socialisme et communisme."
+  },
+  {
+   "id": "V-5IBez2vwI",
+   "titre": "Doit-on craindre le retour de l'inflation ?",
+   "lien": "https://youtu.be/V-5IBez2vwI",
+   "format": "video",
+   "source": "Economistes Atterrés",
+   "date": "2026-06-16",
+   "duree_min": 79,
+   "niveau": null,
+   "concepts": [
+    "prix-essence",
+    "profits-inflation",
+    "banque-centrale"
+   ],
+   "concepts_precis": [
+    "profits-inflation"
+   ],
+   "resume": "Inflation vue comme conflit de répartition."
+  },
+  {
+   "id": "V3Qsre0m-Ok",
+   "titre": "Pourquoi l'eau est le plus grand enjeu du XXIᵉ siècle avec Simon Porcher",
+   "lien": "https://youtu.be/V3Qsre0m-Ok",
+   "format": "video",
+   "source": "VLAN!",
+   "date": "2026-07-07",
+   "duree_min": 62,
+   "niveau": null,
+   "concepts": [
+    "eau"
+   ],
+   "concepts_precis": [
+    "eau"
+   ],
+   "resume": "Accaparement et coût de l'eau sous capitalisme."
+  },
+  {
+   "id": "VLfVd13gEDc",
+   "titre": "Le travail à l'ère du capitalisme spéculatif : décryptage - Pierre-Yves Gomez",
+   "lien": "https://youtu.be/VLfVd13gEDc",
+   "format": "video",
+   "source": "Écologie humaine",
+   "date": "2026-04-27",
+   "duree_min": 30,
+   "niveau": null,
+   "concepts": [
+    "bulle-ia"
+   ],
+   "concepts_precis": [
+    "bulle-ia"
+   ],
+   "resume": "Mutations du travail et financiarisation."
+  },
+  {
+   "id": "W63UlB7OK2A",
+   "titre": "Comment l’UE a détruit le peuple grec : l’analyse implacable d’Olivier Delorme",
+   "lien": "https://youtu.be/W63UlB7OK2A",
+   "format": "video",
+   "source": "Fréquence Populaire Média",
+   "date": "2025-11-24",
+   "duree_min": 78,
+   "niveau": null,
+   "concepts": [
+    "gouvernance-europeenne",
+    "peripherie-europeenne",
+    "peripherie-europeenne",
+    "energie"
+   ],
+   "concepts_precis": [
+    "energie"
+   ],
+   "resume": "Austérité UE et institutions européennes."
+  },
+  {
+   "id": "W97s3zbFKvc",
+   "titre": "How Modern Monetary Theory (MMT) Actually Works (w/ Warren Mosler)",
+   "lien": "https://youtu.be/W97s3zbFKvc",
+   "format": "video",
+   "source": "Real Vision",
+   "date": "2019-09-13",
+   "duree_min": 54,
+   "niveau": null,
+   "concepts": [
+    "mmt-chartalisme"
+   ],
+   "concepts_precis": [
+    "mmt-chartalisme"
+   ],
+   "resume": "Théorie monétaire MMT et émission de monnaie."
+  },
+  {
+   "id": "WDp9a-Me_Hc",
+   "titre": "J'ai très mal au travail | Christophe Dejours (12/12)",
+   "lien": "https://youtu.be/WDp9a-Me_Hc",
+   "format": "video",
+   "source": "Souffrance et Travail",
+   "date": "2011-06-12",
+   "duree_min": 13,
+   "niveau": null,
+   "concepts": [
+    "travail-conditions"
+   ],
+   "concepts_precis": [
+    "travail-conditions"
+   ],
+   "resume": "Violence du travail et santé au travail"
+  },
+  {
+   "id": "WFaUaatu8T8",
+   "titre": "Discorso de Sankara sul debito - Discours de Thomas Sankara sur la dette 29 juillet 1987",
+   "lien": "https://youtu.be/WFaUaatu8T8",
+   "format": "video",
+   "source": "sitethomassankaranet",
+   "date": "2013-05-01",
+   "duree_min": 17,
+   "niveau": null,
+   "concepts": [
+    "dettes-africaines",
+    "austerite-dette-publique"
+   ],
+   "concepts_precis": [
+    "austerite-dette-publique"
+   ],
+   "resume": "Dette africaine et souveraineté monétaire"
+  },
+  {
+   "id": "WfF4peuP6EI",
+   "titre": "LECTURE 3 | Modern Money Theory | L. Randall Wray",
+   "lien": "https://youtu.be/WfF4peuP6EI",
+   "format": "video",
+   "source": "Instituto de Economia da Unicamp",
+   "date": "2018-09-17",
+   "duree_min": 170,
+   "niveau": null,
+   "concepts": [
+    "mmt-chartalisme",
+    "banque-centrale"
+   ],
+   "concepts_precis": [
+    "mmt-chartalisme"
+   ],
+   "resume": "Émission monétaire et politique budgétaire"
+  },
+  {
+   "id": "Wte2tEMilpI",
+   "titre": "Franc CFA : l'Afrique toujours sous colonialité monétaire, selon l'économiste Martial Ze Belinga",
+   "lien": "https://youtu.be/Wte2tEMilpI",
+   "format": "video",
+   "source": "RFI",
+   "date": "2026-10-27",
+   "duree_min": 41,
+   "niveau": null,
+   "concepts": [
+    "franc-cfa",
+    "dettes-africaines",
+    "dettes-africaines"
+   ],
+   "concepts_precis": [
+    "franc-cfa"
+   ],
+   "resume": "Colonialisme monétaire et zone franc"
+  },
+  {
+   "id": "WvNAMo6avPA",
+   "titre": "Cédric Durand, Benoît Borrits - Autogestion et planification écologique",
+   "lien": "https://youtu.be/WvNAMo6avPA",
+   "format": "video",
+   "source": "Espace Dickens TV",
+   "date": "2022-03-25",
+   "duree_min": 97,
+   "niveau": null,
+   "concepts": [
+    "planification-ecologique",
+    "concentration-monopoles",
+    "climat",
+    "communs-cooperatives"
+   ],
+   "concepts_precis": [
+    "communs-cooperatives",
+    "planification-ecologique"
+   ],
+   "resume": "Planification écologique contre néolibéralisme"
+  },
+  {
+   "id": "XJNPb3qUdXA",
+   "titre": "Travail : territoires du conflit, conflits de territoires un regard historique",
+   "lien": "https://youtu.be/XJNPb3qUdXA",
+   "format": "video",
+   "source": "AgroParisTech",
+   "date": "2020-03-03",
+   "duree_min": 54,
+   "niveau": null,
+   "concepts": [
+    "luttes-de-classes",
+    "biodiversite-terres",
+    "flexibilisation-travail"
+   ],
+   "concepts_precis": [
+    "flexibilisation-travail"
+   ],
+   "resume": "Territoires et luttes sociales en agriculture"
+  },
+  {
+   "id": "Xg5ASSAjMCc",
+   "titre": "Tithi Bhattacharya & Susan Ferguson - Life-Making, Capitalism and the Pandemic | Pluto Live",
+   "lien": "https://youtu.be/Xg5ASSAjMCc",
+   "format": "video",
+   "source": "Pluto Press",
+   "date": "2020-05-01",
+   "duree_min": 74,
+   "niveau": null,
+   "concepts": [
+    "travail-reproductif",
+    "valeur-exploitation",
+    "salaire-a-vie-securite-sociale"
+   ],
+   "concepts_precis": [
+    "salaire-a-vie-securite-sociale"
+   ],
+   "resume": "Reproduction sociale et travail de soin"
+  },
+  {
+   "id": "Y5tAWvOeZpA",
+   "titre": "CRISE BANCAIRE : LES NOUVEAUX VISAGES DE LA FINANCE - DOMINIQUE PLIHON, LAURENCE SCIALOM",
+   "lien": "https://youtu.be/Y5tAWvOeZpA",
+   "format": "video",
+   "source": "Le Vent Se Lève",
+   "date": "2023-06-25",
+   "duree_min": 93,
+   "niveau": null,
+   "concepts": [
+    "banque-centrale",
+    "instabilite-financiere",
+    "profits-inflation"
+   ],
+   "concepts_precis": [
+    "profits-inflation",
+    "banque-centrale",
+    "instabilite-financiere"
+   ],
+   "resume": "Politique monétaire et taux d'intérêt"
+  },
+  {
+   "id": "YHxApccTOqI",
+   "titre": "Benoît Borrits - Produzione e Beni Comuni - Verso una strategia offensiva!",
+   "lien": "https://youtu.be/YHxApccTOqI",
+   "format": "video",
+   "source": "Altra News",
+   "date": "2016-03-22",
+   "duree_min": 9,
+   "niveau": null,
+   "concepts": [
+    "communs-cooperatives",
+    "neoliberalisme",
+    "privatisations-services-publics"
+   ],
+   "concepts_precis": [
+    "communs-cooperatives"
+   ],
+   "resume": "Stratégie offensive sur les communs et coopératives."
+  },
+  {
+   "id": "YMdIgGOYKhs",
+   "titre": "Richard Wolff on Capitalism",
+   "lien": "https://youtu.be/YMdIgGOYKhs",
+   "format": "video",
+   "source": "Workplace Democracy",
+   "date": "2014-05-22",
+   "duree_min": 13,
+   "niveau": null,
+   "concepts": [
+    "valeur-exploitation",
+    "neoliberalisme"
+   ],
+   "concepts_precis": [
+    "neoliberalisme",
+    "valeur-exploitation"
+   ],
+   "resume": "Exploitation, plus-value et profits capitalistes."
+  },
+  {
+   "id": "YUhRBUAfu2g",
+   "titre": "sam  critique de l'économie politique bruno tinel MP4",
+   "lien": "https://youtu.be/YUhRBUAfu2g",
+   "format": "video",
+   "source": "Penser L'émancipation",
+   "date": "2013-01-28",
+   "duree_min": 22,
+   "niveau": null,
+   "concepts": [
+    "planification-socialisme",
+    "neoliberalisme"
+   ],
+   "concepts_precis": [
+    "neoliberalisme"
+   ],
+   "resume": "Critique politique de l'économie par Tinel."
+  },
+  {
+   "id": "YyUe0qUZfP8",
+   "titre": "Séminaire « Néolibéralisme(s) Libéralisme(s) Illibéralisme(s) : Conférence de Nathanaël Colin-Jaeger",
+   "lien": "https://youtu.be/YyUe0qUZfP8",
+   "format": "video",
+   "source": "Université Bordeaux Montaigne",
+   "date": "2024-07-02",
+   "duree_min": 66,
+   "niveau": null,
+   "concepts": [
+    "neoliberalisme"
+   ],
+   "concepts_precis": [
+    "neoliberalisme"
+   ],
+   "resume": "Fondements philosophiques du néolibéralisme."
+  },
+  {
+   "id": "a8EA4uz6z9w",
+   "titre": "Le féminisme MARXISTE c'est MIEUX ! Aurore Koechlin",
+   "lien": "https://youtu.be/a8EA4uz6z9w",
+   "format": "video",
+   "source": "Cathédrale Osseuse",
+   "date": "2023-03-05",
+   "duree_min": 11,
+   "niveau": null,
+   "concepts": [
+    "travail-reproductif",
+    "patriarcat-salaires",
+    "valeur-exploitation"
+   ],
+   "concepts_precis": [
+    "travail-reproductif",
+    "patriarcat-salaires"
+   ],
+   "resume": "Reproduction sociale et féminisme marxiste."
+  },
+  {
+   "id": "aPaoHeprTUI",
+   "titre": "#33 La réduction du temps de travail : un débat d’un autre temps ?",
+   "lien": "https://youtu.be/aPaoHeprTUI",
+   "format": "video",
+   "source": "Printemps de l'économie",
+   "date": "2019-06-15",
+   "duree_min": 73,
+   "niveau": null,
+   "concepts": [
+    "travail-conditions",
+    "flexibilisation-travail",
+    "neoliberalisme"
+   ],
+   "concepts_precis": [
+    "neoliberalisme",
+    "flexibilisation-travail"
+   ],
+   "resume": "Débat sur la réduction du temps de travail."
+  },
+  {
+   "id": "aRr38urD-Jk",
+   "titre": "L’évolution de la crise systémique du capitalisme mondial",
+   "lien": "https://youtu.be/aRr38urD-Jk",
+   "format": "video",
+   "source": "sergetostain",
+   "date": "2018-10-01",
+   "duree_min": 31,
+   "niveau": null,
+   "concepts": [
+    "accumulation-crises"
+   ],
+   "concepts_precis": [
+    "accumulation-crises"
+   ],
+   "resume": "Crises systémiques, taux de profit et rente."
+  },
+  {
+   "id": "bCY4BLNw5-8",
+   "titre": "🌍 Comment le FMI et la Banque Mondiale tiennent l'Afrique sous le joug de la Dette | Eric Toussaint",
+   "lien": "https://youtu.be/bCY4BLNw5-8",
+   "format": "video",
+   "source": "L'angle",
+   "date": "2023-10-18",
+   "duree_min": 34,
+   "niveau": null,
+   "concepts": [
+    "dettes-africaines"
+   ],
+   "concepts_precis": [
+    "dettes-africaines"
+   ],
+   "resume": "Dette africaine, FMI, ajustement structurel."
+  },
+  {
+   "id": "bGwm13lppDE",
+   "titre": "The MMT Sequence with Warren Mosler",
+   "lien": "https://youtu.be/bGwm13lppDE",
+   "format": "video",
+   "source": "Real Progressives",
+   "date": "2021-09-17",
+   "duree_min": 68,
+   "niveau": null,
+   "concepts": [
+    "mmt-chartalisme"
+   ],
+   "concepts_precis": [
+    "mmt-chartalisme"
+   ],
+   "resume": "Monnaie endogène, MMT, émission monétaire."
+  },
+  {
+   "id": "bUA91-DFdBg",
+   "titre": "\"Le genre du capital\"; par Céline BESSIERES et Sybille GOLLAC.",
+   "lien": "https://youtu.be/bUA91-DFdBg",
+   "format": "video",
+   "source": "Bibliothèque francophone multimédia de Limoges",
+   "date": "2023-01-14",
+   "duree_min": 76,
+   "niveau": null,
+   "concepts": [
+    "communs-cooperatives",
+    "travail-reproductif"
+   ],
+   "concepts_precis": [
+    "travail-reproductif"
+   ],
+   "resume": "Économie politique, productivité, communs."
+  },
+  {
+   "id": "bZG_F2-MHDQ",
+   "titre": "La vérité sur la dette publique : comment l'État s'est soumis aux marchés – Avec F. Farah | QQ€C 💸",
+   "lien": "https://youtu.be/bZG_F2-MHDQ",
+   "format": "video",
+   "source": "Journal l'Humanité",
+   "date": "2026-10-14",
+   "duree_min": 30,
+   "niveau": null,
+   "concepts": [
+    "austerite-dette-publique",
+    "neoliberalisme"
+   ],
+   "concepts_precis": [
+    "austerite-dette-publique"
+   ],
+   "resume": "Dette publique, souveraineté monétaire."
+  },
+  {
+   "id": "byAin9N82ro",
+   "titre": "sam  critique de l'économie politique michel husson MP4",
+   "lien": "https://youtu.be/byAin9N82ro",
+   "format": "video",
+   "source": "Penser L'émancipation",
+   "date": "2013-01-28",
+   "duree_min": 21,
+   "niveau": null,
+   "concepts": [
+    "dependance",
+    "mmt-chartalisme"
+   ],
+   "concepts_precis": [
+    "mmt-chartalisme"
+   ],
+   "resume": "Centre-périphérie, capitalisme mondial."
+  },
+  {
+   "id": "cKtVFQsNAmQ",
+   "titre": "ÉLECTRICITÉ : DÉBRANCHER LE MARCHÉ | ANNE DEBRÉGEAS ET GWENAËL PLAGNE",
+   "lien": "https://youtu.be/cKtVFQsNAmQ",
+   "format": "video",
+   "source": "Le Vent Se Lève",
+   "date": "2024-04-27",
+   "duree_min": 85,
+   "niveau": null,
+   "concepts": [
+    "energie",
+    "prix-essence",
+    "profits-inflation"
+   ],
+   "concepts_precis": [
+    "energie",
+    "prix-essence"
+   ],
+   "resume": "Marché de l'énergie, prix, transition."
+  },
+  {
+   "id": "d8uKGIIy3UM",
+   "titre": "Des fondements de la dette, monnaie et souveraineté aux dissidences monétaires.",
+   "lien": "https://youtu.be/d8uKGIIy3UM",
+   "format": "video",
+   "source": "Provenceverte TV",
+   "date": "2018-11-21",
+   "duree_min": 76,
+   "niveau": null,
+   "concepts": [
+    "monnaie-endogene",
+    "sante-publique"
+   ],
+   "concepts_precis": [
+    "monnaie-endogene",
+    "sante-publique"
+   ],
+   "resume": "Fondements monétaires, crédit bancaire."
+  },
+  {
+   "id": "dNF96GTBF_E",
+   "titre": "#84 - SABLE : LE SCANDALE DONT PERSONNE NE PARLE",
+   "lien": "https://youtu.be/dNF96GTBF_E",
+   "format": "video",
+   "source": "Greenletter Club",
+   "date": "2023-01-10",
+   "duree_min": 73,
+   "niveau": null,
+   "concepts": [
+    "extractivisme",
+    "industrie-desindustrialisation"
+   ],
+   "concepts_precis": [
+    "extractivisme"
+   ],
+   "resume": "Extraction de ressources et dépendance matérielle."
+  },
+  {
+   "id": "dcJC_1x66a4",
+   "titre": "Randall Wray: The Origins of Modern Monetary Theory (MMT) and Minsky’s Legacy",
+   "lien": "https://youtu.be/dcJC_1x66a4",
+   "format": "video",
+   "source": "Instituto de Economia da Unicamp",
+   "date": "2018-09-17",
+   "duree_min": 57,
+   "niveau": null,
+   "concepts": [
+    "mmt-chartalisme",
+    "monnaie-endogene"
+   ],
+   "concepts_precis": [
+    "mmt-chartalisme"
+   ],
+   "resume": "Création monétaire endogène par le crédit bancaire."
+  },
+  {
+   "id": "doSR4OKw7fc",
+   "titre": "COVID-19 et économie - Jean-Marie Harribey",
+   "lien": "https://youtu.be/doSR4OKw7fc",
+   "format": "video",
+   "source": "Université Populaire de Bordeaux",
+   "date": "2020-12-23",
+   "duree_min": 132,
+   "niveau": null,
+   "concepts": [
+    "accumulation-crises"
+   ],
+   "concepts_precis": [
+    "accumulation-crises"
+   ],
+   "resume": "Crise du capitalisme et taux de profit."
+  },
+  {
+   "id": "dt6UYunRHO0",
+   "titre": "8 ans plus tard, tout ce qu’il disait est en train d’arriver !",
+   "lien": "https://youtu.be/dt6UYunRHO0",
+   "format": "video",
+   "source": "Éthique et tac",
+   "date": "2025-08-20",
+   "duree_min": 17,
+   "niveau": null,
+   "concepts": [
+    "concentration-monopoles",
+    "neoliberalisme",
+    "fiscalite-inegalites",
+    "austerite-dette-publique"
+   ],
+   "concepts_precis": [
+    "austerite-dette-publique"
+   ],
+   "resume": "Concentration des entreprises et monopoles."
+  },
+  {
+   "id": "eKvuXQX5zrs",
+   "titre": "“Tu ne te feras plus embaucher nulle part” : il a enquêté 10 ans sur la macronie",
+   "lien": "https://youtu.be/eKvuXQX5zrs",
+   "format": "video",
+   "source": "Journal l'Humanité",
+   "date": "2026-11-18",
+   "duree_min": 58,
+   "niveau": null,
+   "concepts": [
+    "accumulation-crises",
+    "fiscalite-inegalites",
+    "neoliberalisme"
+   ],
+   "concepts_precis": [
+    "neoliberalisme"
+   ],
+   "resume": "Stagnation capitaliste et concentration du pouvoir."
+  },
+  {
+   "id": "ePP51PfyS_U",
+   "titre": "Décarboner l'industrie",
+   "lien": "https://youtu.be/ePP51PfyS_U",
+   "format": "video",
+   "source": "Journées de l'Economie",
+   "date": "2025-12-03",
+   "duree_min": 89,
+   "niveau": null,
+   "concepts": [
+    "industrie-desindustrialisation",
+    "climat",
+    "energie"
+   ],
+   "concepts_precis": [
+    "energie"
+   ],
+   "resume": "Politique industrielle et compétitivité sectorielle."
+  },
+  {
+   "id": "eSPl1eCpiYg",
+   "titre": "Prix de l'électricité, la hausse de la discorde",
+   "lien": "https://youtu.be/eSPl1eCpiYg",
+   "format": "video",
+   "source": "Les Echos",
+   "date": "2019-06-28",
+   "duree_min": 17,
+   "niveau": null,
+   "concepts": [
+    "prix-essence",
+    "energie",
+    "profits-inflation"
+   ],
+   "concepts_precis": [
+    "energie",
+    "prix-essence"
+   ],
+   "resume": "Contrôle des prix de l'énergie et coût de vie."
+  },
+  {
+   "id": "evRaHrH1MCc",
+   "titre": "causerie#4 [1/4] : démocratiser les entreprises (introduction)",
+   "lien": "https://youtu.be/evRaHrH1MCc",
+   "format": "video",
+   "source": "Le temps des lilas",
+   "date": "2017-03-13",
+   "duree_min": 9,
+   "niveau": null,
+   "concepts": [
+    "communs-cooperatives",
+    "flexibilisation-travail",
+    "valeur-exploitation"
+   ],
+   "concepts_precis": [
+    "communs-cooperatives"
+   ],
+   "resume": "Autogestion, coopératives et modèles alternatifs."
+  },
+  {
+   "id": "ewSNsDsIaNE",
+   "titre": "Abandon du franc CFA en faveur de l'ECO. Analyses et perspectives",
+   "lien": "https://youtu.be/ewSNsDsIaNE",
+   "format": "video",
+   "source": "PCF Monde",
+   "date": "2020-06-19",
+   "duree_min": 47,
+   "niveau": null,
+   "concepts": [
+    "franc-cfa",
+    "eau"
+   ],
+   "concepts_precis": [
+    "eau"
+   ],
+   "resume": "Abandon franc CFA pour l'Eco"
+  },
+  {
+   "id": "f2nK6jthsAM",
+   "titre": "Thomas Piketty face à Marc-Olivier Fogiel sur RTL | intégrale",
+   "lien": "https://youtu.be/f2nK6jthsAM",
+   "format": "video",
+   "source": "RTL",
+   "date": "2026-11-06",
+   "duree_min": 10,
+   "niveau": null,
+   "concepts": [
+    "fiscalite-inegalites",
+    "neoliberalisme",
+    "flexibilisation-travail"
+   ],
+   "concepts_precis": [
+    "neoliberalisme"
+   ],
+   "resume": "Piketty défend un changement radical de modèle"
+  },
+  {
+   "id": "f7IkzO7HtaA",
+   "titre": "DE L'ACCUMULATION PRIMITIVE À LA QUESTION NATIONALE AVEC STATHIS KOUVÉLAKIS",
+   "lien": "https://youtu.be/f7IkzO7HtaA",
+   "format": "video",
+   "source": "Salon Tout-Art",
+   "date": "2026-04-15",
+   "duree_min": 103,
+   "niveau": null,
+   "concepts": [
+    "histoire-capitalisme",
+    "valeur-exploitation"
+   ],
+   "concepts_precis": [
+    "valeur-exploitation"
+   ],
+   "resume": "Accumulation primitive et question nationale"
+  },
+  {
+   "id": "fbT7sn_iVUY",
+   "titre": "causerie#4 [3/4] : démocratiser les entreprises - Entretien avec Benoît Borrits [3/4]",
+   "lien": "https://youtu.be/fbT7sn_iVUY",
+   "format": "video",
+   "source": "Le temps des lilas",
+   "date": "2017-03-10",
+   "duree_min": 45,
+   "niveau": null,
+   "concepts": [
+    "communs-cooperatives",
+    "flexibilisation-travail"
+   ],
+   "concepts_precis": [
+    "flexibilisation-travail"
+   ],
+   "resume": "Démocratiser les entreprises et coopératives"
+  },
+  {
+   "id": "fmW8AIOst-s",
+   "titre": "Dr. Pierre Gilbert- Le Système Bancaire 1/8",
+   "lien": "https://youtu.be/fmW8AIOst-s",
+   "format": "video",
+   "source": "AdrénochroM Ultra",
+   "date": "2025-07-13",
+   "duree_min": 56,
+   "niveau": null,
+   "concepts": [
+    "monnaie-endogene",
+    "instabilite-financiere"
+   ],
+   "concepts_precis": [
+    "monnaie-endogene"
+   ],
+   "resume": "Création de monnaie par le crédit bancaire"
+  },
+  {
+   "id": "ftr-p9TY89M",
+   "titre": "Finance-Led Capitalism: Structural Puzzles and the Subprime Crisis | Dominique Plihon",
+   "lien": "https://youtu.be/ftr-p9TY89M",
+   "format": "video",
+   "source": "Instituto de Economia da Unicamp",
+   "date": "2019-04-22",
+   "duree_min": 34,
+   "niveau": null,
+   "concepts": [
+    "instabilite-financiere",
+    "accumulation-crises"
+   ],
+   "concepts_precis": [
+    "instabilite-financiere"
+   ],
+   "resume": "Finance-lé et crises bancaires selon Minsky"
+  },
+  {
+   "id": "gAPA6LlzFQQ",
+   "titre": "Demain tous auto-entrepreneurs ? Rencontre avec Fabien Gay et Pascal Savoldelli",
+   "lien": "https://youtu.be/gAPA6LlzFQQ",
+   "format": "video",
+   "source": "Ivry Actu",
+   "date": "2021-12-19",
+   "duree_min": 141,
+   "niveau": null,
+   "concepts": [
+    "flexibilisation-travail",
+    "bulle-ia",
+    "neoliberalisme"
+   ],
+   "concepts_precis": [
+    "flexibilisation-travail"
+   ],
+   "resume": "Réformes marché travail et précarité"
+  },
+  {
+   "id": "gHXI3RLHVGs",
+   "titre": "2-COLLOQUE 2023 -Table ronde animée par Jean-Noël Jouzel (21/06/23)",
+   "lien": "https://youtu.be/gHXI3RLHVGs",
+   "format": "video",
+   "source": "Centre des Politiques de la Terre",
+   "date": "2023-08-16",
+   "duree_min": 98,
+   "niveau": null,
+   "concepts": [
+    "biodiversite-terres",
+    "climat"
+   ],
+   "concepts_precis": [
+    "climat"
+   ],
+   "resume": "Politiques de la terre et savoir-habiter."
+  },
+  {
+   "id": "gI6Sq-shYWg",
+   "titre": "Baptiste GIRAUD, « Réapprendre à faire grève, les luttes syndicales à l'ère du précariat.»",
+   "lien": "https://youtu.be/gI6Sq-shYWg",
+   "format": "video",
+   "source": "Espaces Marx Aquitaine-Bordeaux-Gironde",
+   "date": "2025-01-09",
+   "duree_min": 59,
+   "niveau": null,
+   "concepts": [
+    "luttes-de-classes",
+    "flexibilisation-travail",
+    "valeur-exploitation"
+   ],
+   "concepts_precis": [
+    "luttes-de-classes"
+   ],
+   "resume": "Syndicalisme, grèves et luttes sociales."
+  },
+  {
+   "id": "gb-TY2ta7iY",
+   "titre": "#31 Transition écologique, transition sociale",
+   "lien": "https://youtu.be/gb-TY2ta7iY",
+   "format": "video",
+   "source": "Printemps de l'économie",
+   "date": "2021-11-02",
+   "duree_min": 66,
+   "niveau": null,
+   "concepts": [
+    "planification-ecologique",
+    "climat"
+   ],
+   "concepts_precis": [
+    "climat",
+    "planification-ecologique"
+   ],
+   "resume": "Transition écologique vs économie décarbonée."
+  },
+  {
+   "id": "hOmCHQJB9-c",
+   "titre": "Animaux et révolution industrielle : l’histoire oubliée du travail animal – François Jarrige",
+   "lien": "https://youtu.be/hOmCHQJB9-c",
+   "format": "video",
+   "source": "L214 Éthique & Animaux",
+   "date": "2025-07-12",
+   "duree_min": 101,
+   "niveau": null,
+   "concepts": [
+    "animaux-antispecisme",
+    "industrie-desindustrialisation"
+   ],
+   "concepts_precis": [
+    "animaux-antispecisme"
+   ],
+   "resume": "Exploitation animale et travail animal."
+  },
+  {
+   "id": "hs7Sltjfl-s",
+   "titre": "Des années 70 aux années 2000 : une multiplication des causes protestataires",
+   "lien": "https://youtu.be/hs7Sltjfl-s",
+   "format": "video",
+   "source": "Université populaire du pays d'Aix",
+   "date": "2021-02-10",
+   "duree_min": 61,
+   "niveau": null,
+   "concepts": [
+    "luttes-de-classes",
+    "palestine"
+   ],
+   "concepts_precis": [
+    "luttes-de-classes"
+   ],
+   "resume": "Mouvements sociaux et transformations du travail."
+  },
+  {
+   "id": "ht40at5JpHk",
+   "titre": "La BCE face aux dettes souveraines et à la stabilité de l'Euro | Les Spécialistes",
+   "lien": "https://youtu.be/ht40at5JpHk",
+   "format": "video",
+   "source": "Veracash",
+   "date": "2022-12-21",
+   "duree_min": 31,
+   "niveau": null,
+   "concepts": [
+    "gouvernance-europeenne",
+    "banque-centrale",
+    "austerite-dette-publique"
+   ],
+   "concepts_precis": [
+    "banque-centrale"
+   ],
+   "resume": "BCE, dette souveraine et stabilité de l'Euro."
+  },
+  {
+   "id": "i35uBVeNp6c",
+   "titre": "L. Randall Wray -- MODERN MONEY: the way a sovereign currency \"works\"",
+   "lien": "https://youtu.be/i35uBVeNp6c",
+   "format": "video",
+   "source": "ModernMoneyNetwork",
+   "date": "2012-09-24",
+   "duree_min": 27,
+   "niveau": null,
+   "concepts": [
+    "mmt-chartalisme",
+    "banque-centrale"
+   ],
+   "concepts_precis": [
+    "mmt-chartalisme"
+   ],
+   "resume": "Théorie monétaire moderne (MMT) et faillite."
+  },
+  {
+   "id": "i3lkKd1xzoI",
+   "titre": "Modern Monetary Theory Explained (Ft. Warren Mosler)",
+   "lien": "https://youtu.be/i3lkKd1xzoI",
+   "format": "video",
+   "source": "1Dime Radio",
+   "date": "2025-03-23",
+   "duree_min": 49,
+   "niveau": null,
+   "concepts": [
+    "mmt-chartalisme",
+    "profits-inflation",
+    "fiscalite-inegalites"
+   ],
+   "concepts_precis": [
+    "mmt-chartalisme"
+   ],
+   "resume": "Débat sur la théorie monétaire moderne."
+  },
+  {
+   "id": "i6jMYfiDhqk",
+   "titre": "up! - 9/6/22 - Anne Debregeas, Économiste à la R&D d'EDF, L'absurdité du marché électrique",
+   "lien": "https://youtu.be/i6jMYfiDhqk",
+   "format": "video",
+   "source": "up! DTG",
+   "date": "2022-06-23",
+   "duree_min": 63,
+   "niveau": null,
+   "concepts": [
+    "energie",
+    "privatisations-services-publics"
+   ],
+   "concepts_precis": [
+    "energie"
+   ],
+   "resume": "Marché électrique, prix et transition énergétique."
+  },
+  {
+   "id": "iK-i8Qcb_98",
+   "titre": "Pour Les Géants De L’IA, Vous Êtes Du Capital",
+   "lien": "https://youtu.be/iK-i8Qcb_98",
+   "format": "video",
+   "source": "Le Phil de l'invité",
+   "date": "2026-10-25",
+   "duree_min": 63,
+   "niveau": null,
+   "concepts": [
+    "bulle-ia"
+   ],
+   "concepts_precis": [
+    "bulle-ia"
+   ],
+   "resume": "Spéculation IA et productivité capitaliste."
+  },
+  {
+   "id": "iUcQTOgJpOQ",
+   "titre": "2 présentation Matthieu Montalban (GREThA, UMR CNRS-Université de Bordeaux)",
+   "lien": "https://youtu.be/iUcQTOgJpOQ",
+   "format": "video",
+   "source": "UMR SADAPT 1048",
+   "date": "2022-03-27",
+   "duree_min": 31,
+   "niveau": null,
+   "concepts": [
+    "concentration-monopoles",
+    "sante-publique"
+   ],
+   "concepts_precis": [],
+   "resume": "Pouvoir industriel et économie politique santé."
+  },
+  {
+   "id": "jELbxJIzaDI",
+   "titre": "H. Tordjman / Sarah Vanuxem - La Manufacture d'idées 2022",
+   "lien": "https://youtu.be/jELbxJIzaDI",
+   "format": "video",
+   "source": "La Manufacture d'idées",
+   "date": "2022-09-11",
+   "duree_min": 75,
+   "niveau": null,
+   "concepts": [
+    "planification-ecologique",
+    "climat",
+    "energie"
+   ],
+   "concepts_precis": [
+    "climat"
+   ],
+   "resume": "Marché vs planification écologique des ressources."
+  },
+  {
+   "id": "jU0Fn6vLbf8",
+   "titre": "Dominique Plihon - Économie, crises financières et développement",
+   "lien": "https://youtu.be/jU0Fn6vLbf8",
+   "format": "video",
+   "source": "Défis DVM",
+   "date": "2016-12-16",
+   "duree_min": 10,
+   "niveau": null,
+   "concepts": [
+    "instabilite-financiere",
+    "dependance"
+   ],
+   "concepts_precis": [
+    "dependance"
+   ],
+   "resume": "Crises financières et développement international."
+  },
+  {
+   "id": "jcevyKB1VSA",
+   "titre": "Démission climatique : pourquoi les jeunes désertent les entreprises polluantes ?",
+   "lien": "https://youtu.be/jcevyKB1VSA",
+   "format": "video",
+   "source": "unedictv",
+   "date": "2024-04-24",
+   "duree_min": 18,
+   "niveau": null,
+   "concepts": [
+    "travail-conditions",
+    "climat"
+   ],
+   "concepts_precis": [
+    "climat"
+   ],
+   "resume": "Précarité, marché du travail et conditions."
+  },
+  {
+   "id": "k5Uhk3EkdkM",
+   "titre": "PESTICIDES: comment on est tous contaminés",
+   "lien": "https://youtu.be/k5Uhk3EkdkM",
+   "format": "video",
+   "source": "Au Poste",
+   "date": "2025-12-20",
+   "duree_min": 119,
+   "niveau": null,
+   "concepts": [
+    "pollutions-sante",
+    "sante-publique",
+    "biodiversite-terres"
+   ],
+   "concepts_precis": [
+    "pollutions-sante"
+   ],
+   "resume": "Pollution chimique et santé publique générale."
+  },
+  {
+   "id": "kQCxw-RbGVw",
+   "titre": "Modern Monetary Theory - A Debate: Randall Wray (Pt 1/4)",
+   "lien": "https://youtu.be/kQCxw-RbGVw",
+   "format": "video",
+   "source": "The Real News Network",
+   "date": "2019-04-22",
+   "duree_min": 23,
+   "niveau": null,
+   "concepts": [
+    "mmt-chartalisme",
+    "profits-inflation"
+   ],
+   "concepts_precis": [
+    "mmt-chartalisme"
+   ],
+   "resume": "Émission monétaire et politique budgétaire."
+  },
+  {
+   "id": "liKbZPau40I",
+   "titre": "La face cachée de l'économie Française - Un extractivisme ordinaire ? avec Nelo Magalhães #Découv...",
+   "lien": "https://youtu.be/liKbZPau40I",
+   "format": "video",
+   "source": "Ozé Le Podcast",
+   "date": "2024-08-15",
+   "duree_min": 81,
+   "niveau": null,
+   "concepts": [
+    "extractivisme",
+    "climat"
+   ],
+   "concepts_precis": [
+    "extractivisme"
+   ],
+   "resume": "Extraction des ressources et dépendance matérielle."
+  },
+  {
+   "id": "lxhQ_UkqPV4",
+   "titre": "ENTREVISTA A ERIC TOUSSAINT",
+   "lien": "https://youtu.be/lxhQ_UkqPV4",
+   "format": "video",
+   "source": "TMEX TU TELEVISIÓN SOCIAL",
+   "date": "2015-05-11",
+   "duree_min": 15,
+   "niveau": null,
+   "concepts": [
+    "peripherie-europeenne",
+    "austerite-dette-publique"
+   ],
+   "concepts_precis": [
+    "austerite-dette-publique"
+   ],
+   "resume": "Dette grecque et Troika."
+  },
+  {
+   "id": "m7qJfqWbFAs",
+   "titre": "L’arnaque du siècle en Afrique ? Nicolas Agbohou balance tout ! 😱 [Audio]",
+   "lien": "https://youtu.be/m7qJfqWbFAs",
+   "format": "video",
+   "source": "Défense Afrique",
+   "date": "2026-06-30",
+   "duree_min": 31,
+   "niveau": null,
+   "concepts": [
+    "franc-cfa",
+    "salaire-a-vie-securite-sociale"
+   ],
+   "concepts_precis": [
+    "salaire-a-vie-securite-sociale"
+   ],
+   "resume": "Souveraineté monétaire CFA."
+  },
+  {
+   "id": "mCMXGBF81Fo",
+   "titre": "#3 Economie et Covid-19 : Enclencher la transition",
+   "lien": "https://youtu.be/mCMXGBF81Fo",
+   "format": "video",
+   "source": "Institut Veblen / Veblen Institute",
+   "date": "2020-06-26",
+   "duree_min": 93,
+   "niveau": null,
+   "concepts": [
+    "industrie-desindustrialisation"
+   ],
+   "concepts_precis": [],
+   "resume": "Transition écologique et industrie."
+  },
+  {
+   "id": "mTKj5uExe1o",
+   "titre": "Changer la propriété pour dépasser le capitalisme ? Benoît Borrits & Thomas Piketty 17 décembre 2019",
+   "lien": "https://youtu.be/mTKj5uExe1o",
+   "format": "video",
+   "source": "economie-org",
+   "date": "2020-02-27",
+   "duree_min": 92,
+   "niveau": null,
+   "concepts": [
+    "planification-socialisme",
+    "communs-cooperatives"
+   ],
+   "concepts_precis": [
+    "communs-cooperatives"
+   ],
+   "resume": "Propriété sociale vs capitalisme."
+  },
+  {
+   "id": "moBBTI3aZxA",
+   "titre": "Demba Moussa Dembele : Le Franc CFA ne peut pas servir d'instrument de développement de nos pays",
+   "lien": "https://youtu.be/moBBTI3aZxA",
+   "format": "video",
+   "source": "LeTogoVi",
+   "date": "2015-09-19",
+   "duree_min": 21,
+   "niveau": null,
+   "concepts": [
+    "franc-cfa",
+    "monnaie-endogene"
+   ],
+   "concepts_precis": [
+    "monnaie-endogene"
+   ],
+   "resume": "Développement et zone franc."
+  },
+  {
+   "id": "mxEEM9d_yfc",
+   "titre": "🏥 Santé publique et contrainte économique : jusqu’où peut-on aller ? Avec Jean-Paul Domin",
+   "lien": "https://youtu.be/mxEEM9d_yfc",
+   "format": "video",
+   "source": "club-média stratégies françaises",
+   "date": "2025-09-14",
+   "duree_min": 40,
+   "niveau": null,
+   "concepts": [
+    "privatisations-services-publics",
+    "sante-publique",
+    "salaire-a-vie-securite-sociale"
+   ],
+   "concepts_precis": [
+    "sante-publique"
+   ],
+   "resume": "Privatisation et santé publique."
+  },
+  {
+   "id": "myViZ8y0dfk",
+   "titre": "Jean-Marie HARRIBEY, « Réhabiliter le travail »",
+   "lien": "https://youtu.be/myViZ8y0dfk",
+   "format": "video",
+   "source": "Espaces Marx Aquitaine-Bordeaux-Gironde",
+   "date": "2023-01-08",
+   "duree_min": 42,
+   "niveau": null,
+   "concepts": [
+    "accumulation-crises",
+    "planification-socialisme",
+    "valeur-exploitation"
+   ],
+   "concepts_precis": [
+    "valeur-exploitation",
+    "accumulation-crises"
+   ],
+   "resume": "Taux de profit et capitalisme."
+  },
+  {
+   "id": "nG4mxrWQ7T0",
+   "titre": "SLOBODNI podcast #151 Warren Mosler-modern Monetary Theory-MMT",
+   "lien": "https://youtu.be/nG4mxrWQ7T0",
+   "format": "video",
+   "source": "Slobodni Podcast",
+   "date": "2026-05-17",
+   "duree_min": 54,
+   "niveau": null,
+   "concepts": [
+    "mmt-chartalisme",
+    "banque-centrale"
+   ],
+   "concepts_precis": [
+    "mmt-chartalisme",
+    "banque-centrale"
+   ],
+   "resume": "MMT : émission monétaire."
+  },
+  {
+   "id": "nQ5jCbGIyRA",
+   "titre": "Is Capitalism Past Its Use-By Date? Michael Roberts on Three Futures",
+   "lien": "https://youtu.be/nQ5jCbGIyRA",
+   "format": "video",
+   "source": "Notions of Progress",
+   "date": "2026-10-19",
+   "duree_min": 26,
+   "niveau": null,
+   "concepts": [
+    "accumulation-crises",
+    "valeur-exploitation"
+   ],
+   "concepts_precis": [
+    "accumulation-crises"
+   ],
+   "resume": "Stagnation du taux de profit."
+  },
+  {
+   "id": "npBUXd6LoRM",
+   "titre": "Le Pr Nicolas Agbohou sur la chaîne panafricaine Afrique Media",
+   "lien": "https://youtu.be/npBUXd6LoRM",
+   "format": "video",
+   "source": "emilien missouma",
+   "date": "2019-08-17",
+   "duree_min": 27,
+   "niveau": null,
+   "concepts": [
+    "franc-cfa"
+   ],
+   "concepts_precis": [
+    "franc-cfa"
+   ],
+   "resume": "Analyse du système monétaire CFA/Afrique."
+  },
+  {
+   "id": "nwjlpR0s_C0",
+   "titre": "Marcel Gauchet - Le nœud démocratique : aux origines de la crise néolibérale",
+   "lien": "https://youtu.be/nwjlpR0s_C0",
+   "format": "video",
+   "source": "librairie mollat",
+   "date": "2024-11-11",
+   "duree_min": 56,
+   "niveau": null,
+   "concepts": [
+    "neoliberalisme"
+   ],
+   "concepts_precis": [
+    "neoliberalisme"
+   ],
+   "resume": "Critique politique et crise néolibérale."
+  },
+  {
+   "id": "o2FvYmBq1jg",
+   "titre": "Modern Monetary Theory: What They Don’t Tell You (Ft. L. Randall Wray)",
+   "lien": "https://youtu.be/o2FvYmBq1jg",
+   "format": "video",
+   "source": "1Dime Radio",
+   "date": "2025-05-23",
+   "duree_min": 123,
+   "niveau": null,
+   "concepts": [
+    "mmt-chartalisme",
+    "monnaie-endogene",
+    "planification-socialisme"
+   ],
+   "concepts_precis": [
+    "mmt-chartalisme"
+   ],
+   "resume": "Théorie MMT, création monétaire et UBI."
+  },
+  {
+   "id": "o7-d6DWma9M",
+   "titre": "Gaël Giraud : le vrai pouvoir n'est ni au peuple, ni aux politiques",
+   "lien": "https://youtu.be/o7-d6DWma9M",
+   "format": "video",
+   "source": "Les Financiers",
+   "date": "2026-07-31",
+   "duree_min": 67,
+   "niveau": null,
+   "concepts": [
+    "dependance",
+    "neoliberalisme",
+    "neoliberalisme"
+   ],
+   "concepts_precis": [
+    "neoliberalisme"
+   ],
+   "resume": "Dépendance économique et modèle néolibéral."
+  },
+  {
+   "id": "o7elPUfTN3s",
+   "titre": "PENSER LE PRÉSENT EP01 : RETOUR VERS LE FASCISME ? avec Stathis Kouvelakis",
+   "lien": "https://youtu.be/o7elPUfTN3s",
+   "format": "video",
+   "source": "Paroles D'Honneur",
+   "date": "2026-03-04",
+   "duree_min": 58,
+   "niveau": null,
+   "concepts": [
+    "travail-reproductif"
+   ],
+   "concepts_precis": [
+    "travail-reproductif"
+   ],
+   "resume": "Fascisation autoritaire du capitalisme."
+  },
+  {
+   "id": "oCf2EJbExe8",
+   "titre": "MELINDA COOPER - Le néolibéralisme social du Parti Démocrate (chap.6/8)",
+   "lien": "https://youtu.be/oCf2EJbExe8",
+   "format": "video",
+   "source": "Diagrammes",
+   "date": "2025-06-17",
+   "duree_min": 13,
+   "niveau": null,
+   "concepts": [
+    "neoliberalisme",
+    "histoire-capitalisme",
+    "austerite-dette-publique"
+   ],
+   "concepts_precis": [
+    "neoliberalisme"
+   ],
+   "resume": "Néolibéralisme social et radicalité autoritaire."
+  },
+  {
+   "id": "oRvqEnd-wWc",
+   "titre": "Comprendre l'institutionnalisme monétaire avec André Orléan",
+   "lien": "https://youtu.be/oRvqEnd-wWc",
+   "format": "video",
+   "source": "Journées de l'Economie",
+   "date": "2025-12-04",
+   "duree_min": 9,
+   "niveau": null,
+   "concepts": [
+    "banque-centrale",
+    "monnaie-endogene",
+    "monnaie-endogene"
+   ],
+   "concepts_precis": [
+    "monnaie-endogene"
+   ],
+   "resume": "Institutionnalisme monétaire et banques centrales."
+  },
+  {
+   "id": "oXl56kPIBII",
+   "titre": "Franc CFA et servitude monétaire",
+   "lien": "https://youtu.be/oXl56kPIBII",
+   "format": "video",
+   "source": "Financial Afrik / Toute la Finance Africaine",
+   "date": "2016-10-21",
+   "duree_min": 57,
+   "niveau": null,
+   "concepts": [
+    "franc-cfa",
+    "dettes-africaines",
+    "salaire-a-vie-securite-sociale"
+   ],
+   "concepts_precis": [
+    "salaire-a-vie-securite-sociale"
+   ],
+   "resume": "Servitude monétaire et système CFA."
+  },
+  {
+   "id": "oYdteSZMMGY",
+   "titre": "\"Les gouvernements gouvernent contre la majorité sur toute une série de sujets\" - Marcel Gauchet",
+   "lien": "https://youtu.be/oYdteSZMMGY",
+   "format": "video",
+   "source": "Penser c'est chouette",
+   "date": "2025-05-19",
+   "duree_min": 94,
+   "niveau": null,
+   "concepts": [
+    "autoritarisme-fascisation",
+    "neoliberalisme",
+    "neoliberalisme"
+   ],
+   "concepts_precis": [
+    "neoliberalisme"
+   ],
+   "resume": "Gouvernement contre majorité et néolibéralisme."
+  },
+  {
+   "id": "obZc-wfYxFw",
+   "titre": "Échange avec les auteurs nommés pour le Prix Lycéen - Lire l'Économie 2023",
+   "lien": "https://youtu.be/obZc-wfYxFw",
+   "format": "video",
+   "source": "Melchior",
+   "date": "2023-11-30",
+   "duree_min": 83,
+   "niveau": null,
+   "concepts": [
+    "accumulation-crises",
+    "salaire-a-vie-securite-sociale",
+    "communs-cooperatives",
+    "travail-reproductif"
+   ],
+   "concepts_precis": [
+    "travail-reproductif"
+   ],
+   "resume": "Crises du capitalisme, accumulation et profits."
+  },
+  {
+   "id": "oekkps2Ua-s",
+   "titre": "Jean-Noël Jouzel Une contamination en héritage : expositions aux pesticides et maladies pédiatriques",
+   "lien": "https://youtu.be/oekkps2Ua-s",
+   "format": "video",
+   "source": "Giovanni",
+   "date": "2026-09-13",
+   "duree_min": 44,
+   "niveau": null,
+   "concepts": [
+    "pollutions-sante",
+    "animaux-antispecisme",
+    "biodiversite-terres"
+   ],
+   "concepts_precis": [
+    "animaux-antispecisme"
+   ],
+   "resume": "Pollutions et santé : pesticides et maladies pédiatriques."
+  },
+  {
+   "id": "opek3LFCz3c",
+   "titre": "La BCE impuissante face à l'inflation et la dette ? | Les Spécialistes",
+   "lien": "https://youtu.be/opek3LFCz3c",
+   "format": "video",
+   "source": "Veracash",
+   "date": "2023-01-05",
+   "duree_min": 30,
+   "niveau": null,
+   "concepts": [
+    "profits-inflation",
+    "banque-centrale",
+    "economie-de-guerre"
+   ],
+   "concepts_precis": [
+    "economie-de-guerre"
+   ],
+   "resume": "Inflation par les profits : BCE, dette et pouvoir d'achat."
+  },
+  {
+   "id": "or5WcT9yB5A",
+   "titre": "Two Depressions, One Cause? Michael Roberts on 1873, 1929, and the Rate of Profit",
+   "lien": "https://youtu.be/or5WcT9yB5A",
+   "format": "video",
+   "source": "Notions of Progress",
+   "date": "2026-10-05",
+   "duree_min": 30,
+   "niveau": null,
+   "concepts": [
+    "accumulation-crises",
+    "valeur-exploitation"
+   ],
+   "concepts_precis": [
+    "valeur-exploitation",
+    "accumulation-crises"
+   ],
+   "resume": "Accumulation et crises du capitalisme : taux de profit."
+  },
+  {
+   "id": "pGNivKMPUkc",
+   "titre": "2027, rapports avec LFI, anticapitalisme… Philippe Poutou face à l'Huma | ÇA IRA !",
+   "lien": "https://youtu.be/pGNivKMPUkc",
+   "format": "video",
+   "source": "Journal l'Humanité",
+   "date": "2026-05-29",
+   "duree_min": 74,
+   "niveau": null,
+   "concepts": [
+    "autoritarisme-fascisation",
+    "climat"
+   ],
+   "concepts_precis": [
+    "autoritarisme-fascisation",
+    "climat"
+   ],
+   "resume": "Libéralisme autoritaire et fascisation : répression policière."
+  },
+  {
+   "id": "pH-aYqM7sZc",
+   "titre": "Frédéric Lordon et Michel Husson, \"Que faire face à la crise ?\", janvier 2008",
+   "lien": "https://youtu.be/pH-aYqM7sZc",
+   "format": "video",
+   "source": "Heck Lennon",
+   "date": "2017-02-16",
+   "duree_min": 108,
+   "niveau": null,
+   "concepts": [
+    "accumulation-crises",
+    "concentration-monopoles",
+    "dependance"
+   ],
+   "concepts_precis": [
+    "accumulation-crises"
+   ],
+   "resume": "Accumulation et crises du capitalisme : surproduction."
+  },
+  {
+   "id": "pJg8cVtD0oo",
+   "titre": "A QUI PROFITE LE #FCFA? Martial ZE BELINGA - L'écriture des piliers de la zone franc est FAUSSE",
+   "lien": "https://youtu.be/pJg8cVtD0oo",
+   "format": "video",
+   "source": "Synergiste",
+   "date": "2016-09-19",
+   "duree_min": 13,
+   "niveau": null,
+   "concepts": [
+    "franc-cfa",
+    "eau"
+   ],
+   "concepts_precis": [
+    "eau"
+   ],
+   "resume": "Franc CFA : servitude monétaire et zone franc."
+  },
+  {
+   "id": "pMo3dFXrNpg",
+   "titre": "A TEORIA DA ACUMULAÇÃO DE CAPITAL DE MARX - ERNEST MANDEL",
+   "lien": "https://youtu.be/pMo3dFXrNpg",
+   "format": "video",
+   "source": "ENTENDA A SOCIOLOGIA (ARIOVALDO SANTOS - UEL - PR)",
+   "date": "2026-07-21",
+   "duree_min": 32,
+   "niveau": null,
+   "concepts": [
+    "valeur-exploitation"
+   ],
+   "concepts_precis": [
+    "valeur-exploitation"
+   ],
+   "resume": "Valeur et exploitation : plus-value et capital."
+  },
+  {
+   "id": "pNvReRiX8Go",
+   "titre": "\"Le capitalisme, combien de contradictions ?\"",
+   "lien": "https://youtu.be/pNvReRiX8Go",
+   "format": "video",
+   "source": "Centre d'études marxistes",
+   "date": "2026-04-04",
+   "duree_min": 68,
+   "niveau": null,
+   "concepts": [
+    "planification-ecologique",
+    "concentration-monopoles",
+    "climat",
+    "valeur-exploitation"
+   ],
+   "concepts_precis": [
+    "valeur-exploitation",
+    "climat"
+   ],
+   "resume": "Planification écologique vs néolibéralisme : écosocialisme."
+  },
+  {
+   "id": "q23Zlbid4sI",
+   "titre": "Afrique, Interview sur le Franc CFA de Demba Moussa Dembélé, Directeur de l’Arcade (2/2)",
+   "lien": "https://youtu.be/q23Zlbid4sI",
+   "format": "video",
+   "source": "Africa 24",
+   "date": "2015-09-14",
+   "duree_min": 11,
+   "niveau": null,
+   "concepts": [
+    "franc-cfa",
+    "austerite-dette-publique"
+   ],
+   "concepts_precis": [
+    "austerite-dette-publique"
+   ],
+   "resume": "Franc CFA : servitude monétaire et zone franc."
+  },
+  {
+   "id": "qcLt6wsuWd4",
+   "titre": "Venezuela, Groenland... L'OGRE TRUMP DÉVORE LE MONDE, ET MACRON JOUE LES CARPETTES",
+   "lien": "https://youtu.be/qcLt6wsuWd4",
+   "format": "video",
+   "source": "Pure Politique",
+   "date": "2026-01-05",
+   "duree_min": 9,
+   "niveau": null,
+   "concepts": [
+    "peripherie-europeenne",
+    "eau"
+   ],
+   "concepts_precis": [
+    "eau"
+   ],
+   "resume": "Impérialisme US et guerre"
+  },
+  {
+   "id": "qkfbXS3xe0s",
+   "titre": "Sibylle Gollac : « La société de classes se reproduit grâce à l’appropriation masculine du capital »",
+   "lien": "https://youtu.be/qkfbXS3xe0s",
+   "format": "video",
+   "source": "Regards",
+   "date": "2020-02-10",
+   "duree_min": 16,
+   "niveau": null,
+   "concepts": [
+    "patriarcat-salaires",
+    "flexibilisation-travail"
+   ],
+   "concepts_precis": [
+    "patriarcat-salaires"
+   ],
+   "resume": "Inégalités de genre au travail"
+  },
+  {
+   "id": "rZcYW2IMG9U",
+   "titre": "THEA RIOFRANCOS - Éco-modernisme vs décroissance (chap. 6/10)",
+   "lien": "https://youtu.be/rZcYW2IMG9U",
+   "format": "video",
+   "source": "Diagrammes",
+   "date": "2025-05-26",
+   "duree_min": 8,
+   "niveau": null,
+   "concepts": [
+    "planification-ecologique",
+    "climat",
+    "extractivisme"
+   ],
+   "concepts_precis": [
+    "extractivisme"
+   ],
+   "resume": "Planification écologique vs néolibéralisme"
+  },
+  {
+   "id": "rvOFwiDrsgM",
+   "titre": "Retraite, Travail, Valeur: Qu’est-ce qu’un·e Retraité·e ? Bernard Friot & Nicolas Castel Séminaire",
+   "lien": "https://youtu.be/rvOFwiDrsgM",
+   "format": "video",
+   "source": "NostraBlablatus",
+   "date": "2020-01-02",
+   "duree_min": 129,
+   "niveau": null,
+   "concepts": [
+    "protection-sociale",
+    "salaire-a-vie-securite-sociale",
+    "salaire-a-vie-securite-sociale"
+   ],
+   "concepts_precis": [
+    "salaire-a-vie-securite-sociale"
+   ],
+   "resume": "Protection sociale et retraites"
+  },
+  {
+   "id": "rxqVzRC5PoA",
+   "titre": "LE SYSTÈME BANCAIRE (1999) Dr Pierre Gilbert",
+   "lien": "https://youtu.be/rxqVzRC5PoA",
+   "format": "video",
+   "source": "Pourquoi je crois ?",
+   "date": "2024-02-01",
+   "duree_min": 182,
+   "niveau": null,
+   "concepts": [
+    "monnaie-endogene",
+    "banque-centrale",
+    "instabilite-financiere"
+   ],
+   "concepts_precis": [
+    "banque-centrale",
+    "instabilite-financiere"
+   ],
+   "resume": "Monnaie endogène : création par crédit"
+  },
+  {
+   "id": "sjJSmcs2PCw",
+   "titre": "\"La Transition Écologique Est Une Illusion\"Jean-Baptiste Fressoz explique",
+   "lien": "https://youtu.be/sjJSmcs2PCw",
+   "format": "video",
+   "source": "Numero Un",
+   "date": "2026-05-10",
+   "duree_min": 15,
+   "niveau": null,
+   "concepts": [
+    "climat",
+    "energie",
+    "industrie-desindustrialisation"
+   ],
+   "concepts_precis": [
+    "climat"
+   ],
+   "resume": "Climat et capitalisme fossile"
+  },
+  {
+   "id": "sl57X2Wjhnc",
+   "titre": "Covid : quel nouveau monde ? Ecologie, dette et services publics, comment changer la donne ?",
+   "lien": "https://youtu.be/sl57X2Wjhnc",
+   "format": "video",
+   "source": "Economistes Atterrés",
+   "date": "2020-12-12",
+   "duree_min": 144,
+   "niveau": null,
+   "concepts": [
+    "privatisations-services-publics",
+    "climat"
+   ],
+   "concepts_precis": [
+    "privatisations-services-publics",
+    "climat"
+   ],
+   "resume": "Périphérie européenne : dette et services publics"
+  },
+  {
+   "id": "ssQLxykke5o",
+   "titre": "Rosa Luxemburg , Réforme et Révolution",
+   "lien": "https://youtu.be/ssQLxykke5o",
+   "format": "video",
+   "source": "Centre d'études marxistes",
+   "date": "2025-04-16",
+   "duree_min": 42,
+   "niveau": null,
+   "concepts": [
+    "economie-de-guerre",
+    "valeur-exploitation"
+   ],
+   "concepts_precis": [
+    "valeur-exploitation"
+   ],
+   "resume": "Économie de guerre et militarisme"
+  },
+  {
+   "id": "t-pT9Ou9dKk",
+   "titre": "La biodiversité bouscule la science économique : vers une économie politique de la nature",
+   "lien": "https://youtu.be/t-pT9Ou9dKk",
+   "format": "video",
+   "source": "Journées de l'Economie",
+   "date": "2026-03-05",
+   "duree_min": 87,
+   "niveau": null,
+   "concepts": [
+    "biodiversite-terres",
+    "climat"
+   ],
+   "concepts_precis": [
+    "climat"
+   ],
+   "resume": "Économie politique de la nature"
+  },
+  {
+   "id": "t7Mhy_eH_vc",
+   "titre": "L'origine de la dette par Eric Toussaint",
+   "lien": "https://youtu.be/t7Mhy_eH_vc",
+   "format": "video",
+   "source": "Magnum44BXL",
+   "date": "2011-12-23",
+   "duree_min": 8,
+   "niveau": null,
+   "concepts": [
+    "dettes-africaines"
+   ],
+   "concepts_precis": [
+    "dettes-africaines"
+   ],
+   "resume": "Dette des pays du Sud et FMI"
+  },
+  {
+   "id": "tElKBcUhzyc",
+   "titre": "Présentation du livre \"Système Dette\" avec Eric Toussaint",
+   "lien": "https://youtu.be/tElKBcUhzyc",
+   "format": "video",
+   "source": "ressono",
+   "date": "2017-11-17",
+   "duree_min": 56,
+   "niveau": null,
+   "concepts": [
+    "dependance",
+    "dettes-africaines",
+    "austerite-dette-publique"
+   ],
+   "concepts_precis": [
+    "austerite-dette-publique"
+   ],
+   "resume": "Sous-développement par le capitalisme"
+  },
+  {
+   "id": "tMR-MKEkOoc",
+   "titre": "Conférence Bernard Vasseur, philosophe \"Sortir du capitalisme: actualité et urgence du communisme\"",
+   "lien": "https://youtu.be/tMR-MKEkOoc",
+   "format": "video",
+   "source": "PCF 93",
+   "date": "2022-03-25",
+   "duree_min": 108,
+   "niveau": null,
+   "concepts": [
+    "planification-socialisme",
+    "accumulation-crises",
+    "climat",
+    "planification-ecologique"
+   ],
+   "concepts_precis": [
+    "planification-ecologique"
+   ],
+   "resume": "Socialisme et sortie du capitalisme"
+  },
+  {
+   "id": "tlnREQdLwU0",
+   "titre": "Cyril Dion \"La vie veut vivre\" : sa vision de la situation actuelle - Épisode 19",
+   "lien": "https://youtu.be/tlnREQdLwU0",
+   "format": "video",
+   "source": "Anthony Berthou",
+   "date": "2026-07-03",
+   "duree_min": 84,
+   "niveau": null,
+   "concepts": [
+    "climat",
+    "pollutions-sante",
+    "energie"
+   ],
+   "concepts_precis": [
+    "climat"
+   ],
+   "resume": "Écologie et vision systémique"
+  },
+  {
+   "id": "uEJDAnhycko",
+   "titre": "MasterClass Bulle IA: On sort la grosse artillerie — Bluetouff, Fabrice Epelboin & Christophe Boutry",
+   "lien": "https://youtu.be/uEJDAnhycko",
+   "format": "video",
+   "source": "The Black Elephant Experience",
+   "date": "2026-08-31",
+   "duree_min": 90,
+   "niveau": null,
+   "concepts": [
+    "bulle-ia",
+    "cryptomonnaies",
+    "instabilite-financiere"
+   ],
+   "concepts_precis": [
+    "bulle-ia"
+   ],
+   "resume": "Spéculations IA et productivité"
+  },
+  {
+   "id": "uSzcXvv719M",
+   "titre": "Fanny Gallot - Hugo Harari-Kermadec - Le cœur du capital",
+   "lien": "https://youtu.be/uSzcXvv719M",
+   "format": "video",
+   "source": "librairie mollat",
+   "date": "2026-03-26",
+   "duree_min": 17,
+   "niveau": null,
+   "concepts": [
+    "travail-reproductif"
+   ],
+   "concepts_precis": [
+    "travail-reproductif"
+   ],
+   "resume": "Travail reproductif invisible"
+  },
+  {
+   "id": "ub3l81XHwYM",
+   "titre": "Usul - Entretien #9 - Stefano Palombarini - économiste, auteur de l'illusion du bloc bourgeois",
+   "lien": "https://youtu.be/ub3l81XHwYM",
+   "format": "video",
+   "source": "Un été culturel et apprenant",
+   "date": "2020-12-24",
+   "duree_min": 99,
+   "niveau": null,
+   "concepts": [
+    "mmt-chartalisme",
+    "profits-inflation",
+    "neoliberalisme"
+   ],
+   "concepts_precis": [
+    "neoliberalisme"
+   ],
+   "resume": "Émission sur l'illusion du bloc bourgeois."
+  },
+  {
+   "id": "v1pSu5VQfGs",
+   "titre": "Marcel Gauchet - Conservatisme, Libéralisme, socialisme... comment les idéologies nous gouvernent",
+   "lien": "https://youtu.be/v1pSu5VQfGs",
+   "format": "video",
+   "source": "Front Populaire",
+   "date": "2026-05-14",
+   "duree_min": 43,
+   "niveau": null,
+   "concepts": [
+    "autoritarisme-fascisation",
+    "neoliberalisme"
+   ],
+   "concepts_precis": [
+    "neoliberalisme"
+   ],
+   "resume": "Gauchet analyse le néolibéralisme et la démocratie."
+  },
+  {
+   "id": "vDURHGMCEv0",
+   "titre": "\"Réhabiliter le travail, instituer les communs et socialiser la monnaie\" Jean-Marie Harribey, 2020",
+   "lien": "https://youtu.be/vDURHGMCEv0",
+   "format": "video",
+   "source": "Espaces Marx Aquitaine-Bordeaux-Gironde",
+   "date": "2020-05-12",
+   "duree_min": 94,
+   "niveau": null,
+   "concepts": [
+    "valeur-exploitation",
+    "planification-socialisme",
+    "communs-cooperatives"
+   ],
+   "concepts_precis": [
+    "communs-cooperatives"
+   ],
+   "resume": "Harribey propose l'écologie sociale et les communs."
+  },
+  {
+   "id": "vS8vdIhbTTw",
+   "titre": "\"L'analyse économique de la crise du COVID19\", Matthieu Montalban, Michel Cabannes, Mai 2020",
+   "lien": "https://youtu.be/vS8vdIhbTTw",
+   "format": "video",
+   "source": "Espaces Marx Aquitaine-Bordeaux-Gironde",
+   "date": "2020-05-29",
+   "duree_min": 109,
+   "niveau": null,
+   "concepts": [
+    "accumulation-crises",
+    "neoliberalisme",
+    "demande-effective-chomage"
+   ],
+   "concepts_precis": [
+    "neoliberalisme",
+    "demande-effective-chomage"
+   ],
+   "resume": "Montalban et Cabannes analysent la crise du capital."
+  },
+  {
+   "id": "vXRaENOmSrE",
+   "titre": "LIVE Michel Husson: Le capitalisme sur le fil du rasoir",
+   "lien": "https://youtu.be/vXRaENOmSrE",
+   "format": "video",
+   "source": "Gauche anticapitaliste",
+   "date": "2021-07-04",
+   "duree_min": 92,
+   "niveau": null,
+   "concepts": [
+    "accumulation-crises",
+    "valeur-exploitation",
+    "neoliberalisme"
+   ],
+   "concepts_precis": [
+    "accumulation-crises"
+   ],
+   "resume": "Husson décrit les contradictions et crises du capitalisme."
+  },
+  {
+   "id": "vb8NUp-zN5s",
+   "titre": "Réforme ou révolution ? - André Gorz, Ep.03",
+   "lien": "https://youtu.be/vb8NUp-zN5s",
+   "format": "video",
+   "source": "Guillaume Fleurance",
+   "date": "2022-11-17",
+   "duree_min": 11,
+   "niveau": null,
+   "concepts": [
+    "planification-ecologique",
+    "accumulation-crises",
+    "communs-cooperatives"
+   ],
+   "concepts_precis": [
+    "communs-cooperatives"
+   ],
+   "resume": "Gorz oppose réformisme et révolution écologique."
+  },
+  {
+   "id": "vm_DbpJ7dCs",
+   "titre": "« La politique monétaire : quelles mutations depuis la crise financière ? », le 23 mars",
+   "lien": "https://youtu.be/vm_DbpJ7dCs",
+   "format": "video",
+   "source": "Cité de l'Économie (Citéco)",
+   "date": "2016-04-26",
+   "duree_min": 110,
+   "niveau": null,
+   "concepts": [
+    "banque-centrale"
+   ],
+   "concepts_precis": [
+    "banque-centrale"
+   ],
+   "resume": "Analyse de l'efficacité des outils monétaires post-2007."
+  },
+  {
+   "id": "w2ThnciQus4",
+   "titre": "Vers une renaissance industrielle et écologique en France ?, n°1",
+   "lien": "https://youtu.be/w2ThnciQus4",
+   "format": "video",
+   "source": "Institut de la transition environnementale",
+   "date": "2021-10-08",
+   "duree_min": 121,
+   "niveau": null,
+   "concepts": [
+    "planification-ecologique",
+    "industrie-desindustrialisation",
+    "climat"
+   ],
+   "concepts_precis": [
+    "climat"
+   ],
+   "resume": "Débat sur la décroissance et les modes de production."
+  },
+  {
+   "id": "wGR3kh-YHPM",
+   "titre": "Patriarcat et capitalisme selon Maria Mies (7/13)",
+   "lien": "https://youtu.be/wGR3kh-YHPM",
+   "format": "video",
+   "source": "Floraisons",
+   "date": "2023-04-30",
+   "duree_min": 31,
+   "niveau": null,
+   "concepts": [
+    "histoire-capitalisme",
+    "travail-reproductif",
+    "climat"
+   ],
+   "concepts_precis": [
+    "travail-reproductif"
+   ],
+   "resume": "Féminisme marxiste et capitalisme."
+  },
+  {
+   "id": "wQINrKCxnho",
+   "titre": "Causerie#4 [4/4] : démocratiser les entreprises - Benoît Borrits débat avec la salle",
+   "lien": "https://youtu.be/wQINrKCxnho",
+   "format": "video",
+   "source": "Le temps des lilas",
+   "date": "2017-03-10",
+   "duree_min": 22,
+   "niveau": null,
+   "concepts": [
+    "communs-cooperatives",
+    "flexibilisation-travail",
+    "luttes-de-classes"
+   ],
+   "concepts_precis": [
+    "luttes-de-classes"
+   ],
+   "resume": "Démocratie dans les entreprises."
+  },
+  {
+   "id": "wmBI0d56pSs",
+   "titre": "Xerfi Canal Gabriel Colletis Relancer l'industrie en France : 7 propositions-clés",
+   "lien": "https://youtu.be/wmBI0d56pSs",
+   "format": "video",
+   "source": "Xerfi",
+   "date": "2012-03-29",
+   "duree_min": 10,
+   "niveau": null,
+   "concepts": [
+    "industrie-desindustrialisation",
+    "dependance"
+   ],
+   "concepts_precis": [
+    "industrie-desindustrialisation"
+   ],
+   "resume": "Politique industrielle française."
+  },
+  {
+   "id": "xrY3U1zsubE",
+   "titre": "Les bases de Keynes; entretien avec Jean-François Ponsot",
+   "lien": "https://youtu.be/xrY3U1zsubE",
+   "format": "video",
+   "source": "Mathieu Cocq",
+   "date": "2021-02-10",
+   "duree_min": 94,
+   "niveau": null,
+   "concepts": [
+    "monnaie-endogene",
+    "planification-socialisme",
+    "accumulation-crises",
+    "valeur-exploitation"
+   ],
+   "concepts_precis": [
+    "valeur-exploitation",
+    "accumulation-crises"
+   ],
+   "resume": "Création de monnaie par crédit."
+  },
+  {
+   "id": "ys2YCJ8jPkE",
+   "titre": "Socialismo, feminismo e os impactos da pandemia feat. Tithi Bhattacharya | Teoria engajada 004",
+   "lien": "https://youtu.be/ys2YCJ8jPkE",
+   "format": "video",
+   "source": "Tese Onze",
+   "date": "2021-04-28",
+   "duree_min": 36,
+   "niveau": null,
+   "concepts": [
+    "travail-reproductif",
+    "patriarcat-salaires",
+    "climat"
+   ],
+   "concepts_precis": [
+    "travail-reproductif",
+    "patriarcat-salaires"
+   ],
+   "resume": "Reproduction sociale et carework."
+  },
+  {
+   "id": "z-Mjteq2xTI",
+   "titre": "Tally Sticks, Central Banks, Evolution of Money - Dr. L. Randall Wray, Levy Institute, DSPod #288",
+   "lien": "https://youtu.be/z-Mjteq2xTI",
+   "format": "video",
+   "source": "The DemystifySci Podcast",
+   "date": "2024-10-06",
+   "duree_min": 162,
+   "niveau": null,
+   "concepts": [
+    "mmt-chartalisme",
+    "banque-centrale"
+   ],
+   "concepts_precis": [
+    "mmt-chartalisme",
+    "banque-centrale"
+   ],
+   "resume": "MMT : impôt crée la demande."
+  },
+  {
+   "id": "z-x5Ltg9ftY",
+   "titre": "Conférence de Christine Delphy (sociologue)",
+   "lien": "https://youtu.be/z-x5Ltg9ftY",
+   "format": "video",
+   "source": "Institut Emilie du Châtelet",
+   "date": "2017-12-01",
+   "duree_min": 69,
+   "niveau": null,
+   "concepts": [
+    "travail-reproductif"
+   ],
+   "concepts_precis": [
+    "travail-reproductif"
+   ],
+   "resume": "Féminisme marxiste et travail reproductif."
+  },
+  {
+   "id": "zElmaTDpsB0",
+   "titre": "Commun, système de santé et démocratie sanitaire face aux défis de la crise du Covid19",
+   "lien": "https://youtu.be/zElmaTDpsB0",
+   "format": "video",
+   "source": "Séminaire Capitalisme Cognitif",
+   "date": "2020-11-26",
+   "duree_min": 138,
+   "niveau": null,
+   "concepts": [
+    "communs-cooperatives",
+    "sante-publique"
+   ],
+   "concepts_precis": [
+    "sante-publique"
+   ],
+   "resume": "Santé publique, communs et autogestion."
+  },
+  {
+   "id": "zKjNli36MEE",
+   "titre": "L'économie russe depuis 2022 : entre guerre,sanctions et transformations, avec Julien Vercueil",
+   "lien": "https://youtu.be/zKjNli36MEE",
+   "format": "video",
+   "source": "Cercle Condorcet de Paris",
+   "date": "2025-12-12",
+   "duree_min": 100,
+   "niveau": null,
+   "concepts": [
+    "economie-de-guerre"
+   ],
+   "concepts_precis": [
+    "economie-de-guerre"
+   ],
+   "resume": "Militarisme russe et dépenses de guerre."
+  },
+  {
+   "id": "zLpkDZhTxZs",
+   "titre": "Les cryptomonnaies et monnaies numériques : entre Mad Max et Big Brother ?",
+   "lien": "https://youtu.be/zLpkDZhTxZs",
+   "format": "video",
+   "source": "Grenoble Alpes Cybersecurity Institute",
+   "date": "2023-06-14",
+   "duree_min": 31,
+   "niveau": null,
+   "concepts": [
+    "concentration-monopoles",
+    "cryptomonnaies",
+    "cryptomonnaies"
+   ],
+   "concepts_precis": [
+    "cryptomonnaies"
+   ],
+   "resume": "Monopoles technologiques et crypto-féodalisme."
+  },
+  {
+   "id": "zjTX4ElrPnY",
+   "titre": "Banque, Finance et Climat; on en parle avec Laurence Scialom!",
+   "lien": "https://youtu.be/zjTX4ElrPnY",
+   "format": "video",
+   "source": "Mathieu Cocq",
+   "date": "2021-04-03",
+   "duree_min": 89,
+   "niveau": null,
+   "concepts": [
+    "instabilite-financiere",
+    "climat",
+    "banque-centrale"
+   ],
+   "concepts_precis": [
+    "instabilite-financiere"
+   ],
+   "resume": "Banques centrales, finance et instabilité."
+  },
+  {
+   "id": "zk_ijejKdIA",
+   "titre": "Les grands patrons contre les sciences économiques (Le négationnisme économique 1/2)",
+   "lien": "https://youtu.be/zk_ijejKdIA",
+   "format": "video",
+   "source": "PHactuellement Neutre",
+   "date": "2023-04-17",
+   "duree_min": 10,
+   "niveau": null,
+   "concepts": [
+    "concentration-monopoles",
+    "neoliberalisme",
+    "histoire-capitalisme"
+   ],
+   "concepts_precis": [
+    "neoliberalisme"
+   ],
+   "resume": "Concentration du pouvoir économique."
+  },
+  {
+   "id": "zoElGVZ9cc4",
+   "titre": "Martial ZE BELINGA - En finir avec la dette.  \"L'Afrique verse au monde plus qu'elle ne reçoit !\"",
+   "lien": "https://youtu.be/zoElGVZ9cc4",
+   "format": "video",
+   "source": "Thinking Africa",
+   "date": "2020-05-22",
+   "duree_min": 38,
+   "niveau": null,
+   "concepts": [
+    "dependance",
+    "dettes-africaines",
+    "dettes-africaines"
+   ],
+   "concepts_precis": [
+    "dettes-africaines"
+   ],
+   "resume": "Dépendance et dette des pays du Sud."
+  },
+  {
+   "id": "ztPL0d-cw_c",
+   "titre": "Jézabel Couppey-Soubeyran : Les banques centrales au secours du climat ?",
+   "lien": "https://youtu.be/ztPL0d-cw_c",
+   "format": "video",
+   "source": "Melchior",
+   "date": "2022-03-28",
+   "duree_min": 66,
+   "niveau": null,
+   "concepts": [
+    "banque-centrale",
+    "climat",
+    "instabilite-financiere"
+   ],
+   "concepts_precis": [
+    "banque-centrale"
+   ],
+   "resume": "Banques centrales et politique monétaire."
+  },
+  {
+   "id": "pod:12245567587",
+   "titre": "De la régulation aux communs - Benjamin Coriat",
+   "lien": "https://podcasters.spotify.com/pod/show/bamwempan/episodes/De-la-rgulation-aux-communs---Benjamin-Coriat-e1s0q5p",
+   "format": "podcast",
+   "source": "Bamwempan",
+   "date": "2022-12-09",
+   "duree_min": 66,
+   "niveau": null,
+   "concepts": [
+    "eau",
+    "communs-cooperatives"
+   ],
+   "concepts_precis": [
+    "communs-cooperatives"
+   ],
+   "resume": "Communs comme alternative aux privatisations."
+  },
+  {
+   "id": "pod:14171420774",
+   "titre": "ChatGPT va-t-il détruire le monde ? avec Laurent Alexandre",
+   "lien": "https://soundcloud.com/institutsapiens/chatgpt-va-t-il-detruire-le-monde-avec-laurent-alexandre",
+   "format": "podcast",
+   "source": "Institut Sapiens",
+   "date": "2023-03-16",
+   "duree_min": 63,
+   "niveau": null,
+   "concepts": [
+    "bulle-ia"
+   ],
+   "concepts_precis": [],
+   "resume": "IA générative et ses impacts économiques."
+  },
+  {
+   "id": "pod:15567098103",
+   "titre": "Travailler a-t-il un sens ?",
+   "lien": "https://www.arteradio.com/son/61678369/travailler_a_t_il_un_sens",
+   "format": "podcast",
+   "source": "Les idées larges",
+   "date": "2023-06-22",
+   "duree_min": 24,
+   "niveau": null,
+   "concepts": [
+    "travail-conditions",
+    "flexibilisation-travail"
+   ],
+   "concepts_precis": [
+    "flexibilisation-travail"
+   ],
+   "resume": "Sens du travail et conditions d'emploi."
+  },
+  {
+   "id": "pod:15574975968",
+   "titre": "[Extrait n°2] #16. Luc Julia - Boom de l'IA ou nouvel hiver à venir ? Quelle suite et quels freins escompter pour la succession de ChatGPT ?",
+   "lien": "https://podcasters.spotify.com/pod/show/the-thinking-gallery/episodes/Extrait-n2-16--Luc-Julia---Boom-de-lIA-ou-nouvel-hiver--venir---Quelle-suite-et-quels-freins-escompter-pour-la-succession-de-ChatGPT-e2ap9f3",
+   "format": "podcast",
+   "source": "The Thinking Gallery",
+   "date": "2023-08-24",
+   "duree_min": 19,
+   "niveau": null,
+   "concepts": [
+    "bulle-ia"
+   ],
+   "concepts_precis": [],
+   "resume": "Freins techniques et adoption de l'IA."
+  },
+  {
+   "id": "pod:34070199264",
+   "titre": "Le patrimoine, enjeu capital",
+   "lien": "https://www.binge.audio/podcast/les-couilles-sur-la-table/le-patrimoine-enjeu-capital",
+   "format": "podcast",
+   "source": "Les Couilles sur la table",
+   "date": "2020-04-23",
+   "duree_min": 75,
+   "niveau": null,
+   "concepts": [
+    "fiscalite-inegalites",
+    "patriarcat-salaires"
+   ],
+   "concepts_precis": [
+    "fiscalite-inegalites"
+   ],
+   "resume": "Inégalités patrimoniales homme-femme."
+  },
+  {
+   "id": "pod:41876149957",
+   "titre": "📆 L'HEBDO 30/08 - Quand l’IA joue au psy",
+   "lien": "https://www.mondenumerique.info/episode/lhebdo-3008-quand-lia-joue-au-psy",
+   "format": "podcast",
+   "source": "Monde Numérique (Actu tech & IA)",
+   "date": "2025-08-30",
+   "duree_min": 54,
+   "niveau": null,
+   "concepts": [
+    "bulle-ia"
+   ],
+   "concepts_precis": [],
+   "resume": "Suicide assisté et limites de l'IA."
+  },
+  {
+   "id": "pod:4536713118",
+   "titre": "#48 - Privatisation du monde : l'alternative des \"communs\" ? Benjamin Coriat",
+   "lien": "https://podcast.ausha.co/greenletterclub/episode-48-privatisation-du-monde-l-alternative-des-communs",
+   "format": "podcast",
+   "source": "Greenletter Club, l'écologie décortiquée",
+   "date": "2021-10-19",
+   "duree_min": 61,
+   "niveau": null,
+   "concepts": [
+    "eau",
+    "planification-ecologique",
+    "communs-cooperatives"
+   ],
+   "concepts_precis": [
+    "communs-cooperatives",
+    "planification-ecologique"
+   ],
+   "resume": "Communs contre privatisation des ressources."
+  },
+  {
+   "id": "pod:6135200155",
+   "titre": "#54 - Déplier le mot \"travail\" ! -  Marie-Anne Dujarier",
+   "lien": "https://podcast.ausha.co/terrain-social/ts-marie-anne-dujarier",
+   "format": "podcast",
+   "source": "Terrain Social",
+   "date": "2022-01-10",
+   "duree_min": 17,
+   "niveau": null,
+   "concepts": [
+    "valeur-exploitation",
+    "flexibilisation-travail"
+   ],
+   "concepts_precis": [
+    "flexibilisation-travail"
+   ],
+   "resume": "Définitions et conditions du travail."
+  },
+  {
+   "id": "cuJMPjickqU",
+   "titre": "LE TERRORISME, C’EST D’EXTRÊME DROITE",
+   "lien": "https://youtu.be/cuJMPjickqU",
+   "format": "video",
+   "source": "BLAST, Le souffle de l'info",
+   "date": "2026-11-21",
+   "duree_min": 17,
+   "niveau": "entree",
+   "concepts": [
+    "autoritarisme-fascisation"
+   ],
+   "concepts_precis": [
+    "autoritarisme-fascisation"
+   ],
+   "resume": "Fascisation via répression et police"
   }
  ]
 }
