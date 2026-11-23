@@ -190,3 +190,12 @@ a.box.croisement-original { background: #fffaf4; }
 .liste-croisements a:hover .croisement-q { color: var(--accent); }
 .liste-croisements .croisement-q { display: block; font-weight: 700; line-height: 1.35; }
 .liste-croisements .croisement-duo { display: block; font-size: .88em; color: var(--doux); margin-top: .2em; }
+
+/* brèves en accueil */
+.grille-breves { list-style: none; margin: 0 0 1.5em; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(17em, 1fr)); gap: 1.5em; }
+.grille-breves li { margin: 0; padding: 0; }
+.grille-breves a { display: block; text-decoration: none; color: inherit; border: 0; }
+.grille-breves img { display: block; width: 100%; height: auto; border-radius: 4px; transition: transform .15s; }
+.grille-breves a:hover img { transform: translateY(-3px); }
+.grille-breves .breve-titre { display: block; margin-top: .6em; font-weight: 700; line-height: 1.3; color: #252122; }
+.grille-breves .breve-date { display: block; font-size: .85em; color: #8d8d8d; }
